@@ -1,0 +1,622 @@
+pack,name,source_page,activities,effects,advancements,handlers,gm_adjudication,live_tested
+creatures,Force-Empowered Rend,19,1,0,0,,see source restrictions,no
+creatures,Repair,19,1,0,0,,see source restrictions,no
+creatures,Vigilant,19,0,0,0,,see source restrictions,no
+creatures,Deflect Attack,19,1,0,0,source-prompt,yes,no
+creatures,Force Strike,22,1,0,0,,see source restrictions,no
+creatures,Evasion,22,0,0,0,,see source restrictions,no
+creatures,Channel Magic,22,1,0,0,,see source restrictions,no
+creatures,Force-Empowered Slam,29,1,0,0,,see source restrictions,no
+creatures,Immutable Form,29,0,0,0,,see source restrictions,no
+creatures,Irrepressible Dance,29,1,0,0,,see source restrictions,no
+creatures,Flame Seed,40,1,0,0,,see source restrictions,no
+creatures,Fiery Teleportation,40,1,0,0,,see source restrictions,no
+creatures,Maul,61,1,0,0,,see source restrictions,no
+creatures,Charge: Knock Prone,61,1,1,0,,see source restrictions,no
+creatures,Charge: Extra Damage,61,1,0,0,,see source restrictions,no
+creatures,Primal Bond,61,0,0,0,,see source restrictions,no
+creatures,Charge,61,0,0,0,,see source restrictions,no
+creatures,Binding Strike,61,1,0,0,,see source restrictions,no
+creatures,Primal Bond,61,0,0,0,,see source restrictions,no
+creatures,Amphibious,61,0,0,0,,see source restrictions,no
+creatures,Shred,61,1,0,0,,see source restrictions,no
+creatures,Primal Bond,61,0,0,0,,see source restrictions,no
+creatures,Flyby,61,0,0,0,,see source restrictions,no
+creatures,Multiattack,109,1,0,0,multiattack,see source restrictions,no
+creatures,Eye Ray,109,1,0,0,,see source restrictions,no
+creatures,Multiattack,109,1,0,0,multiattack,see source restrictions,no
+creatures,Claws,109,1,0,0,,see source restrictions,no
+creatures,Regeneration,109,0,0,0,,see source restrictions,no
+creatures,Claws: Prevent Healing,109,0,0,0,,see source restrictions,no
+creatures,Multiattack,109,1,0,0,multiattack,see source restrictions,no
+creatures,Psychic Slam,109,1,0,0,,see source restrictions,no
+creatures,Whispering Aura,109,1,0,0,,see source restrictions,no
+creatures,Multiattack,109,1,0,0,multiattack,see source restrictions,no
+creatures,Maul,109,1,0,0,,see source restrictions,no
+creatures,Flyby,109,0,0,0,,see source restrictions,no
+creatures,Multiattack,109,1,0,0,multiattack,see source restrictions,no
+creatures,Maul,109,1,0,0,,see source restrictions,no
+creatures,Pack Tactics,109,0,0,0,,see source restrictions,no
+creatures,Multiattack,109,1,0,0,multiattack,see source restrictions,no
+creatures,Maul,109,1,0,0,,see source restrictions,no
+creatures,Pack Tactics,109,0,0,0,,see source restrictions,no
+creatures,Water Breathing,109,0,0,0,,see source restrictions,no
+creatures,Multiattack,110,1,0,0,multiattack,see source restrictions,no
+creatures,Radiant Bow,110,1,0,0,,see source restrictions,no
+creatures,Healing Touch,110,1,0,0,,see source restrictions,no
+creatures,Multiattack,110,1,0,0,multiattack,see source restrictions,no
+creatures,Radiant Mace,110,1,0,0,,see source restrictions,no
+creatures,Healing Touch,110,1,0,0,,see source restrictions,no
+creatures,Radiant Mace: Temporary Hit Points,110,1,0,0,,see source restrictions,no
+creatures,Multiattack,111,1,0,0,multiattack,see source restrictions,no
+creatures,Slam,111,1,0,0,,see source restrictions,no
+creatures,Berserk Lashing,111,1,0,0,source-prompt,yes,no
+creatures,Multiattack,111,1,0,0,multiattack,see source restrictions,no
+creatures,Slam,111,1,0,0,,see source restrictions,no
+creatures,Heated Body,111,1,0,0,,see source restrictions,no
+creatures,Multiattack,111,1,0,0,multiattack,see source restrictions,no
+creatures,Slam,111,1,0,0,,see source restrictions,no
+creatures,Stony Lethargy,111,1,0,0,,see source restrictions,no
+creatures,Multiattack,111,1,0,0,multiattack,see source restrictions,no
+creatures,Slam,111,1,0,0,,see source restrictions,no
+creatures,Amorphous Form,111,0,0,0,,see source restrictions,no
+creatures,Multiattack,111,1,0,0,multiattack,see source restrictions,no
+creatures,Slam,111,1,0,0,,see source restrictions,no
+creatures,Multiattack,111,1,0,0,multiattack,see source restrictions,no
+creatures,Slam,111,1,0,0,,see source restrictions,no
+creatures,Amorphous Form,111,0,0,0,,see source restrictions,no
+creatures,Multiattack,111,1,0,0,multiattack,see source restrictions,no
+creatures,Slam,111,1,0,0,,see source restrictions,no
+creatures,Amorphous Form,111,0,0,0,,see source restrictions,no
+creatures,Multiattack,112,1,0,0,multiattack,see source restrictions,no
+creatures,Shortsword,112,1,0,0,,see source restrictions,no
+creatures,Fey Step,112,1,0,0,source-prompt,yes,no
+creatures,Multiattack,112,1,0,0,multiattack,see source restrictions,no
+creatures,Shortsword,112,1,0,0,,see source restrictions,no
+creatures,Fey Step,112,1,0,0,source-prompt,yes,no
+creatures,Fey Step: Charm,112,1,1,0,,see source restrictions,no
+creatures,Multiattack,112,1,0,0,multiattack,see source restrictions,no
+creatures,Shortsword,112,1,0,0,,see source restrictions,no
+creatures,Fey Step,112,1,0,0,source-prompt,yes,no
+creatures,Multiattack,112,1,0,0,multiattack,see source restrictions,no
+creatures,Bite,112,1,0,0,,see source restrictions,no
+creatures,Magic Resistance,112,0,1,0,,see source restrictions,no
+creatures,Death Throes,112,1,0,0,,see source restrictions,no
+creatures,Multiattack,112,1,0,0,multiattack,see source restrictions,no
+creatures,Hurl Flame,112,1,0,0,,see source restrictions,no
+creatures,Magic Resistance,112,0,1,0,,see source restrictions,no
+creatures,Devil's Sight,112,0,0,0,,see source restrictions,no
+creatures,Multiattack,112,1,0,0,multiattack,see source restrictions,no
+creatures,Claws,112,1,0,0,,see source restrictions,no
+creatures,Magic Resistance,112,0,1,0,,see source restrictions,no
+creatures,Claws: Teleport,112,1,0,0,,see source restrictions,no
+creatures,Multiattack,114,1,0,0,multiattack,see source restrictions,no
+creatures,Chilling Rend,114,1,0,0,,see source restrictions,no
+creatures,Dreadful Scream,114,1,1,0,,see source restrictions,no
+creatures,Terror Frenzy,114,0,0,0,,see source restrictions,no
+creatures,Multiattack,114,1,0,0,multiattack,see source restrictions,no
+creatures,Chilling Rend,114,1,0,0,,see source restrictions,no
+creatures,Dreadful Scream,114,1,1,0,,see source restrictions,no
+creatures,Weight of Sorrow,114,1,0,0,,see source restrictions,no
+creatures,Multiattack,114,1,0,0,multiattack,see source restrictions,no
+creatures,Chilling Rend,114,1,0,0,,see source restrictions,no
+creatures,Dreadful Scream,114,1,1,0,,see source restrictions,no
+creatures,Shadow Stealth,114,1,0,0,,see source restrictions,no
+creatures,Multiattack,114,1,0,0,multiattack,see source restrictions,no
+creatures,Deathly Touch,114,1,0,0,,see source restrictions,no
+creatures,Deathly Touch: Frighten,114,1,1,0,,see source restrictions,no
+creatures,Incorporeal Passage,114,0,0,0,,see source restrictions,no
+creatures,Multiattack,114,1,0,0,multiattack,see source restrictions,no
+creatures,Rotting Claw,114,1,0,0,,see source restrictions,no
+creatures,Festering Aura,114,1,1,0,,see source restrictions,no
+creatures,Rotting Claw: Paralyze Poisoned Target,114,1,1,0,,see source restrictions,no
+creatures,Multiattack,114,1,0,0,multiattack,see source restrictions,no
+creatures,Grave Bolt,114,1,0,0,,see source restrictions,no
+creatures,Flamethrower,18,1,0,0,,see source restrictions,no
+creatures,Force Ballista,18,1,0,0,,see source restrictions,no
+creatures,Protector,18,1,0,0,,see source restrictions,no
+creatures,Destructive Fist (Melee),132,1,0,0,,see source restrictions,no
+creatures,Destructive Fist (Ranged),132,1,0,0,,see source restrictions,no
+creatures,Crushing Leap,132,1,1,0,,see source restrictions,no
+creatures,Magic Resistant Construction,132,0,1,0,,see source restrictions,no
+creatures,Immutable Existence,132,0,0,0,,see source restrictions,no
+creatures,Standing Leap,132,0,0,0,,see source restrictions,no
+creatures,Unusual Nature,132,0,0,0,,see source restrictions,no
+creatures,Regeneration,132,0,0,0,,see source restrictions,no
+creatures,Bite,167,1,0,0,,see source restrictions,no
+creatures,False Appearance,167,0,0,0,,see source restrictions,no
+creatures,Spider Climb,167,0,0,0,,see source restrictions,no
+creatures,Shape-Shift,167,1,0,0,,see source restrictions,no
+feats,Artificer Initiate,79,0,0,3,,see source restrictions,no
+feats,Chef,79,2,0,2,chef-treats; source-prompt,yes,no
+feats,Crusher,79,2,0,1,source-prompt,yes,no
+feats,Eldritch Adept,79,0,0,1,,see source restrictions,no
+feats,Fey Touched,79,0,0,3,,see source restrictions,no
+feats,Fighting Initiate,80,0,0,1,,see source restrictions,no
+feats,Gunner,80,0,0,2,,see source restrictions,no
+feats,Metamagic Adept,80,1,0,1,,see source restrictions,no
+feats,Piercer,80,2,0,1,source-prompt,yes,no
+feats,Poisoner,80,2,0,1,poisoner-craft,see source restrictions,no
+feats,Shadow Touched,80,0,0,3,,see source restrictions,no
+feats,Skill Expert,80,0,0,3,,see source restrictions,no
+feats,Slasher,81,2,0,1,source-prompt,yes,no
+feats,Telekinetic,81,1,0,2,source-prompt,yes,no
+feats,Telepathic,81,1,0,2,source-prompt,yes,no
+features,Magical Tinkering,11,1,0,0,source-prompt,yes,no
+features,Spellcasting,11,1,0,0,source-prompt,yes,no
+features,Infuse Item,12,1,0,0,source-prompt,yes,no
+features,Artificer Specialist,13,1,0,0,source-prompt,yes,no
+features,The Right Tool for the Job,13,1,0,0,,see source restrictions,no
+features,Ability Score Improvement,13,1,0,0,source-prompt,yes,no
+features,Tool Expertise,13,0,1,0,,see source restrictions,no
+features,Flash of Genius,13,1,0,0,source-prompt,yes,no
+features,Magic Item Adept,13,0,1,0,,see source restrictions,no
+features,Spell-Storing Item,13,1,0,0,source-prompt,yes,no
+features,Magic Item Savant,14,0,1,0,,see source restrictions,no
+features,Magic Item Master,14,0,1,0,,see source restrictions,no
+features,Soul of Artifice,14,1,1,0,source-prompt,yes,no
+features,Tool Proficiency,14,0,0,1,,see source restrictions,no
+features,Alchemist Spells,14,1,0,0,source-prompt,yes,no
+features,Experimental Elixir,14,2,0,0,elixir,see source restrictions,no
+features,Alchemical Savant,15,1,0,0,source-prompt,yes,no
+features,Restorative Reagents,15,2,0,0,,see source restrictions,no
+features,Chemical Mastery,15,2,1,0,,see source restrictions,no
+features,Tools of the Trade,15,0,0,1,,see source restrictions,no
+features,Armorer Spells,15,1,0,0,source-prompt,yes,no
+features,Arcane Armor,15,1,0,0,,see source restrictions,no
+features,Armor Model,16,5,0,0,source-prompt,yes,no
+features,Extra Attack,16,1,0,0,source-prompt,yes,no
+features,Armor Modifications,17,1,0,0,source-prompt,yes,no
+features,Perfected Armor,17,1,0,0,source-prompt,yes,no
+features,Tool Proficiency,17,0,0,1,,see source restrictions,no
+features,Artillerist Spells,17,1,0,0,source-prompt,yes,no
+features,Eldritch Cannon,17,2,0,0,source-prompt; summon,yes,no
+features,Arcane Firearm,18,1,0,0,source-prompt,yes,no
+features,Explosive Cannon,18,1,0,0,,see source restrictions,no
+features,Fortified Position,18,1,0,0,source-prompt,yes,no
+features,Tool Proficiency,19,0,0,1,,see source restrictions,no
+features,Battle Smith Spells,19,1,0,0,source-prompt,yes,no
+features,Battle Ready,19,0,0,1,,see source restrictions,no
+features,Steel Defender,19,1,0,0,summon,see source restrictions,no
+features,Extra Attack,20,1,0,0,source-prompt,yes,no
+features,Arcane Jolt,20,2,0,0,,see source restrictions,no
+features,Improved Defender,20,1,0,0,,see source restrictions,no
+features,Arcane Propulsion Armor,20,1,0,0,,see source restrictions,no
+features,Armor of Magical Strength,20,1,0,0,source-prompt,yes,no
+features,Boots of the Winding Path,21,1,0,0,source-prompt,yes,no
+features,Enhanced Arcane Focus,21,2,2,0,,yes,no
+features,Enhanced Defense,21,2,2,0,,yes,no
+features,Enhanced Weapon,21,2,2,0,,yes,no
+features,Helm of Awareness,21,0,1,0,,see source restrictions,no
+features,Homunculus Servant,21,1,0,0,summon,see source restrictions,no
+features,Mind Sharpener,22,1,0,0,,see source restrictions,no
+features,Radiant Weapon,22,1,1,0,,yes,no
+features,Repeating Shot,22,1,1,0,,yes,no
+features,Replicate Magic Item,22,1,0,0,source-prompt,yes,no
+features,Repulsion Shield,23,1,1,0,,yes,no
+features,Resistant Armor,23,1,0,0,choose-resistance,see source restrictions,no
+features,Returning Weapon,23,1,1,0,,yes,no
+features,Spell-Refueling Ring,23,1,0,0,restore-slot,see source restrictions,no
+features,Primal Knowledge,24,0,0,2,,see source restrictions,no
+features,Instinctive Pounce,24,1,0,0,source-prompt,yes,no
+features,Form of the Beast,24,5,0,0,source-prompt,yes,no
+features,Bestial Soul,25,1,0,0,source-prompt,yes,no
+features,Infectious Fury,25,2,0,0,source-prompt,yes,no
+features,Call the Hunt,25,1,0,0,source-prompt,yes,no
+features,Magic Awareness,25,1,0,0,,see source restrictions,no
+features,Wild Surge,25,1,0,0,wild-magic-barbarian,see source restrictions,no
+features,Bolstering Magic,26,1,0,0,source-prompt,yes,no
+features,Unstable Backlash,26,1,0,0,wild-magic-barbarian,see source restrictions,no
+features,Controlled Surge,26,1,0,0,source-prompt,yes,no
+features,Additional Bard Spells,27,1,0,0,source-prompt,yes,no
+features,Magical Inspiration,27,1,0,0,source-prompt,yes,no
+features,Bardic Versatility,28,1,0,0,source-prompt,yes,no
+features,Mote of Potential,28,1,0,0,source-prompt,yes,no
+features,Performance of Creation,28,1,0,0,source-prompt,yes,no
+features,Animating Performance,29,2,0,0,source-prompt; summon,yes,no
+features,Creative Crescendo,29,1,0,0,source-prompt,yes,no
+features,Silver Tongue,30,0,1,0,,see source restrictions,no
+features,Unsettling Words,30,1,0,0,source-prompt,yes,no
+features,Unfailing Inspiration,30,1,0,0,source-prompt,yes,no
+features,Universal Speech,30,1,0,0,,see source restrictions,no
+features,Infectious Inspiration,30,1,0,0,,see source restrictions,no
+features,Additional Cleric Spells,30,1,0,0,source-prompt,yes,no
+features,Harness Divine Power,30,1,0,0,restore-slot,see source restrictions,no
+features,Cantrip Versatility,31,1,0,0,source-prompt,yes,no
+features,Blessed Strikes,31,1,0,0,,see source restrictions,no
+features,Domain Spells,31,1,0,0,source-prompt,yes,no
+features,Bonus Proficiencies,32,0,0,1,,see source restrictions,no
+features,Voice of Authority,32,1,0,0,source-prompt,yes,no
+features,Channel Divinity: Order's Demand,32,1,0,0,,see source restrictions,no
+features,Embodiment of the Law,32,1,0,0,,see source restrictions,no
+features,Divine Strike,32,1,0,0,,see source restrictions,no
+features,Order's Wrath,32,1,0,0,,see source restrictions,no
+features,Domain Spells,33,1,0,0,source-prompt,yes,no
+features,Implement of Peace,33,0,0,1,,see source restrictions,no
+features,Emboldening Bond,33,1,0,0,source-prompt,yes,no
+features,Channel Divinity: Balm of Peace,33,1,0,0,,see source restrictions,no
+features,Protective Bond,33,1,0,0,source-prompt,yes,no
+features,Potent Spellcasting,33,1,0,0,source-prompt,yes,no
+features,Expansive Bond,33,1,0,0,source-prompt,yes,no
+features,Domain Spells,34,1,0,0,source-prompt,yes,no
+features,Bonus Proficiencies,34,0,0,1,,see source restrictions,no
+features,Eyes of Night,34,1,1,0,,see source restrictions,no
+features,Vigilant Blessing,35,1,1,0,,see source restrictions,no
+features,Channel Divinity: Twilight Sanctuary,35,2,0,0,source-prompt,yes,no
+features,Steps of Night,35,1,1,0,,see source restrictions,no
+features,Divine Strike,35,1,0,0,,see source restrictions,no
+features,Twilight Shroud,35,1,0,0,source-prompt,yes,no
+features,Additional Druid Spells,35,1,0,0,source-prompt,yes,no
+features,Wild Companion,35,1,0,0,external-spell,see source restrictions,no
+features,Cantrip Versatility,36,1,0,0,source-prompt,yes,no
+features,Circle Spells,36,1,0,0,source-prompt,yes,no
+features,Halo of Spores,36,1,0,0,,see source restrictions,no
+features,Symbiotic Entity,37,2,0,0,,see source restrictions,no
+features,Fungal Infestation,37,1,0,0,source-prompt,yes,no
+features,Spreading Spores,37,1,0,0,source-prompt,yes,no
+features,Fungal Body,38,0,1,0,,see source restrictions,no
+features,Star Map,38,1,0,1,external-spell,see source restrictions,no
+features,Starry Form,38,5,3,0,,see source restrictions,no
+features,Cosmic Omen,39,1,0,0,source-prompt,yes,no
+features,Twinkling Constellations,39,1,0,0,source-prompt,yes,no
+features,Full of Stars,39,0,1,0,,see source restrictions,no
+features,Circle Spells,39,1,0,0,source-prompt,yes,no
+features,Summon Wildfire Spirit,40,2,0,0,summon,see source restrictions,no
+features,Enhanced Bond,40,1,0,0,source-prompt,yes,no
+features,Cauterizing Flames,40,2,0,0,,see source restrictions,no
+features,Blazing Revival,40,1,0,0,source-prompt,yes,no
+features,Fighting Style Options,41,1,0,0,source-prompt,yes,no
+features,Blind Fighting,41,0,1,0,,see source restrictions,no
+features,Interception,41,1,0,0,,see source restrictions,no
+features,Superior Technique,41,1,0,0,,see source restrictions,no
+features,Thrown Weapon Fighting,42,1,0,0,source-prompt,yes,no
+features,Unarmed Fighting,42,3,0,0,,see source restrictions,no
+features,Martial Versatility,42,1,0,0,source-prompt,yes,no
+features,Ambush,42,1,0,0,source-prompt,yes,no
+features,Bait and Switch,42,1,0,0,source-prompt,yes,no
+features,Brace,42,1,0,0,source-prompt,yes,no
+features,Commanding Presence,42,1,0,0,source-prompt,yes,no
+features,Grappling Strike,42,1,0,0,source-prompt,yes,no
+features,Quick Toss,42,1,0,0,source-prompt,yes,no
+features,Tactical Assessment,42,1,0,0,source-prompt,yes,no
+features,Psionic Power,43,4,0,0,restore-self; source-prompt,yes,no
+features,Telekinetic Adept,43,2,0,0,source-prompt,yes,no
+features,Guarded Mind,43,0,1,0,,see source restrictions,no
+features,Bulwark of Force,44,1,0,0,,see source restrictions,no
+features,Telekinetic Master,44,1,0,0,external-spell,see source restrictions,no
+features,Bonus Proficiencies,44,0,0,1,,see source restrictions,no
+features,Rune Carver,44,0,0,1,,see source restrictions,no
+features,Giant's Might,45,2,1,0,,see source restrictions,no
+features,Runic Shield,45,1,0,0,source-prompt,yes,no
+features,Great Stature,46,1,0,0,source-prompt,yes,no
+features,Master of Runes,46,1,0,0,source-prompt,yes,no
+features,Runic Juggernaut,46,1,0,0,source-prompt,yes,no
+features,Dedicated Weapon,48,1,0,0,source-prompt,yes,no
+features,Ki-Fueled Attack,48,1,0,0,,see source restrictions,no
+features,Quickened Healing,49,1,0,0,,see source restrictions,no
+features,Focused Aim,49,3,0,0,,see source restrictions,no
+features,Implements of Mercy,49,0,0,1,,see source restrictions,no
+features,Hand of Healing,49,1,0,0,,see source restrictions,no
+features,Hand of Harm,50,1,0,0,,see source restrictions,no
+features,Physician's Touch,50,1,0,0,source-prompt,yes,no
+features,Flurry of Healing and Harm,50,1,0,0,source-prompt,yes,no
+features,Hand of Ultimate Mercy,50,2,0,0,source-prompt,yes,no
+features,Arms of the Astral Self,50,1,0,0,,see source restrictions,no
+features,Visage of the Astral Self,50,1,0,0,,see source restrictions,no
+features,Body of the Astral Self,51,1,0,0,,see source restrictions,no
+features,Awakened Astral Self,51,1,0,0,,see source restrictions,no
+features,Additional Paladin Spells,52,1,0,0,source-prompt,yes,no
+features,Fighting Style Options,52,1,0,0,source-prompt,yes,no
+features,Blessed Warrior,52,0,0,1,,see source restrictions,no
+features,Blind Fighting,52,0,1,0,,see source restrictions,no
+features,Interception,53,1,0,0,,see source restrictions,no
+features,Harness Divine Power,53,1,0,0,restore-slot,see source restrictions,no
+features,Martial Versatility,53,1,0,0,source-prompt,yes,no
+features,Oath Spells,53,1,0,0,source-prompt,yes,no
+features,Channel Divinity,54,3,0,0,,see source restrictions,no
+features,Aura of Alacrity,54,1,0,0,source-prompt,yes,no
+features,Glorious Defense,54,1,0,0,,see source restrictions,no
+features,Living Legend,54,1,0,0,,see source restrictions,no
+features,Oath Spells,55,1,0,0,source-prompt,yes,no
+features,Channel Divinity,55,2,0,0,,see source restrictions,no
+features,Aura of the Sentinel,55,1,0,0,source-prompt,yes,no
+features,Vigilant Rebuke,55,1,0,0,,see source restrictions,no
+features,Mortal Bulwark,55,1,0,0,,see source restrictions,no
+features,Deft Explorer,56,1,1,2,,see source restrictions,no
+features,Favored Foe,56,2,0,0,,see source restrictions,no
+features,Additional Ranger Spells,57,1,0,0,source-prompt,yes,no
+features,Fighting Style Options,57,1,0,0,source-prompt,yes,no
+features,Blind Fighting,57,0,1,0,,see source restrictions,no
+features,Druidic Warrior,57,0,0,1,,see source restrictions,no
+features,Thrown Weapon Fighting,57,1,0,0,source-prompt,yes,no
+features,Spellcasting Focus,57,1,0,0,source-prompt,yes,no
+features,Primal Awareness,57,1,0,0,source-prompt,yes,no
+features,Martial Versatility,57,1,0,0,source-prompt,yes,no
+features,Nature's Veil,57,1,1,0,,see source restrictions,no
+features,Dreadful Strikes,58,1,0,0,,see source restrictions,no
+features,Fey Wanderer Magic,58,1,0,0,source-prompt,yes,no
+features,Otherworldly Glamour,59,0,1,1,,see source restrictions,no
+features,Beguiling Twist,59,1,0,0,source-prompt,yes,no
+features,Fey Reinforcements,59,1,0,0,external-spell,see source restrictions,no
+features,Misty Wanderer,59,1,0,0,external-spell,see source restrictions,no
+features,Gathered Swarm,60,3,0,0,source-prompt,yes,no
+features,Swarmkeeper Magic,60,1,0,0,source-prompt,yes,no
+features,Writhing Tide,60,1,1,0,,see source restrictions,no
+features,Mighty Swarm,60,1,0,0,source-prompt,yes,no
+features,Swarming Dispersal,60,1,0,0,source-prompt,yes,no
+features,Primal Companion,61,1,0,0,summon,see source restrictions,no
+features,Steady Aim,62,1,1,0,,see source restrictions,no
+features,Whispers of the Dead,62,0,0,1,,see source restrictions,no
+features,Wails From the Grave,62,1,0,0,,see source restrictions,no
+features,Tokens of the Departed,63,1,0,0,source-prompt,yes,no
+features,Ghost Walk,63,1,1,0,,see source restrictions,no
+features,Death's Friend,63,1,0,0,source-prompt,yes,no
+features,Psionic Power,64,4,0,0,restore-self; source-prompt,yes,no
+features,Psychic Blades,64,2,0,0,,see source restrictions,no
+features,Soul Blades,65,2,0,0,source-prompt,yes,no
+features,Psychic Veil,65,1,1,0,,see source restrictions,no
+features,Rend Mind,65,1,0,0,source-prompt,yes,no
+features,Additional Sorcerer Spells,65,1,0,0,source-prompt,yes,no
+features,Metamagic Options,66,1,0,0,source-prompt,yes,no
+features,Seeking Spell,66,1,0,0,source-prompt,yes,no
+features,Transmuted Spell,66,1,0,0,source-prompt,yes,no
+features,Sorcerous Versatility,66,1,0,0,source-prompt,yes,no
+features,Magical Guidance,66,1,0,0,,see source restrictions,no
+features,Psionic Spells,67,1,0,0,source-prompt,yes,no
+features,Telepathic Speech,67,1,0,0,,see source restrictions,no
+features,Psionic Sorcery,68,1,0,0,source-prompt,yes,no
+features,Psychic Defenses,68,0,1,0,,see source restrictions,no
+features,Revelation in Flesh,68,4,0,0,,see source restrictions,no
+features,Warping Implosion,68,1,0,0,source-prompt,yes,no
+features,Clockwork Magic,68,1,0,0,source-prompt,yes,no
+features,Restore Balance,69,1,0,0,,see source restrictions,no
+features,Bastion of Law,69,5,0,0,,see source restrictions,no
+features,Trance of Order,69,1,0,0,,see source restrictions,no
+features,Clockwork Cavalcade,69,1,0,0,source-prompt,yes,no
+features,Additional Warlock Spells,70,1,0,0,source-prompt,yes,no
+features,Pact Boon Option,70,1,0,0,source-prompt,yes,no
+features,Pact of the Talisman,70,1,0,0,,see source restrictions,no
+features,Eldritch Versatility,70,1,0,0,source-prompt,yes,no
+features,Bond of the Talisman,70,1,0,0,source-prompt,yes,no
+features,Eldritch Mind,71,0,1,0,,see source restrictions,no
+features,Far Scribe,71,1,0,0,source-prompt,yes,no
+features,Gift of the Protectors,71,1,0,0,source-prompt,yes,no
+features,Investment of the Chain Master,71,1,0,0,source-prompt,yes,no
+features,Protection of the Talisman,71,1,0,0,source-prompt,yes,no
+features,Rebuke of the Talisman,71,1,0,0,source-prompt,yes,no
+features,Undying Servitude,71,1,0,0,,see source restrictions,no
+features,Expanded Spell List,72,1,0,0,source-prompt,yes,no
+features,Tentacle of the Deeps,72,2,0,0,,see source restrictions,no
+features,Gift of the Sea,72,0,1,0,,see source restrictions,no
+features,Oceanic Soul,73,0,1,0,,see source restrictions,no
+features,Guardian Coil,73,1,0,0,,see source restrictions,no
+features,Grasping Tentacles,73,1,0,0,source-prompt,yes,no
+features,Fathomless Plunge,73,1,0,0,,see source restrictions,no
+features,Expanded Spell List,73,1,0,0,source-prompt,yes,no
+features,Genie's Vessel,73,2,0,0,source-prompt,yes,no
+features,Elemental Gift,75,1,1,0,,see source restrictions,no
+features,Sanctuary Vessel,75,1,0,0,source-prompt,yes,no
+features,Limited Wish,75,1,0,0,source-prompt,yes,no
+features,Additional Wizard Spells,75,1,0,0,source-prompt,yes,no
+features,Cantrip Formulas,76,1,0,0,source-prompt,yes,no
+features,Training in War and Song,76,0,0,1,,see source restrictions,no
+features,Bladesong,76,1,1,0,,see source restrictions,no
+features,Extra Attack,77,1,0,0,source-prompt,yes,no
+features,Song of Defense,77,9,0,0,source-prompt,yes,no
+features,Song of Victory,77,1,0,0,source-prompt,yes,no
+features,Wizardly Quill,77,1,0,0,,see source restrictions,no
+features,Awakened Spellbook,77,1,0,0,source-prompt,yes,no
+features,Manifest Mind,78,1,0,0,,see source restrictions,no
+features,Master Scrivener,78,1,0,0,source-prompt,yes,no
+features,One With the Word,78,1,0,0,source-prompt,yes,no
+features,Bonus Proficiencies,143,0,0,4,,see source restrictions,no
+features,Helpful,143,1,0,0,,see source restrictions,no
+features,Cunning Action,143,3,0,0,,see source restrictions,no
+features,Expertise,143,0,0,2,,see source restrictions,no
+features,Ability Score Improvement,144,1,0,0,source-prompt,yes,no
+features,Coordinated Strike,144,1,0,0,source-prompt,yes,no
+features,Evasion,144,1,0,0,source-prompt,yes,no
+features,Inspiring Help,144,1,0,0,source-prompt,yes,no
+features,Reliable Talent,144,0,1,0,,see source restrictions,no
+features,Sharp Mind,144,0,0,1,,see source restrictions,no
+features,Bonus Proficiencies,144,0,0,3,,see source restrictions,no
+features,Spellcasting,144,1,0,0,source-prompt,yes,no
+features,Ability Score Improvement,146,1,0,0,source-prompt,yes,no
+features,Potent Cantrips,146,1,0,0,source-prompt,yes,no
+features,Empowered Spells,146,1,0,0,source-prompt,yes,no
+features,Focused Casting,146,1,0,0,source-prompt,yes,no
+features,Bonus Proficiencies,146,0,0,3,,see source restrictions,no
+features,Martial Role,146,2,0,0,sidekick-role,see source restrictions,no
+features,Second Wind,146,1,0,0,,see source restrictions,no
+features,Improved Critical,146,0,1,0,,see source restrictions,no
+features,Ability Score Improvement,146,1,0,0,source-prompt,yes,no
+features,Extra Attack,147,1,0,0,source-prompt,yes,no
+features,Battle Readiness,147,0,1,0,,see source restrictions,no
+features,Improved Defense,147,0,1,0,,see source restrictions,no
+features,Indomitable,147,1,0,0,,see source restrictions,no
+features,"Fighting Style (Fighter, 2014)",41,0,0,1,,see source restrictions,no
+features,"Fighting Style (Paladin, 2014)",41,0,0,1,,see source restrictions,no
+features,"Fighting Style (Ranger, 2014)",41,0,0,1,,see source restrictions,no
+features,Cloud Rune,44,1,1,0,source-prompt,yes,no
+features,Fire Rune,44,2,2,0,,see source restrictions,no
+features,Frost Rune,44,1,2,0,,see source restrictions,no
+features,Stone Rune,44,1,2,0,,see source restrictions,no
+features,Hill Rune,44,1,2,0,,see source restrictions,no
+features,Storm Rune,44,2,1,0,source-prompt,yes,no
+features,Custom Lineage: Darkvision,8,0,1,0,,see source restrictions,no
+features,Custom Lineage: Skill,8,0,0,1,,see source restrictions,no
+origins,Custom Lineage (Strength),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Dexterity),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Constitution),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Intelligence),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Wisdom),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Charisma),8,0,0,5,,see source restrictions,no
+spells,Blade of Disaster,106,2,0,0,source-prompt,yes,no
+spells,Booming Blade,106,2,0,0,blade-cantrip; source-prompt,yes,no
+spells,Dream of the Blue Veil,106,1,0,0,source-prompt,yes,no
+spells,Green-Flame Blade,107,2,0,0,blade-cantrip; source-prompt,yes,no
+spells,Intellect Fortress,107,1,1,0,,see source restrictions,no
+spells,Lightning Lure,107,2,0,0,source-prompt,yes,no
+spells,Mind Sliver,108,1,1,0,,see source restrictions,no
+spells,Spirit Shroud,108,4,3,0,spirit-shroud,see source restrictions,no
+spells,Summon Aberration,109,1,0,0,summon,see source restrictions,no
+spells,Summon Beast,109,1,0,0,summon,see source restrictions,no
+spells,Summon Celestial,110,1,0,0,summon,see source restrictions,no
+spells,Summon Construct,111,1,0,0,summon,see source restrictions,no
+spells,Summon Elemental,111,1,0,0,summon,see source restrictions,no
+spells,Summon Fey,112,1,0,0,summon,see source restrictions,no
+spells,Summon Fiend,112,1,0,0,summon,see source restrictions,no
+spells,Summon Shadowspawn,113,1,0,0,summon,see source restrictions,no
+spells,Summon Undead,114,1,0,0,summon,see source restrictions,no
+spells,Sword Burst,115,1,0,0,,see source restrictions,no
+spells,Tasha's Caustic Brew,115,3,1,0,caustic-brew; remove-caustic,see source restrictions,no
+spells,Tasha's Mind Whip,115,1,1,0,,see source restrictions,no
+spells,Tasha's Otherworldly Guise,116,2,2,0,,see source restrictions,no
+magic-items,Absorbing Tattoo (Acid),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Cold),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Fire),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Force),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Lightning),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Necrotic),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Poison),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Psychic),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Radiant),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Absorbing Tattoo (Thunder),119,1,1,0,absorb-damage,see source restrictions,no
+magic-items,Alchemical Compendium,119,2,0,0,source-prompt; spellbook-swap,yes,no
+magic-items,All-Purpose Tool (+1),119,2,0,0,all-purpose-cantrip,see source restrictions,no
+magic-items,All-Purpose Tool (+2),119,2,0,0,all-purpose-cantrip,see source restrictions,no
+magic-items,All-Purpose Tool (+3),119,2,0,0,all-purpose-cantrip,see source restrictions,no
+magic-items,Amulet of the Devout (+1),119,1,0,0,restore-resource,see source restrictions,no
+magic-items,Amulet of the Devout (+2),119,1,0,0,restore-resource,see source restrictions,no
+magic-items,Amulet of the Devout (+3),119,1,0,0,restore-resource,see source restrictions,no
+magic-items,Arcane Grimoire (+1),120,1,0,0,source-prompt,yes,no
+magic-items,Arcane Grimoire (+2),120,1,0,0,source-prompt,yes,no
+magic-items,Arcane Grimoire (+3),120,1,0,0,source-prompt,yes,no
+magic-items,Astral Shard,120,1,0,0,source-prompt,yes,no
+magic-items,Astromancy Archive,120,2,0,0,source-prompt; spellbook-swap,yes,no
+magic-items,Atlas of Endless Horizons,120,2,0,0,source-prompt; spellbook-swap,yes,no
+magic-items,Baba Yaga's Mortar and Pestle,121,7,0,0,source-prompt,yes,no
+magic-items,Barrier Tattoo (Uncommon),122,0,1,0,,see source restrictions,no
+magic-items,Barrier Tattoo (Rare),122,0,1,0,,see source restrictions,no
+magic-items,Barrier Tattoo (Very Rare),122,0,1,0,,see source restrictions,no
+magic-items,Bell Branch,122,2,0,0,,see source restrictions,no
+magic-items,Blood Fury Tattoo,122,2,0,0,blood-fury; weapon-attack,see source restrictions,no
+magic-items,Bloodwell Vial (+1),122,1,0,0,restore-resource,see source restrictions,no
+magic-items,Bloodwell Vial (+2),122,1,0,0,restore-resource,see source restrictions,no
+magic-items,Bloodwell Vial (+3),122,1,0,0,restore-resource,see source restrictions,no
+magic-items,Cauldron of Rebirth,122,2,0,0,source-prompt,yes,no
+magic-items,Coiling Grasp Tattoo,123,1,1,0,,see source restrictions,no
+magic-items,Crook of Rao,123,6,0,0,external-spell; source-prompt,yes,no
+magic-items,Crystalline Chronicle,124,2,0,0,source-prompt; spellbook-swap,yes,no
+magic-items,Demonomicon of Iggwilv,125,8,0,0,source-prompt,yes,no
+magic-items,Devotee's Censer,126,3,1,0,,see source restrictions,no
+magic-items,Duplicitous Manuscript,126,2,0,0,source-prompt; spellbook-swap,yes,no
+magic-items,Eldritch Claw Tattoo,126,1,1,0,,see source restrictions,no
+magic-items,Elemental Essence Shard (Air),127,1,0,0,source-prompt,yes,no
+magic-items,Elemental Essence Shard (Earth),127,1,0,0,choose-resistance,see source restrictions,no
+magic-items,Elemental Essence Shard (Fire),127,1,0,0,source-prompt,yes,no
+magic-items,Elemental Essence Shard (Water),127,2,1,0,,see source restrictions,no
+magic-items,Far Realm Shard,127,1,1,0,,see source restrictions,no
+magic-items,Feywild Shard,127,1,0,0,source-prompt,yes,no
+magic-items,Fulminating Treatise,128,2,0,0,source-prompt; spellbook-swap,yes,no
+magic-items,Ghost Step Tattoo,128,1,1,0,,see source restrictions,no
+magic-items,Guardian Emblem,128,1,0,0,source-prompt,yes,no
+magic-items,Heart Weaver's Primer,128,2,0,0,source-prompt; spellbook-swap,yes,no
+magic-items,Illuminator's Tattoo,129,2,0,0,source-prompt,yes,no
+magic-items,Libram of Souls and Flesh,129,2,1,0,spellbook-swap,see source restrictions,no
+magic-items,Lifewell Tattoo,129,1,1,0,life-ward,see source restrictions,no
+magic-items,Luba's Tarokka of Souls,129,8,2,0,source-prompt,yes,no
+magic-items,Lyre of Building,131,6,0,0,source-prompt,yes,no
+magic-items,Masquerade Tattoo,131,2,0,0,,see source restrictions,no
+magic-items,Mighty Servant of Leuk-o,131,1,0,0,source-prompt,yes,no
+magic-items,Moon Sickle (+1),133,2,0,0,source-prompt,yes,no
+magic-items,Moon Sickle (+2),133,2,0,0,source-prompt,yes,no
+magic-items,Moon Sickle (+3),133,2,0,0,source-prompt,yes,no
+magic-items,Nature's Mantle,133,1,1,0,source-prompt,yes,no
+magic-items,Outer Essence Shard (Lawful),133,1,0,0,end-condition,see source restrictions,no
+magic-items,Outer Essence Shard (Chaotic),133,1,1,0,,see source restrictions,no
+magic-items,Outer Essence Shard (Good),133,1,0,0,,see source restrictions,no
+magic-items,Outer Essence Shard (Evil),133,1,0,0,,see source restrictions,no
+magic-items,Planecaller's Codex,134,2,1,0,spellbook-swap,see source restrictions,no
+magic-items,Prosthetic Limb,134,1,0,0,,see source restrictions,no
+magic-items,Protective Verses,134,2,0,0,spellbook-swap,see source restrictions,no
+magic-items,Reveler's Concertina,134,1,0,0,,see source restrictions,no
+magic-items,Rhythm-Maker's Drum (+1),134,1,0,0,restore-resource,see source restrictions,no
+magic-items,Rhythm-Maker's Drum (+2),134,1,0,0,restore-resource,see source restrictions,no
+magic-items,Rhythm-Maker's Drum (+3),134,1,0,0,restore-resource,see source restrictions,no
+magic-items,Shadowfell Brand Tattoo,134,1,1,0,source-prompt,yes,no
+magic-items,Shadowfell Shard,135,1,0,0,choose-disadvantage,see source restrictions,no
+magic-items,Spellwrought Tattoo (Cantrip),135,1,0,0,spellwrought,see source restrictions,no
+magic-items,Spellwrought Tattoo (Level 1),135,1,0,0,spellwrought,see source restrictions,no
+magic-items,Spellwrought Tattoo (Level 2),135,1,0,0,spellwrought,see source restrictions,no
+magic-items,Spellwrought Tattoo (Level 3),135,1,0,0,spellwrought,see source restrictions,no
+magic-items,Spellwrought Tattoo (Level 4),135,1,0,0,spellwrought,see source restrictions,no
+magic-items,Spellwrought Tattoo (Level 5),135,1,0,0,spellwrought,see source restrictions,no
+magic-items,Teeth of Dahlver-Nar,135,1,0,0,source-prompt,yes,no
+magic-items,Implanted Tooth 01: The Staring Cats of Uldun-dar,136,1,0,0,,yes,no
+magic-items,Implanted Tooth 02: Duggle’s Surprising Day,136,1,0,0,,yes,no
+magic-items,Implanted Tooth 03: The Golden Age of Dhakaan,136,1,0,0,source-prompt,yes,no
+magic-items,Implanted Tooth 04: The Mill Road Murders,136,1,0,0,,yes,no
+magic-items,Implanted Tooth 05: Dooms of the Malpheggi,136,1,1,0,,yes,no
+magic-items,Implanted Tooth 06: The Stable Hand’s Secret,136,1,0,0,source-prompt,yes,no
+magic-items,Implanted Tooth 07: The Donkey’s Dream,136,1,0,0,source-prompt,yes,no
+magic-items,Implanted Tooth 08: Beyond the Rock of Bral,136,1,1,0,,yes,no
+magic-items,Implanted Tooth 09: The Disappearances of Half Hollow,137,1,0,0,,yes,no
+magic-items,Implanted Tooth 10: Legendry of Phantoms and Ghosts,137,1,0,0,,yes,no
+magic-items,Implanted Tooth 11: The Thousand Deaths of Jander Sunstar,137,1,0,0,source-prompt,yes,no
+magic-items,Implanted Tooth 12: Nightmares of Kaggash,137,2,0,0,,yes,no
+magic-items,Implanted Tooth 13: Three Bridges to the Sky,137,1,1,0,,yes,no
+magic-items,Implanted Tooth 14: The Claws of Dragotha,137,1,0,0,,yes,no
+magic-items,Implanted Tooth 15: Ashes of the Ages and Eternal Fire,137,2,0,0,,yes,no
+magic-items,Implanted Tooth 16: Daughters of Bel,137,1,0,0,,yes,no
+magic-items,Implanted Tooth 17: Why the Sky Screams,137,0,1,0,,yes,no
+magic-items,Implanted Tooth 18: The Last Tarrasque,137,1,0,0,,yes,no
+magic-items,Implanted Tooth 19: Incendax’s Tooth,137,1,1,0,source-prompt,yes,no
+magic-items,Implanted Tooth 20: Dahlver-Nar’s Tooth,137,1,0,0,source-prompt,yes,no
+magic-items,Potent Poison (Poisoner),80,1,1,0,,see source restrictions,no
+subclasses,Alchemist,14,0,0,11,,see source restrictions,no
+subclasses,Armorer,15,0,0,12,,see source restrictions,no
+subclasses,Artillerist,17,0,0,11,,see source restrictions,no
+subclasses,Battle Smith,18,0,0,11,,see source restrictions,no
+subclasses,Path of the Beast,24,0,0,4,,see source restrictions,no
+subclasses,Path of Wild Magic,25,0,0,5,,see source restrictions,no
+subclasses,College of Creation,28,0,0,4,,see source restrictions,no
+subclasses,College of Eloquence,29,0,0,5,,see source restrictions,no
+subclasses,Order Domain,31,0,0,12,,see source restrictions,no
+subclasses,Peace Domain,32,0,0,12,,see source restrictions,no
+subclasses,Twilight Domain,34,0,0,13,,see source restrictions,no
+subclasses,Circle of Spores,36,0,0,11,,see source restrictions,no
+subclasses,Circle of Stars,38,0,0,5,,see source restrictions,no
+subclasses,Circle of Wildfire,39,0,0,10,,see source restrictions,no
+subclasses,Psi Warrior,42,0,0,5,,see source restrictions,no
+subclasses,Rune Knight,44,0,0,7,,see source restrictions,no
+subclasses,Way of Mercy,49,0,0,6,,see source restrictions,no
+subclasses,Way of the Astral Self,50,0,0,4,,see source restrictions,no
+subclasses,Oath of Glory,53,0,0,10,,see source restrictions,no
+subclasses,Oath of the Watchers,54,0,0,10,,see source restrictions,no
+subclasses,Fey Wanderer,58,0,0,11,,see source restrictions,no
+subclasses,Swarmkeeper,59,0,0,10,,see source restrictions,no
+subclasses,Phantom,62,0,0,5,,see source restrictions,no
+subclasses,Soulknife,63,0,0,5,,see source restrictions,no
+subclasses,Aberrant Mind,66,0,0,11,,see source restrictions,no
+subclasses,Clockwork Soul,68,0,0,10,,see source restrictions,no
+subclasses,The Fathomless,72,0,0,7,,see source restrictions,no
+subclasses,The Genie,73,0,0,5,,see source restrictions,no
+subclasses,Bladesinging,76,0,0,5,,see source restrictions,no
+subclasses,Order of Scribes,77,0,0,5,,see source restrictions,no
+classes,Barbarian (2014 + Tasha Options),,0,0,27,,see source restrictions,no
+classes,Bard (2014 + Tasha Options),,0,0,31,,see source restrictions,no
+classes,Cleric (2014 + Tasha Options),,0,0,22,,see source restrictions,no
+classes,Druid (2014 + Tasha Options),,0,0,23,,see source restrictions,no
+classes,Fighter (2014 + Tasha Options),,0,0,23,,see source restrictions,no
+classes,Monk (2014 + Tasha Options),,0,0,31,,see source restrictions,no
+classes,Paladin (2014 + Tasha Options),,0,0,26,,see source restrictions,no
+classes,Ranger (2014 + Tasha Options),,0,0,30,,see source restrictions,no
+classes,Rogue (2014 + Tasha Options),,0,0,30,,see source restrictions,no
+classes,Sorcerer (2014 + Tasha Options),,0,0,21,,see source restrictions,no
+classes,Warlock (2014 + Tasha Options),,0,0,26,,see source restrictions,no
+classes,Wizard (2014 + Tasha Options),,0,0,18,,see source restrictions,no
+classes,Artificer,9,0,0,27,,see source restrictions,no
+classes,Expert (Sidekick),142,0,0,16,,see source restrictions,no
+classes,Warrior (Sidekick),146,0,0,15,,see source restrictions,no
+classes,Spellcaster (Sidekick),144,0,0,13,,see source restrictions,no

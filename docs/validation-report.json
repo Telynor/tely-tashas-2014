@@ -1,0 +1,37 @@
+{
+  "checks": 7693,
+  "failures": [],
+  "counts": {
+    "creatures": 39,
+    "feats": 15,
+    "reference": 198,
+    "features": 303,
+    "tables": 67,
+    "macros": 4,
+    "handouts": 4,
+    "origins": 6,
+    "spells": 21,
+    "magic-items": 102,
+    "subclasses": 30,
+    "classes": 16
+  },
+  "originalPages": 194,
+  "encodedRollTables": 32,
+  "sourceLookupTables": 35,
+  "externalSpellDefinitionsRequired": [
+    "Arcane Gate",
+    "Arms of Hadar",
+    "Aura of Life",
+    "Aura of Purity",
+    "Aura of Vitality",
+    "Banishing Smite",
+    "Circle of Power",
+    "Conjure Barrage",
+    "Dissonant Whispers",
+    "Hunger of Hadar",
+    "Phantasmal Force",
+    "Ray of Sickness"
+  ],
+  "liveFoundryTested": false,
+  "automationCoverage": "See content-audit.csv; source-prompt activities require GM adjudication."
+}

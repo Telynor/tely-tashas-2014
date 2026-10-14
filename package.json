@@ -1,0 +1,13 @@
+{
+  "name": "tely-tashas-2014",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "python tools/build.py",
+    "build:packs": "node tools/compile-packs.mjs",
+    "test": "node --test tests/*.test.mjs && python tools/validate.py",
+    "package": "python tools/package_release.py"
+  },
+  "devDependencies": {"@foundryvtt/foundryvtt-cli": "3.0.5"}
+}
