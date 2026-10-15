@@ -23,11 +23,26 @@ for e in inventory:
  if e['kind'] in ['feature','infusion','maneuver','fighting-style','invocation','metamagic']:
   key=f'{e["kind"]}:{e["parent"]}:{e["name"]}';check(any(d['flags'][ID].get('key')==key for d in packs['features']),f'Missing {key}')
 activity_types={'attack','save','damage','heal','utility','summon','cast','enchant','check','forward'}
+icon_catalog=json.loads((ROOT/'source/icon-catalog.json').read_text())['paths']
+image_fields=collections.Counter()
+def check_image(path,label,kind):
+ image_fields[kind]+=1
+ valid=isinstance(path,str) and (path in icon_catalog or path.startswith(f'modules/{ID}/assets/') and (ROOT/path.removeprefix(f'modules/{ID}/')).is_file())
+ check(valid,f'{label}: missing, generic, or unverified image {path}')
+def check_item_images(item,label):
+ for e in item.get('effects',[]):check_image(e.get('img'),f'{label} / {e["name"]}','effect')
+ for a in item.get('system',{}).get('activities',{}).values():check_image(a.get('img'),f'{label} / {a["name"]}','activity')
 allitems=[]
 for pack,docs in packs.items():
  ids=[d['_id'] for d in docs];check(len(ids)==len(set(ids)),f'{pack}: duplicate IDs')
  for d in docs:
   check(bool(re.fullmatch('[A-Za-z0-9]{16}',d['_id'])),f'{d["name"]}: invalid ID')
+  image=d.get('flags',{}).get(ID,{}).get('icon') if pack in ['reference','handouts'] else d.get('img')
+  check_image(image,d['name'],'entry');check_item_images(d,d['name'])
+  for child in d.get('items',[]):
+   check_image(child.get('img'),f'{d["name"]} / {child["name"]}','actorItem');check_item_images(child,child['name'])
+  if d.get('type')=='npc':check_image(d.get('prototypeToken',{}).get('texture',{}).get('src'),d['name'],'token')
+  for r in d.get('results',[]):check_image(r.get('img'),d['name'],'tableResult')
   for string in visit(d):
    for ref in re.findall(r'Compendium\.tely-tashas-2014\.[\w-]+\.(?:Item|Actor|JournalEntry|Macro|RollTable)\.[A-Za-z0-9]{16}',string):check(ref in lookup,f'{d["name"]}: unresolved {ref}')
    if string.startswith(f'modules/{ID}/assets/'):
@@ -73,5 +88,6 @@ for pack,d in allitems:
 with (ROOT/'docs/content-audit.csv').open('w',newline='') as f:
  writer=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');writer.writeheader();writer.writerows(rows)
 result={'checks':checks,'failures':errors,'counts':{k:len(v) for k,v in packs.items()},'originalPages':194,'encodedRollTables':sum(d['flags'][ID].get('automation')=='native-roll-table' for d in packs['tables']),'sourceLookupTables':sum(d['flags'][ID].get('automation')=='source-lookup' for d in packs['tables']),'externalSpellDefinitionsRequired':json.loads((ROOT/'source/external-spells-required.json').read_text()),'liveFoundryTested':False,'automationCoverage':'See content-audit.csv; source-prompt activities require GM adjudication.'}
+result['imageFieldsChecked']=dict(image_fields)
 (ROOT/'docs/validation-report.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 raise SystemExit(bool(errors))

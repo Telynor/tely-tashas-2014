@@ -173,6 +173,8 @@ def main():
  sys.path.insert(0,str(ROOT/'tools'))
  import configure_content
  configure_content.build(sys.modules[__name__])
+ import icons
+ icons.build(PACKS,ID)
  output()
 
 if __name__=='__main__':main()

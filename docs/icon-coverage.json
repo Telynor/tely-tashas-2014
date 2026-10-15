@@ -1,0 +1,32 @@
+{
+  "moduleVersion": "0.1.1",
+  "entries": 805,
+  "packEntries": {
+    "classes": 16,
+    "subclasses": 30,
+    "features": 303,
+    "feats": 15,
+    "spells": 21,
+    "magic-items": 102,
+    "creatures": 39,
+    "tables": 67,
+    "reference": 198,
+    "handouts": 4,
+    "macros": 4,
+    "origins": 6
+  },
+  "imageFields": {
+    "entry": 805,
+    "activity": 620,
+    "effect": 115,
+    "token": 39,
+    "actorItem": 128,
+    "tableResult": 217
+  },
+  "uniqueImages": 301,
+  "missingOrGeneric": 0,
+  "officialMagicItemBaseArt": 15,
+  "magicItemEntriesUsingOfficialArt": 35,
+  "catalogSource": "https://github.com/foundryvtt/dnd5e/tree/release-5.3.3",
+  "externalImageDownloadsRequired": false
+}

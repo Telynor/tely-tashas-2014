@@ -1,0 +1,186 @@
+{
+  "sourceFilename": "D&D 5E - Tasha's Cauldron of Everything.pdf",
+  "sourceSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+  "artworks": [
+    {
+      "items": [
+        "Atlas of Endless Horizons"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/atlas-of-endless-horizons.jpg",
+      "pdfPage": 121,
+      "printedPage": 120,
+      "imageXref": 2220,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "bfba68fad629dec51097c79dcb913989a5364f4228a8fbcfb0407e500230305e"
+    },
+    {
+      "items": [
+        "Baba Yaga's Mortar and Pestle"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/baba-yaga-mortar-pestle.jpg",
+      "pdfPage": 122,
+      "printedPage": 121,
+      "imageXref": 2235,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "897e37c6ae00457aa4d2b484d93f7e3ef0d7885b5005ecee3c21d59f267de79f"
+    },
+    {
+      "items": [
+        "Cauldron of Rebirth"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/cauldron-of-rebirth.jpg",
+      "pdfPage": 124,
+      "printedPage": 123,
+      "imageXref": 2270,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "46b2b34d3bd6e6d2821dcc20f7b98b53b3c93ea7bb4184c191cc9208bcccac1c"
+    },
+    {
+      "items": [
+        "Crook of Rao"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/crook-of-rao.jpg",
+      "pdfPage": 124,
+      "printedPage": 123,
+      "imageXref": 2271,
+      "method": "original-page-graphics",
+      "clip": [
+        265,
+        370,
+        580,
+        768
+      ],
+      "sha256": "f56c737219f39d7363c71cc9da55348d6b1375a9978c4101faa8e482bda7c94f"
+    },
+    {
+      "items": [
+        "Crystalline Chronicle"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/crystalline-chronicle.jpg",
+      "pdfPage": 125,
+      "printedPage": 124,
+      "imageXref": 2286,
+      "method": "original-page-graphics",
+      "clip": [
+        265,
+        350,
+        580,
+        770
+      ],
+      "sha256": "0f9c8a1279c677198051b018a3552bc3a503757143236fb451f5c6959c152886"
+    },
+    {
+      "items": [
+        "Demonomicon of Iggwilv"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/demonomicon-of-iggwilv.jpg",
+      "pdfPage": 126,
+      "printedPage": 125,
+      "imageXref": 2298,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "f84537fb2512bcea5a4b97f826d6888e55c45520624142d7f645e6cb8f7f6adf"
+    },
+    {
+      "items": [
+        "Devotee's Censer"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/devotees-censer.jpg",
+      "pdfPage": 127,
+      "printedPage": 126,
+      "imageXref": 2318,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "67251b4e6d6098b9cf323993f50e202f9e7dbf44b21db2173856cee48e3aff00"
+    },
+    {
+      "items": [
+        "Far Realm Shard",
+        "Feywild Shard",
+        "Shadowfell Shard"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/planar-shards.jpg",
+      "pdfPage": 128,
+      "printedPage": 127,
+      "imageXref": 2337,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "edef12002c1f443e0a4c03d98ef22e1df349ea6b6d7f2fecc2c4bf10ebcef226"
+    },
+    {
+      "items": [
+        "Fulminating Treatise"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/fulminating-treatise.jpg",
+      "pdfPage": 129,
+      "printedPage": 128,
+      "imageXref": 2354,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "95348d74c45d9738e256584af1358da41d2812cf0431ac387d2792c085c035d4"
+    },
+    {
+      "items": [
+        "Luba's Tarokka of Souls"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg",
+      "pdfPage": 131,
+      "printedPage": 130,
+      "imageXref": 2387,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "b5540414436f17dfdf88c6e12fc67f15d117470dc18f45a9088158202b06f4a4"
+    },
+    {
+      "items": [
+        "Mighty Servant of Leuk-o"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg",
+      "pdfPage": 133,
+      "printedPage": 132,
+      "imageXref": 2424,
+      "method": "original-page-graphics",
+      "clip": [
+        0,
+        0,
+        291,
+        350
+      ],
+      "sha256": "dbb542e68e61730391d98fb5c1dc891b37bc4b38955ae6ce00d2e82b06d52085"
+    },
+    {
+      "items": [
+        "Nature's Mantle"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/natures-mantle.jpg",
+      "pdfPage": 134,
+      "printedPage": 133,
+      "imageXref": 2438,
+      "method": "original-page-graphics",
+      "clip": [
+        301,
+        361,
+        580,
+        718
+      ],
+      "sha256": "32f892d770dc1ec7b7df2205c14f0d4d4de39643f34c77bcfa0ac1f8ecf0d6bc"
+    },
+    {
+      "items": [
+        "Teeth of Dahlver-Nar"
+      ],
+      "image": "modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg",
+      "pdfPage": 136,
+      "printedPage": 135,
+      "imageXref": 2471,
+      "method": "original-embedded-jpeg",
+      "clip": null,
+      "sha256": "668d8984674e21aea1e96e7e4da0e54ec7dc1ffcf70b7e59282119e188c58769"
+    }
+  ],
+  "baseItemsIllustrated": 15,
+  "note": "Official printed item art. The three planar shards share their original grouped illustration; implanted tooth entries use the collection illustration."
+}

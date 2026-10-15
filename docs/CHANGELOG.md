@@ -1,3 +1,7 @@
+# 0.1.1
+
+Assign themed images to all 805 compendium entries. Prefer the official printed illustrations for magic items and their variants: 13 illustrations cover 15 base items, with the collection artwork also used on implanted teeth. Include icons on creature items, activities, active effects, token textures, and roll-table results. Use original page artwork for reference and handout thumbnails, with a v14-compatible journal-index render helper. Verify every selected icon against the official D&D5e 5.3.3 source catalog, generate a full image audit, and reject missing or placeholder images during validation. Document IDs and rules data remain unchanged.
+
 # 0.1.0
 
 Initial preview conversion of the supplied 2014 Tasha’s Cauldron of Everything PDF. Twelve LevelDB compendiums, all original pages, class advancement, spell and item activities, creature attacks, companion scaling, and audited supporting controls.

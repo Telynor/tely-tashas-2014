@@ -1,0 +1,1925 @@
+pack,kind,name,image
+classes,entry,Barbarian (2014 + Tasha Options),icons/skills/melee/hand-grip-sword-orange.webp
+classes,entry,Bard (2014 + Tasha Options),icons/tools/instruments/harp-yellow-teal.webp
+classes,entry,Cleric (2014 + Tasha Options),icons/magic/life/ankh-gold-blue.webp
+classes,entry,Druid (2014 + Tasha Options),icons/creatures/mammals/elk-moose-marked-green.webp
+classes,entry,Fighter (2014 + Tasha Options),icons/skills/melee/hand-grip-sword-red.webp
+classes,entry,Monk (2014 + Tasha Options),icons/skills/melee/hand-grip-staff-blue.webp
+classes,entry,Paladin (2014 + Tasha Options),icons/commodities/treasure/token-gold-gem-purple.webp
+classes,entry,Ranger (2014 + Tasha Options),icons/weapons/bows/shortbow-recurve-yellow.webp
+classes,entry,Rogue (2014 + Tasha Options),icons/skills/melee/strike-sword-stabbed-brown.webp
+classes,entry,Sorcerer (2014 + Tasha Options),icons/magic/earth/projectiles-magma-stone-orange.webp
+classes,entry,Warlock (2014 + Tasha Options),icons/creatures/mammals/bat-giant-tattered-purple.webp
+classes,entry,Wizard (2014 + Tasha Options),icons/magic/air/wind-tornado-wall-blue.webp
+classes,entry,Artificer,icons/skills/trades/smithing-anvil-silver-red.webp
+classes,entry,Expert (Sidekick),icons/skills/trades/academics-investigation-puzzles.webp
+classes,entry,Warrior (Sidekick),icons/weapons/swords/sword-runed-glowing.webp
+classes,entry,Spellcaster (Sidekick),icons/sundries/books/book-open-purple.webp
+subclasses,entry,Alchemist,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+subclasses,entry,Armorer,icons/equipment/chest/breastplate-banded-steel.webp
+subclasses,entry,Artillerist,icons/weapons/crossbows/crossbow-blue.webp
+subclasses,entry,Battle Smith,icons/skills/trades/smithing-anvil-silver-red.webp
+subclasses,entry,Path of the Beast,icons/creatures/mammals/wolf-shadow-black.webp
+subclasses,entry,Path of Wild Magic,icons/magic/control/buff-luck-fortune-green-gold.webp
+subclasses,entry,College of Creation,icons/magic/symbols/star-yellow.webp
+subclasses,entry,College of Eloquence,icons/skills/trades/music-singing-voice-blue.webp
+subclasses,entry,Order Domain,icons/skills/social/trading-injustice-scale-gray.webp
+subclasses,entry,Peace Domain,icons/skills/social/diplomacy-handshake.webp
+subclasses,entry,Twilight Domain,icons/magic/nature/symbol-moon-stars-white.webp
+subclasses,entry,Circle of Spores,icons/consumables/mushrooms/mushroom-spotted-red.webp
+subclasses,entry,Circle of Stars,icons/magic/symbols/star-yellow.webp
+subclasses,entry,Circle of Wildfire,icons/creatures/magical/spirit-fire-orange.webp
+subclasses,entry,Psi Warrior,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+subclasses,entry,Rune Knight,icons/magic/symbols/runes-carved-stone-green.webp
+subclasses,entry,Way of Mercy,icons/magic/life/heart-cross-strong-green.webp
+subclasses,entry,Way of the Astral Self,icons/magic/lightning/fist-unarmed-strike-blue-green.webp
+subclasses,entry,Oath of Glory,icons/magic/holy/angel-winged-humanoid-blue.webp
+subclasses,entry,Oath of the Watchers,icons/magic/perception/eye-ringed-green.webp
+subclasses,entry,Fey Wanderer,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+subclasses,entry,Swarmkeeper,icons/commodities/gems/gem-amber-insect-orange.webp
+subclasses,entry,Phantom,icons/creatures/magical/spirit-undead-ghost-purple.webp
+subclasses,entry,Soulknife,icons/weapons/daggers/dagger-curved-blue.webp
+subclasses,entry,Aberrant Mind,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+subclasses,entry,Clockwork Soul,icons/magic/time/clock-spinning-gold-pink.webp
+subclasses,entry,The Fathomless,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+subclasses,entry,The Genie,icons/magic/air/wind-vortex-swirl-blue.webp
+subclasses,entry,Bladesinging,icons/weapons/swords/sword-runed-glowing.webp
+subclasses,entry,Order of Scribes,icons/tools/scribal/ink-quill-red.webp
+features,entry,Magical Tinkering,icons/commodities/tech/cog-bronze.webp
+features,activity,Magical Tinkering,icons/commodities/tech/cog-bronze.webp
+features,entry,Spellcasting,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Spellcasting,icons/sundries/books/book-open-purple.webp
+features,entry,Infuse Item,icons/commodities/gems/gem-faceted-round-teal.webp
+features,activity,Use / Review Infuse Item,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Artificer Specialist,icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,Use / Review Artificer Specialist,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,The Right Tool for the Job,icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,The Right Tool for the Job,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Ability Score Improvement,icons/skills/trades/academics-investigation-puzzles.webp
+features,activity,Use / Review Ability Score Improvement,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Tool Expertise,icons/skills/trades/smithing-anvil-silver-red.webp
+features,effect,Tool Expertise,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Flash of Genius,icons/skills/trades/academics-investigation-puzzles.webp
+features,activity,Flash of Genius,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Magic Item Adept,icons/commodities/gems/gem-faceted-round-teal.webp
+features,effect,Magic Item Adept,icons/commodities/gems/gem-faceted-round-teal.webp
+features,entry,Spell-Storing Item,icons/equipment/finger/ring-faceted-gold-purple.webp
+features,activity,Spell-Storing Item,icons/equipment/finger/ring-faceted-gold-purple.webp
+features,entry,Magic Item Savant,icons/commodities/gems/gem-faceted-round-teal.webp
+features,effect,Magic Item Savant,icons/commodities/gems/gem-faceted-round-teal.webp
+features,entry,Magic Item Master,icons/commodities/gems/gem-faceted-round-teal.webp
+features,effect,Magic Item Master,icons/commodities/gems/gem-faceted-round-teal.webp
+features,entry,Soul of Artifice,icons/magic/water/snowflake-ice-blue.webp
+features,effect,Soul of Artifice,icons/magic/water/snowflake-ice-blue.webp
+features,activity,Remain at 1 HP,icons/magic/water/snowflake-ice-blue.webp
+features,entry,Tool Proficiency,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Alchemist Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Alchemist Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Experimental Elixir,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+features,activity,Roll Daily Elixir,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+features,activity,Create Chosen Elixir with a Spell Slot,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+features,entry,Alchemical Savant,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+features,activity,Add Intelligence to One Eligible Spell Roll,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+features,entry,Restorative Reagents,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Cast Lesser Restoration,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Elixir: Additional Temporary Hit Points,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Chemical Mastery,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+features,effect,Chemical Mastery,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+features,activity,Cast Greater Restoration,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+features,activity,Cast Heal,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Tools of the Trade,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Armorer Spells,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Use / Review Armorer Spells,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Arcane Armor,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Create Arcane Armor,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Armor Model,icons/equipment/chest/breastplate-banded-steel.webp
+features,activity,Choose Guardian or Infiltrator,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Thunder Gauntlets,icons/magic/sonic/explosion-shock-sound-wave.webp
+features,activity,Lightning Launcher,icons/magic/lightning/bolt-strike-blue.webp
+features,activity,Lightning Launcher: Once-per-Turn Extra Damage,icons/magic/lightning/bolt-strike-blue.webp
+features,activity,Defensive Field,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Extra Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Extra Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Armor Modifications,icons/equipment/chest/breastplate-banded-steel.webp
+features,activity,Use / Review Armor Modifications,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Perfected Armor,icons/equipment/chest/breastplate-banded-steel.webp
+features,activity,Use / Review Perfected Armor,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Tool Proficiency,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Artillerist Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Artillerist Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Eldritch Cannon,icons/weapons/crossbows/crossbow-blue.webp
+features,activity,Summon,icons/weapons/crossbows/crossbow-blue.webp
+features,activity,Create Again with a Spell Slot,icons/weapons/crossbows/crossbow-blue.webp
+features,entry,Arcane Firearm,icons/weapons/crossbows/crossbow-blue.webp
+features,activity,Additional Spell Damage,icons/weapons/crossbows/crossbow-blue.webp
+features,entry,Explosive Cannon,icons/magic/fire/projectile-fireball-orange-green.webp
+features,activity,Detonate Cannon,icons/magic/fire/projectile-fireball-orange-green.webp
+features,entry,Fortified Position,icons/weapons/crossbows/crossbow-blue.webp
+features,activity,Use / Review Fortified Position,icons/weapons/crossbows/crossbow-blue.webp
+features,entry,Tool Proficiency,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Battle Smith Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Battle Smith Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Battle Ready,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Steel Defender,icons/creatures/magical/construct-iron-stomping-yellow.webp
+features,activity,Summon,icons/creatures/magical/construct-iron-stomping-yellow.webp
+features,entry,Extra Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Extra Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Arcane Jolt,icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,Arcane Jolt: Damage,icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,Arcane Jolt: Heal,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Improved Defender,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Deflect Attack: Retaliation,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Arcane Propulsion Armor,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Force Gauntlet,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Armor of Magical Strength,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Charge,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Boots of the Winding Path,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Teleport to Previously Occupied Space,icons/magic/movement/portal-vortex-orange.webp
+features,entry,Enhanced Arcane Focus,icons/skills/trades/smithing-anvil-silver-red.webp
+features,effect,Enhanced Arcane Focus (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+features,effect,Enhanced Arcane Focus (+2),icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,Infuse (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,Infuse (+2),icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Enhanced Defense,icons/magic/defensive/shield-barrier-blue.webp
+features,effect,Enhanced Defense (+1),icons/magic/defensive/shield-barrier-blue.webp
+features,effect,Enhanced Defense (+2),icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Infuse (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,Infuse (+2),icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Enhanced Weapon,icons/skills/melee/strike-sword-blood-red.webp
+features,effect,Enhanced Weapon (+1),icons/skills/melee/strike-sword-blood-red.webp
+features,effect,Enhanced Weapon (+2),icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Infuse (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,Infuse (+2),icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Helm of Awareness,icons/magic/perception/eye-ringed-green.webp
+features,effect,Advantage on Initiative,icons/magic/perception/eye-ringed-green.webp
+features,entry,Homunculus Servant,icons/creatures/unholy/demon-fire-imp.webp
+features,activity,Summon,icons/creatures/unholy/demon-fire-imp.webp
+features,entry,Mind Sharpener,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Succeed on Failed Concentration Save,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Radiant Weapon,icons/skills/melee/strike-sword-blood-red.webp
+features,effect,Radiant Weapon (+1),icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Infuse (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Repeating Shot,icons/weapons/bows/shortbow-leather.webp
+features,effect,Repeating Shot (+1),icons/weapons/bows/shortbow-leather.webp
+features,activity,Infuse (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Replicate Magic Item,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Replicate Magic Item,icons/sundries/books/book-open-purple.webp
+features,entry,Repulsion Shield,icons/magic/defensive/shield-barrier-blue.webp
+features,effect,Repulsion Shield (+1),icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Infuse (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Resistant Armor,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Choose Infused Resistance,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Returning Weapon,icons/skills/melee/strike-sword-blood-red.webp
+features,effect,Returning Weapon (+1),icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Infuse (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Spell-Refueling Ring,icons/skills/trades/smithing-anvil-silver-red.webp
+features,activity,Refuel Spell Slot,icons/skills/trades/smithing-anvil-silver-red.webp
+features,entry,Primal Knowledge,icons/creatures/claws/claw-scaled-red.webp
+features,entry,Instinctive Pounce,icons/creatures/claws/claw-scaled-red.webp
+features,activity,Instinctive Pounce,icons/creatures/claws/claw-scaled-red.webp
+features,entry,Form of the Beast,icons/creatures/claws/claw-scaled-red.webp
+features,activity,Form of the Beast,icons/creatures/claws/claw-scaled-red.webp
+features,activity,Bite,icons/creatures/claws/claw-scaled-red.webp
+features,activity,Claws,icons/creatures/claws/claw-scaled-red.webp
+features,activity,Tail,icons/creatures/claws/claw-scaled-red.webp
+features,activity,Tail: Defensive Roll,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Bestial Soul,icons/creatures/claws/claw-scaled-red.webp
+features,activity,Use / Review Bestial Soul,icons/creatures/claws/claw-scaled-red.webp
+features,entry,Infectious Fury,icons/creatures/mammals/wolf-shadow-black.webp
+features,activity,Infectious Fury,icons/creatures/mammals/wolf-shadow-black.webp
+features,activity,Psychic Damage,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Call the Hunt,icons/creatures/claws/claw-scaled-red.webp
+features,activity,Call the Hunt,icons/creatures/claws/claw-scaled-red.webp
+features,entry,Magic Awareness,icons/magic/perception/eye-ringed-green.webp
+features,activity,Magic Awareness,icons/magic/perception/eye-ringed-green.webp
+features,entry,Wild Surge,icons/magic/control/buff-luck-fortune-green-gold.webp
+features,activity,Wild Surge,icons/magic/control/buff-luck-fortune-green-gold.webp
+features,entry,Bolstering Magic,icons/sundries/books/book-open-purple.webp
+features,activity,Bolstering Magic,icons/sundries/books/book-open-purple.webp
+features,entry,Unstable Backlash,icons/magic/control/buff-luck-fortune-green-gold.webp
+features,activity,Unstable Backlash,icons/magic/control/buff-luck-fortune-green-gold.webp
+features,entry,Controlled Surge,icons/magic/control/buff-luck-fortune-green-gold.webp
+features,activity,Use / Review Controlled Surge,icons/magic/control/buff-luck-fortune-green-gold.webp
+features,entry,Additional Bard Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Additional Bard Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Magical Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+features,activity,Magical Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Bardic Versatility,icons/skills/trades/music-notes-sound-blue.webp
+features,activity,Use / Review Bardic Versatility,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Mote of Potential,icons/magic/symbols/star-yellow.webp
+features,activity,Mote of Potential,icons/magic/symbols/star-yellow.webp
+features,entry,Performance of Creation,icons/skills/trades/music-notes-sound-blue.webp
+features,activity,Performance of Creation,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Animating Performance,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+features,activity,Summon,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+features,activity,Create Again with a Spell Slot,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+features,entry,Creative Crescendo,icons/skills/trades/music-notes-sound-blue.webp
+features,activity,Use / Review Creative Crescendo,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Silver Tongue,icons/skills/trades/music-singing-voice-blue.webp
+features,effect,Silver Tongue,icons/skills/trades/music-singing-voice-blue.webp
+features,entry,Unsettling Words,icons/skills/trades/music-singing-voice-blue.webp
+features,activity,Unsettling Words,icons/skills/trades/music-singing-voice-blue.webp
+features,entry,Unfailing Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+features,activity,Use / Review Unfailing Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Universal Speech,icons/skills/trades/music-singing-voice-blue.webp
+features,activity,Universal Speech,icons/skills/trades/music-singing-voice-blue.webp
+features,entry,Infectious Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+features,activity,Infectious Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Additional Cleric Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Additional Cleric Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Harness Divine Power,icons/magic/life/ankh-gold-blue.webp
+features,activity,Harness Divine Power,icons/magic/life/ankh-gold-blue.webp
+features,entry,Cantrip Versatility,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Cantrip Versatility,icons/sundries/books/book-open-purple.webp
+features,entry,Blessed Strikes,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Blessed Strikes,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Domain Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Domain Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Bonus Proficiencies,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Voice of Authority,icons/magic/water/snowflake-ice-blue.webp
+features,activity,Use / Review Voice of Authority,icons/magic/water/snowflake-ice-blue.webp
+features,entry,Channel Divinity: Order's Demand,icons/magic/life/ankh-gold-blue.webp
+features,activity,Channel Divinity: Order's Demand,icons/magic/life/ankh-gold-blue.webp
+features,entry,Embodiment of the Law,icons/commodities/tech/cog-bronze.webp
+features,activity,Embodiment of the Law,icons/commodities/tech/cog-bronze.webp
+features,entry,Divine Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Divine Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Order's Wrath,icons/commodities/tech/cog-bronze.webp
+features,activity,Order's Wrath,icons/commodities/tech/cog-bronze.webp
+features,entry,Domain Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Domain Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Implement of Peace,icons/skills/social/diplomacy-handshake.webp
+features,entry,Emboldening Bond,icons/skills/social/diplomacy-handshake.webp
+features,activity,Emboldening Bond,icons/skills/social/diplomacy-handshake.webp
+features,entry,Channel Divinity: Balm of Peace,icons/magic/life/ankh-gold-blue.webp
+features,activity,Channel Divinity: Balm of Peace,icons/magic/life/ankh-gold-blue.webp
+features,entry,Protective Bond,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Protective Bond,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Potent Spellcasting,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Potent Spellcasting,icons/sundries/books/book-open-purple.webp
+features,entry,Expansive Bond,icons/skills/social/diplomacy-handshake.webp
+features,activity,Use / Review Expansive Bond,icons/skills/social/diplomacy-handshake.webp
+features,entry,Domain Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Domain Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Bonus Proficiencies,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Eyes of Night,icons/magic/symbols/star-yellow.webp
+features,effect,Eyes of Night,icons/magic/symbols/star-yellow.webp
+features,activity,Share Eyes of Night,icons/magic/symbols/star-yellow.webp
+features,entry,Vigilant Blessing,icons/magic/life/ankh-gold-blue.webp
+features,effect,Vigilant Blessing,icons/magic/life/ankh-gold-blue.webp
+features,activity,Vigilant Blessing,icons/magic/life/ankh-gold-blue.webp
+features,entry,Channel Divinity: Twilight Sanctuary,icons/magic/symbols/star-yellow.webp
+features,activity,Channel Divinity: Twilight Sanctuary,icons/magic/symbols/star-yellow.webp
+features,activity,Sanctuary Temporary HP,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Steps of Night,icons/magic/symbols/star-yellow.webp
+features,effect,Steps of Night,icons/magic/symbols/star-yellow.webp
+features,activity,Steps of Night,icons/magic/symbols/star-yellow.webp
+features,entry,Divine Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Divine Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Twilight Shroud,icons/magic/symbols/star-yellow.webp
+features,activity,Use / Review Twilight Shroud,icons/magic/symbols/star-yellow.webp
+features,entry,Additional Druid Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Additional Druid Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Wild Companion,icons/creatures/mammals/wolf-shadow-black.webp
+features,activity,Wild Companion,icons/creatures/mammals/wolf-shadow-black.webp
+features,entry,Cantrip Versatility,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Cantrip Versatility,icons/sundries/books/book-open-purple.webp
+features,entry,Circle Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Circle Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Halo of Spores,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,activity,Halo of Spores,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,entry,Symbiotic Entity,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,activity,Symbiotic Entity,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,activity,Extra Melee Weapon Damage,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Fungal Infestation,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,activity,Fungal Infestation,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,entry,Spreading Spores,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,activity,Spreading Spores,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,entry,Fungal Body,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,effect,Fungal Body,icons/consumables/mushrooms/mushroom-spotted-red.webp
+features,entry,Star Map,icons/magic/symbols/star-yellow.webp
+features,activity,Free Guiding Bolt,icons/magic/symbols/star-yellow.webp
+features,entry,Starry Form,icons/magic/symbols/star-yellow.webp
+features,effect,Starry Form: Archer,icons/magic/symbols/star-yellow.webp
+features,effect,Starry Form: Chalice,icons/magic/water/snowflake-ice-blue.webp
+features,effect,Starry Form: Dragon,icons/magic/symbols/star-yellow.webp
+features,activity,Starry Form: Archer,icons/magic/symbols/star-yellow.webp
+features,activity,Starry Form: Chalice,icons/magic/water/snowflake-ice-blue.webp
+features,activity,Starry Form: Dragon,icons/magic/symbols/star-yellow.webp
+features,activity,Archer Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Chalice Healing,icons/magic/water/snowflake-ice-blue.webp
+features,entry,Cosmic Omen,icons/magic/symbols/star-yellow.webp
+features,activity,Cosmic Omen,icons/magic/symbols/star-yellow.webp
+features,entry,Twinkling Constellations,icons/magic/symbols/star-yellow.webp
+features,activity,Use / Review Twinkling Constellations,icons/magic/symbols/star-yellow.webp
+features,entry,Full of Stars,icons/magic/symbols/star-yellow.webp
+features,effect,Full of Stars,icons/magic/symbols/star-yellow.webp
+features,entry,Circle Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Circle Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Summon Wildfire Spirit,icons/magic/fire/projectile-fireball-orange-green.webp
+features,activity,Summon,icons/magic/fire/projectile-fireball-orange-green.webp
+features,activity,Appearance: Fire Burst,icons/magic/fire/projectile-fireball-orange-green.webp
+features,entry,Enhanced Bond,icons/skills/social/diplomacy-handshake.webp
+features,activity,Enhanced Bond,icons/skills/social/diplomacy-handshake.webp
+features,entry,Cauterizing Flames,icons/magic/fire/projectile-fireball-orange-green.webp
+features,activity,Cauterize: Heal,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Cauterize: Damage,icons/magic/fire/projectile-fireball-orange-green.webp
+features,entry,Blazing Revival,icons/magic/fire/projectile-fireball-orange-green.webp
+features,activity,Blazing Revival,icons/magic/fire/projectile-fireball-orange-green.webp
+features,entry,Fighting Style Options,icons/weapons/swords/sword-runed-glowing.webp
+features,activity,Use / Review Fighting Style Options,icons/weapons/swords/sword-runed-glowing.webp
+features,entry,Blind Fighting,icons/magic/perception/eye-ringed-green.webp
+features,effect,Blindsight 10 Feet,icons/magic/perception/eye-ringed-green.webp
+features,entry,Interception,icons/weapons/swords/sword-runed-glowing.webp
+features,activity,Interception,icons/weapons/swords/sword-runed-glowing.webp
+features,entry,Superior Technique,icons/weapons/swords/sword-runed-glowing.webp
+features,activity,Superiority Die,icons/weapons/swords/sword-runed-glowing.webp
+features,entry,Thrown Weapon Fighting,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Thrown Weapon Fighting,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Unarmed Fighting,icons/magic/lightning/fist-unarmed-strike-blue-green.webp
+features,activity,Unarmed Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Unarmed Strike (No Weapon or Shield),icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Grappled Creature Damage,icons/magic/lightning/fist-unarmed-strike-blue-green.webp
+features,entry,Martial Versatility,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Martial Versatility,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Ambush,icons/weapons/swords/sword-runed-glowing.webp
+features,activity,Ambush,icons/weapons/swords/sword-runed-glowing.webp
+features,entry,Bait and Switch,icons/skills/social/diplomacy-handshake.webp
+features,activity,Bait and Switch,icons/skills/social/diplomacy-handshake.webp
+features,entry,Brace,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Brace,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Commanding Presence,icons/skills/trades/music-singing-voice-blue.webp
+features,activity,Commanding Presence,icons/skills/trades/music-singing-voice-blue.webp
+features,entry,Grappling Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Grappling Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Quick Toss,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Quick Toss,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Tactical Assessment,icons/skills/trades/academics-investigation-puzzles.webp
+features,activity,Tactical Assessment,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Psionic Power,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Psionic Energy Die,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Protective Field,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Psionic Strike,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Recover One Psionic Energy Die,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Telekinetic Adept,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+features,activity,Psi-Powered Leap,icons/skills/movement/feet-winged-boots-blue.webp
+features,activity,Telekinetic Thrust,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+features,entry,Guarded Mind,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,effect,Guarded Mind,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Bulwark of Force,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Bulwark of Force,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Telekinetic Master,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+features,activity,Telekinetic Master,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+features,entry,Bonus Proficiencies,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Rune Carver,icons/magic/symbols/runes-carved-stone-green.webp
+features,entry,Giant's Might,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+features,effect,Giant's Might,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+features,activity,Giant's Might,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+features,activity,Once-per-Turn Extra Damage,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+features,entry,Runic Shield,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Runic Shield,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Great Stature,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+features,activity,Use / Review Great Stature,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+features,entry,Master of Runes,icons/magic/symbols/runes-carved-stone-green.webp
+features,activity,Use / Review Master of Runes,icons/magic/symbols/runes-carved-stone-green.webp
+features,entry,Runic Juggernaut,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+features,activity,Use / Review Runic Juggernaut,icons/magic/symbols/runes-carved-stone-green.webp
+features,entry,Dedicated Weapon,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Dedicated Weapon,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Ki-Fueled Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Ki-Fueled Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Quickened Healing,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Quickened Healing,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Focused Aim,icons/weapons/bows/shortbow-leather.webp
+features,activity,Spend 1 Ki: +2 to Missed Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Spend 2 Ki: +4 to Missed Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Spend 3 Ki: +6 to Missed Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Implements of Mercy,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Hand of Healing,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Hand of Healing,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Hand of Harm,icons/creatures/abilities/fang-tooth-blood-red.webp
+features,activity,Hand of Harm,icons/creatures/abilities/fang-tooth-blood-red.webp
+features,entry,Physician's Touch,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Use / Review Physician's Touch,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Flurry of Healing and Harm,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Use / Review Flurry of Healing and Harm,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Hand of Ultimate Mercy,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Hand of Ultimate Mercy,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Revival Hit Points,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Arms of the Astral Self,icons/magic/symbols/star-yellow.webp
+features,activity,Arms of the Astral Self,icons/magic/symbols/star-yellow.webp
+features,entry,Visage of the Astral Self,icons/magic/symbols/star-yellow.webp
+features,activity,Visage of the Astral Self,icons/magic/symbols/star-yellow.webp
+features,entry,Body of the Astral Self,icons/magic/symbols/star-yellow.webp
+features,activity,Deflect Energy,icons/magic/symbols/star-yellow.webp
+features,entry,Awakened Astral Self,icons/magic/symbols/star-yellow.webp
+features,activity,Awakened Astral Self,icons/magic/symbols/star-yellow.webp
+features,entry,Additional Paladin Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Additional Paladin Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Fighting Style Options,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Use / Review Fighting Style Options,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Blessed Warrior,icons/magic/life/ankh-gold-blue.webp
+features,entry,Blind Fighting,icons/magic/perception/eye-ringed-green.webp
+features,effect,Blindsight 10 Feet,icons/magic/perception/eye-ringed-green.webp
+features,entry,Interception,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Interception,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Harness Divine Power,icons/magic/life/ankh-gold-blue.webp
+features,activity,Harness Divine Power,icons/magic/life/ankh-gold-blue.webp
+features,entry,Martial Versatility,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Martial Versatility,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Oath Spells,icons/magic/life/ankh-gold-blue.webp
+features,activity,Use / Review Oath Spells,icons/magic/life/ankh-gold-blue.webp
+features,entry,Channel Divinity,icons/magic/life/ankh-gold-blue.webp
+features,activity,Peerless Athlete,icons/magic/life/ankh-gold-blue.webp
+features,activity,Inspiring Smite,icons/skills/trades/music-notes-sound-blue.webp
+features,activity,Inspiring Smite Temporary HP,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Aura of Alacrity,icons/skills/movement/feet-winged-boots-blue.webp
+features,activity,Use / Review Aura of Alacrity,icons/skills/movement/feet-winged-boots-blue.webp
+features,entry,Glorious Defense,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Glorious Defense,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Living Legend,icons/magic/holy/angel-winged-humanoid-blue.webp
+features,activity,Living Legend,icons/magic/holy/angel-winged-humanoid-blue.webp
+features,entry,Oath Spells,icons/magic/life/ankh-gold-blue.webp
+features,activity,Use / Review Oath Spells,icons/magic/life/ankh-gold-blue.webp
+features,entry,Channel Divinity,icons/magic/life/ankh-gold-blue.webp
+features,activity,Watcher's Will,icons/magic/perception/eye-ringed-green.webp
+features,activity,Abjure the Extraplanar,icons/magic/movement/portal-vortex-orange.webp
+features,entry,Aura of the Sentinel,icons/magic/perception/eye-ringed-green.webp
+features,activity,Use / Review Aura of the Sentinel,icons/magic/perception/eye-ringed-green.webp
+features,entry,Vigilant Rebuke,icons/magic/life/ankh-gold-blue.webp
+features,activity,Vigilant Rebuke,icons/magic/life/ankh-gold-blue.webp
+features,entry,Mortal Bulwark,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Mortal Bulwark,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Deft Explorer,icons/magic/perception/eye-ringed-green.webp
+features,effect,Roving,icons/magic/perception/eye-ringed-green.webp
+features,activity,Tireless: Temporary HP,icons/magic/perception/eye-ringed-green.webp
+features,entry,Favored Foe,icons/weapons/bows/shortbow-leather.webp
+features,activity,Mark Favored Foe,icons/weapons/bows/shortbow-leather.webp
+features,activity,Once-per-Turn Extra Damage,icons/weapons/bows/shortbow-leather.webp
+features,entry,Additional Ranger Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Additional Ranger Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Fighting Style Options,icons/weapons/bows/shortbow-leather.webp
+features,activity,Use / Review Fighting Style Options,icons/weapons/bows/shortbow-leather.webp
+features,entry,Blind Fighting,icons/magic/perception/eye-ringed-green.webp
+features,effect,Blindsight 10 Feet,icons/magic/perception/eye-ringed-green.webp
+features,entry,Druidic Warrior,icons/magic/nature/leaf-rune-glow-green.webp
+features,entry,Thrown Weapon Fighting,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Thrown Weapon Fighting,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Spellcasting Focus,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Spellcasting Focus,icons/sundries/books/book-open-purple.webp
+features,entry,Primal Awareness,icons/magic/perception/eye-ringed-green.webp
+features,activity,Use / Review Primal Awareness,icons/magic/perception/eye-ringed-green.webp
+features,entry,Martial Versatility,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Martial Versatility,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Nature's Veil,icons/magic/nature/leaf-rune-glow-green.webp
+features,effect,Nature's Veil,icons/magic/nature/leaf-rune-glow-green.webp
+features,activity,Nature's Veil,icons/magic/nature/leaf-rune-glow-green.webp
+features,entry,Dreadful Strikes,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Dreadful Strikes,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Fey Wanderer Magic,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+features,activity,Use / Review Fey Wanderer Magic,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+features,entry,Otherworldly Glamour,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+features,effect,Otherworldly Glamour,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+features,entry,Beguiling Twist,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+features,activity,Beguiling Twist,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+features,entry,Fey Reinforcements,icons/magic/movement/portal-vortex-orange.webp
+features,activity,Fey Reinforcements,icons/magic/movement/portal-vortex-orange.webp
+features,entry,Misty Wanderer,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+features,activity,Misty Wanderer,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+features,entry,Gathered Swarm,icons/commodities/gems/gem-amber-insect-orange.webp
+features,activity,Extra Swarm Damage,icons/commodities/gems/gem-amber-insect-orange.webp
+features,activity,Move Target Horizontally,icons/magic/movement/portal-vortex-orange.webp
+features,activity,Move Self 5 Feet,icons/commodities/gems/gem-amber-insect-orange.webp
+features,entry,Swarmkeeper Magic,icons/commodities/gems/gem-amber-insect-orange.webp
+features,activity,Use / Review Swarmkeeper Magic,icons/commodities/gems/gem-amber-insect-orange.webp
+features,entry,Writhing Tide,icons/skills/movement/feet-winged-boots-blue.webp
+features,effect,Writhing Tide,icons/skills/movement/feet-winged-boots-blue.webp
+features,activity,Writhing Tide,icons/skills/movement/feet-winged-boots-blue.webp
+features,entry,Mighty Swarm,icons/commodities/gems/gem-amber-insect-orange.webp
+features,activity,Use / Review Mighty Swarm,icons/commodities/gems/gem-amber-insect-orange.webp
+features,entry,Swarming Dispersal,icons/commodities/gems/gem-amber-insect-orange.webp
+features,activity,Swarming Dispersal,icons/commodities/gems/gem-amber-insect-orange.webp
+features,entry,Primal Companion,icons/creatures/mammals/wolf-shadow-black.webp
+features,activity,Summon,icons/creatures/mammals/wolf-shadow-black.webp
+features,entry,Steady Aim,icons/weapons/bows/shortbow-leather.webp
+features,effect,Steady Aim,icons/weapons/bows/shortbow-leather.webp
+features,activity,Steady Aim,icons/weapons/bows/shortbow-leather.webp
+features,entry,Whispers of the Dead,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,entry,Wails From the Grave,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,activity,Wails From the Grave,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,entry,Tokens of the Departed,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,activity,Use / Review Tokens of the Departed,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,entry,Ghost Walk,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,effect,Ghost Walk,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,activity,Ghost Walk,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,entry,Death's Friend,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,activity,Use / Review Death's Friend,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,entry,Psionic Power,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Psionic Energy Die,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Psi-Bolstered Knack,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Psychic Whispers,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Recover One Psionic Energy Die,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Psychic Blades,icons/weapons/daggers/dagger-curved-blue.webp
+features,activity,Psychic Blade,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Second Psychic Blade,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Soul Blades,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Homing Strikes,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Psychic Teleportation,icons/magic/movement/portal-vortex-orange.webp
+features,entry,Psychic Veil,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,effect,Psychic Veil,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Psychic Veil,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Rend Mind,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Rend Mind,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Additional Sorcerer Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Additional Sorcerer Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Metamagic Options,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Metamagic Options,icons/sundries/books/book-open-purple.webp
+features,entry,Seeking Spell,icons/magic/lightning/bolt-strike-blue.webp
+features,activity,Use / Review Seeking Spell,icons/magic/lightning/bolt-strike-blue.webp
+features,entry,Transmuted Spell,icons/magic/lightning/bolt-strike-blue.webp
+features,activity,Use / Review Transmuted Spell,icons/magic/lightning/bolt-strike-blue.webp
+features,entry,Sorcerous Versatility,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Sorcerous Versatility,icons/sundries/books/book-open-purple.webp
+features,entry,Magical Guidance,icons/sundries/books/book-open-purple.webp
+features,activity,Magical Guidance,icons/sundries/books/book-open-purple.webp
+features,entry,Psionic Spells,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Use / Review Psionic Spells,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Telepathic Speech,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Telepathic Speech,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Psionic Sorcery,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Psionic Sorcery,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Psychic Defenses,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,effect,Psychic Defenses,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Revelation in Flesh,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+features,activity,Choose 1 Transformation,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+features,activity,Choose 2 Transformations,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+features,activity,Choose 3 Transformations,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+features,activity,Choose 4 Transformations,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+features,entry,Warping Implosion,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+features,activity,Warping Implosion,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+features,entry,Clockwork Magic,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Clockwork Magic,icons/sundries/books/book-open-purple.webp
+features,entry,Restore Balance,icons/skills/social/diplomacy-handshake.webp
+features,activity,Restore Balance,icons/skills/social/diplomacy-handshake.webp
+features,entry,Bastion of Law,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Create 1 Bastion Die,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Create 2 Bastion Dies,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Create 3 Bastion Dies,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Create 4 Bastion Dies,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Create 5 Bastion Dies,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Trance of Order,icons/commodities/tech/cog-bronze.webp
+features,activity,Trance of Order,icons/commodities/tech/cog-bronze.webp
+features,entry,Clockwork Cavalcade,icons/commodities/tech/cog-bronze.webp
+features,activity,Clockwork Cavalcade,icons/commodities/tech/cog-bronze.webp
+features,entry,Additional Warlock Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Additional Warlock Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Pact Boon Option,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,activity,Use / Review Pact Boon Option,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,entry,Pact of the Talisman,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,activity,Aid a Failed Ability Check,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,entry,Eldritch Versatility,icons/skills/trades/academics-investigation-puzzles.webp
+features,activity,Use / Review Eldritch Versatility,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Bond of the Talisman,icons/skills/social/diplomacy-handshake.webp
+features,activity,Bond of the Talisman,icons/skills/social/diplomacy-handshake.webp
+features,entry,Eldritch Mind,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,effect,Advantage on Concentration Saves,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Far Scribe,icons/tools/scribal/ink-quill-red.webp
+features,activity,Far Scribe,icons/tools/scribal/ink-quill-red.webp
+features,entry,Gift of the Protectors,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Gift of the Protectors,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Investment of the Chain Master,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,activity,Investment of the Chain Master,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,entry,Protection of the Talisman,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Protection of the Talisman,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Rebuke of the Talisman,icons/magic/life/ankh-gold-blue.webp
+features,activity,Rebuke of the Talisman,icons/magic/life/ankh-gold-blue.webp
+features,entry,Undying Servitude,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,activity,Animate Dead,icons/creatures/magical/spirit-undead-ghost-purple.webp
+features,entry,Expanded Spell List,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,activity,Use / Review Expanded Spell List,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,entry,Tentacle of the Deeps,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,activity,Create Tentacle,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,activity,Tentacle Attack,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,entry,Gift of the Sea,icons/magic/water/wave-water-blue.webp
+features,effect,Gift of the Sea,icons/magic/water/wave-water-blue.webp
+features,entry,Oceanic Soul,icons/magic/water/wave-water-blue.webp
+features,effect,Oceanic Soul,icons/magic/water/wave-water-blue.webp
+features,entry,Guardian Coil,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Guardian Coil,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Grasping Tentacles,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,activity,Use / Review Grasping Tentacles,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+features,entry,Fathomless Plunge,icons/magic/movement/portal-vortex-orange.webp
+features,activity,Fathomless Plunge,icons/magic/movement/portal-vortex-orange.webp
+features,entry,Expanded Spell List,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Use / Review Expanded Spell List,icons/magic/air/wind-vortex-swirl-blue.webp
+features,entry,Genie's Vessel,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Bottled Respite,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Genie’s Wrath,icons/magic/air/wind-vortex-swirl-blue.webp
+features,entry,Elemental Gift,icons/magic/air/wind-vortex-swirl-blue.webp
+features,effect,Elemental Gift,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Elemental Gift,icons/magic/air/wind-vortex-swirl-blue.webp
+features,entry,Sanctuary Vessel,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Use / Review Sanctuary Vessel,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Limited Wish,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Limited Wish,icons/magic/air/wind-vortex-swirl-blue.webp
+features,entry,Additional Wizard Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Additional Wizard Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Cantrip Formulas,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Cantrip Formulas,icons/sundries/books/book-open-purple.webp
+features,entry,Training in War and Song,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Bladesong,icons/skills/melee/strike-sword-blood-red.webp
+features,effect,Bladesong,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Bladesong,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Extra Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Extra Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Song of Defense,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 1 Slot: Reduce 5 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 2 Slot: Reduce 10 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 3 Slot: Reduce 15 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 4 Slot: Reduce 20 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 5 Slot: Reduce 25 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 6 Slot: Reduce 30 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 7 Slot: Reduce 35 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 8 Slot: Reduce 40 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Spend Level 9 Slot: Reduce 45 Damage,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Song of Victory,icons/skills/trades/music-notes-sound-blue.webp
+features,activity,Use / Review Song of Victory,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Wizardly Quill,icons/tools/scribal/ink-quill-red.webp
+features,activity,Wizardly Quill,icons/tools/scribal/ink-quill-red.webp
+features,entry,Awakened Spellbook,icons/tools/scribal/ink-quill-red.webp
+features,activity,Use / Review Awakened Spellbook,icons/tools/scribal/ink-quill-red.webp
+features,entry,Manifest Mind,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,activity,Manifest Mind,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Master Scrivener,icons/tools/scribal/ink-quill-red.webp
+features,activity,Master Scrivener,icons/tools/scribal/ink-quill-red.webp
+features,entry,One With the Word,icons/skills/trades/music-singing-voice-blue.webp
+features,activity,One With the Word,icons/skills/trades/music-singing-voice-blue.webp
+features,entry,Bonus Proficiencies,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Helpful,icons/skills/social/diplomacy-handshake.webp
+features,activity,Help,icons/skills/social/diplomacy-handshake.webp
+features,entry,Cunning Action,icons/magic/perception/shadow-stealth-eyes-purple.webp
+features,activity,Dash,icons/magic/perception/shadow-stealth-eyes-purple.webp
+features,activity,Disengage,icons/magic/perception/shadow-stealth-eyes-purple.webp
+features,activity,Hide,icons/magic/perception/shadow-stealth-eyes-purple.webp
+features,entry,Expertise,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Ability Score Improvement,icons/skills/trades/academics-investigation-puzzles.webp
+features,activity,Use / Review Ability Score Improvement,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Coordinated Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Coordinated Strike,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Evasion,icons/skills/movement/feet-winged-boots-blue.webp
+features,activity,Use / Review Evasion,icons/skills/movement/feet-winged-boots-blue.webp
+features,entry,Inspiring Help,icons/skills/social/diplomacy-handshake.webp
+features,activity,Use / Review Inspiring Help,icons/skills/trades/music-notes-sound-blue.webp
+features,entry,Reliable Talent,icons/skills/trades/academics-investigation-puzzles.webp
+features,effect,Reliable Talent,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Sharp Mind,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+features,entry,Bonus Proficiencies,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Spellcasting,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Spellcasting,icons/sundries/books/book-open-purple.webp
+features,entry,Ability Score Improvement,icons/skills/trades/academics-investigation-puzzles.webp
+features,activity,Use / Review Ability Score Improvement,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Potent Cantrips,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Potent Cantrips,icons/sundries/books/book-open-purple.webp
+features,entry,Empowered Spells,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Empowered Spells,icons/sundries/books/book-open-purple.webp
+features,entry,Focused Casting,icons/sundries/books/book-open-purple.webp
+features,activity,Use / Review Focused Casting,icons/sundries/books/book-open-purple.webp
+features,entry,Bonus Proficiencies,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Martial Role,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Choose Attacker,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Choose Defender,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Second Wind,icons/magic/life/heart-cross-strong-green.webp
+features,activity,Second Wind,icons/magic/life/heart-cross-strong-green.webp
+features,entry,Improved Critical,icons/weapons/swords/sword-runed-glowing.webp
+features,effect,Improved Critical,icons/weapons/swords/sword-runed-glowing.webp
+features,entry,Ability Score Improvement,icons/skills/trades/academics-investigation-puzzles.webp
+features,activity,Use / Review Ability Score Improvement,icons/skills/trades/academics-investigation-puzzles.webp
+features,entry,Extra Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,activity,Use / Review Extra Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Battle Readiness,icons/weapons/swords/sword-runed-glowing.webp
+features,effect,Battle Readiness,icons/weapons/swords/sword-runed-glowing.webp
+features,entry,Improved Defense,icons/magic/defensive/shield-barrier-blue.webp
+features,effect,Improved Defense,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,Indomitable,icons/magic/defensive/shield-barrier-blue.webp
+features,activity,Reroll Failed Save,icons/magic/defensive/shield-barrier-blue.webp
+features,entry,"Fighting Style (Fighter, 2014)",icons/sundries/books/book-open-purple.webp
+features,entry,"Fighting Style (Paladin, 2014)",icons/sundries/books/book-open-purple.webp
+features,entry,"Fighting Style (Ranger, 2014)",icons/sundries/books/book-open-purple.webp
+features,entry,Cloud Rune,icons/magic/air/wind-vortex-swirl-blue.webp
+features,effect,Cloud Rune Skill Advantage,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Redirect an Attack,icons/skills/melee/strike-sword-blood-red.webp
+features,entry,Fire Rune,icons/magic/fire/projectile-fireball-orange-green.webp
+features,effect,Fire Rune Tool Expertise,icons/magic/fire/projectile-fireball-orange-green.webp
+features,effect,Fiery Shackles,icons/magic/fire/projectile-fireball-orange-green.webp
+features,activity,Fire Rune Extra Damage,icons/magic/fire/projectile-fireball-orange-green.webp
+features,activity,Fiery Shackles,icons/magic/fire/projectile-fireball-orange-green.webp
+features,entry,Frost Rune,icons/magic/water/snowflake-ice-blue.webp
+features,effect,Frost Rune Skill Advantage,icons/magic/water/snowflake-ice-blue.webp
+features,effect,Frost Rune Invoked,icons/magic/water/snowflake-ice-blue.webp
+features,activity,Invoke Frost Rune,icons/magic/water/snowflake-ice-blue.webp
+features,entry,Stone Rune,icons/magic/symbols/runes-carved-stone-green.webp
+features,effect,Stone Rune Gifts,icons/magic/symbols/runes-carved-stone-green.webp
+features,effect,Stone Rune Dream,icons/magic/symbols/runes-carved-stone-green.webp
+features,activity,Stone Rune Charm,icons/magic/symbols/runes-carved-stone-green.webp
+features,entry,Hill Rune,icons/magic/symbols/runes-carved-stone-green.webp
+features,effect,Hill Rune Poison Resistance,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+features,effect,Hill Rune Invoked,icons/magic/symbols/runes-carved-stone-green.webp
+features,activity,Invoke Hill Rune,icons/magic/symbols/runes-carved-stone-green.webp
+features,entry,Storm Rune,icons/magic/air/wind-vortex-swirl-blue.webp
+features,effect,Storm Rune Arcana Advantage,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Invoke Storm Rune,icons/magic/air/wind-vortex-swirl-blue.webp
+features,activity,Storm Rune: Alter Roll,icons/magic/air/wind-vortex-swirl-blue.webp
+features,entry,Custom Lineage: Darkvision,icons/magic/perception/eye-ringed-green.webp
+features,effect,Darkvision,icons/magic/perception/eye-ringed-green.webp
+features,entry,Custom Lineage: Skill,icons/skills/trades/academics-investigation-puzzles.webp
+feats,entry,Artificer Initiate,icons/skills/trades/smithing-anvil-silver-red.webp
+feats,entry,Chef,icons/consumables/food/soup-broth-bowl-wooden-yellow.webp
+feats,activity,Prepare Special Food,icons/consumables/food/soup-broth-bowl-wooden-yellow.webp
+feats,activity,Cook Treats,icons/consumables/food/soup-broth-bowl-wooden-yellow.webp
+feats,entry,Crusher,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+feats,activity,Move Hit Creature 5 Feet,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+feats,activity,Critical Hit: Grant Advantage,icons/weapons/hammers/hammer-double-glowing-yellow.webp
+feats,entry,Eldritch Adept,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+feats,entry,Fey Touched,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+feats,entry,Fighting Initiate,icons/weapons/swords/sword-runed-glowing.webp
+feats,entry,Gunner,icons/weapons/crossbows/crossbow-blue.webp
+feats,entry,Metamagic Adept,icons/sundries/books/book-open-purple.webp
+feats,activity,Spend Feat Sorcery Point,icons/sundries/books/book-open-purple.webp
+feats,entry,Piercer,icons/weapons/daggers/dagger-curved-blue.webp
+feats,activity,Reroll One Damage Die,icons/weapons/daggers/dagger-curved-blue.webp
+feats,activity,Critical Hit: Extra Damage Die,icons/weapons/daggers/dagger-curved-blue.webp
+feats,entry,Poisoner,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+feats,activity,Craft Potent Poison,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+feats,activity,Apply Poison to Weapon,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+feats,entry,Shadow Touched,icons/magic/perception/shadow-stealth-eyes-purple.webp
+feats,entry,Skill Expert,icons/skills/trades/academics-investigation-puzzles.webp
+feats,entry,Slasher,icons/skills/melee/strike-sword-blood-red.webp
+feats,activity,Reduce Speed by 10 Feet,icons/skills/melee/strike-sword-blood-red.webp
+feats,activity,Critical Hit: Impose Disadvantage,icons/skills/melee/strike-sword-blood-red.webp
+feats,entry,Telekinetic,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+feats,activity,Telekinetic Shove,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+feats,entry,Telepathic,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+feats,activity,Telepathic Speech,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,entry,Blade of Disaster,icons/weapons/swords/sword-runed-glowing.webp
+spells,activity,Create Planar Rift,icons/magic/movement/portal-vortex-orange.webp
+spells,activity,Blade Attack,icons/skills/melee/strike-sword-blood-red.webp
+spells,entry,Booming Blade,icons/magic/sonic/explosion-shock-sound-wave.webp
+spells,activity,Cast with a Melee Weapon,icons/skills/melee/strike-sword-blood-red.webp
+spells,activity,Willing Movement Damage,icons/skills/movement/feet-winged-boots-blue.webp
+spells,entry,Dream of the Blue Veil,icons/magic/movement/portal-vortex-orange.webp
+spells,activity,Dream of the Blue Veil,icons/magic/movement/portal-vortex-orange.webp
+spells,entry,Green-Flame Blade,icons/magic/fire/projectile-fireball-orange-green.webp
+spells,activity,Cast with a Melee Weapon,icons/skills/melee/strike-sword-blood-red.webp
+spells,activity,Secondary Target Damage,icons/magic/fire/projectile-fireball-orange-green.webp
+spells,entry,Intellect Fortress,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,effect,Intellect Fortress,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,activity,Intellect Fortress,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,entry,Lightning Lure,icons/magic/lightning/bolt-strike-blue.webp
+spells,activity,Pull Target,icons/magic/lightning/bolt-strike-blue.webp
+spells,activity,Damage After Pull,icons/magic/lightning/bolt-strike-blue.webp
+spells,entry,Mind Sliver,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,effect,Mind Sliver: Next Save -1d4,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,activity,Mind Sliver,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,entry,Spirit Shroud,icons/creatures/magical/spirit-undead-ghost-purple.webp
+spells,effect,Spirit Shroud (radiant),icons/creatures/magical/spirit-undead-ghost-purple.webp
+spells,effect,Spirit Shroud (necrotic),icons/creatures/magical/spirit-undead-ghost-purple.webp
+spells,effect,Spirit Shroud (cold),icons/magic/water/snowflake-ice-blue.webp
+spells,activity,Spirit Shroud (radiant),icons/creatures/magical/spirit-undead-ghost-purple.webp
+spells,activity,Spirit Shroud (necrotic),icons/creatures/magical/spirit-undead-ghost-purple.webp
+spells,activity,Spirit Shroud (cold),icons/magic/water/snowflake-ice-blue.webp
+spells,activity,Extra Damage Within 10 Feet,icons/creatures/magical/spirit-undead-ghost-purple.webp
+spells,entry,Summon Aberration,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+spells,activity,Summon Aberration,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+spells,entry,Summon Beast,icons/creatures/mammals/wolf-shadow-black.webp
+spells,activity,Summon Beast,icons/creatures/mammals/wolf-shadow-black.webp
+spells,entry,Summon Celestial,icons/magic/holy/angel-winged-humanoid-blue.webp
+spells,activity,Summon Celestial,icons/magic/holy/angel-winged-humanoid-blue.webp
+spells,entry,Summon Construct,icons/creatures/magical/construct-golem-stone-blue.webp
+spells,activity,Summon Construct,icons/creatures/magical/construct-golem-stone-blue.webp
+spells,entry,Summon Elemental,icons/magic/earth/strike-fist-stone.webp
+spells,activity,Summon Elemental,icons/magic/earth/strike-fist-stone.webp
+spells,entry,Summon Fey,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+spells,activity,Summon Fey,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+spells,entry,Summon Fiend,icons/creatures/unholy/demon-horned-winged-laughing.webp
+spells,activity,Summon Fiend,icons/creatures/unholy/demon-horned-winged-laughing.webp
+spells,entry,Summon Shadowspawn,icons/magic/perception/shadow-stealth-eyes-purple.webp
+spells,activity,Summon Shadowspawn,icons/magic/perception/shadow-stealth-eyes-purple.webp
+spells,entry,Summon Undead,icons/magic/death/skeleton-skull-soul-blue.webp
+spells,activity,Summon Undead,icons/magic/death/skeleton-skull-soul-blue.webp
+spells,entry,Sword Burst,icons/skills/melee/strike-sword-blood-red.webp
+spells,activity,Sword Burst,icons/skills/melee/strike-sword-blood-red.webp
+spells,entry,Tasha's Caustic Brew,icons/magic/acid/dissolve-arm-flesh.webp
+spells,effect,Caustic Brew: Acid,icons/magic/acid/dissolve-arm-flesh.webp
+spells,activity,Coat Targets,icons/magic/acid/dissolve-arm-flesh.webp
+spells,activity,Start-of-Turn Acid Damage,icons/magic/acid/dissolve-arm-flesh.webp
+spells,activity,Scrape or Wash Off Acid,icons/magic/acid/dissolve-arm-flesh.webp
+spells,entry,Tasha's Mind Whip,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,effect,Mind Whip: No Reactions / Restricted Turn,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,activity,Tasha's Mind Whip,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+spells,entry,Tasha's Otherworldly Guise,icons/magic/holy/angel-winged-humanoid-blue.webp
+spells,effect,Tasha's Otherworldly Guise (Lower Planes),icons/magic/holy/angel-winged-humanoid-blue.webp
+spells,effect,Tasha's Otherworldly Guise (Upper Planes),icons/magic/holy/angel-winged-humanoid-blue.webp
+spells,activity,Lower Planes,icons/magic/holy/angel-winged-humanoid-blue.webp
+spells,activity,Upper Planes,icons/magic/holy/angel-winged-humanoid-blue.webp
+magic-items,entry,Absorbing Tattoo (Acid),icons/magic/acid/dissolve-arm-flesh.webp
+magic-items,effect,Damage Resistance,icons/magic/acid/dissolve-arm-flesh.webp
+magic-items,activity,Absorb Acid Damage,icons/magic/acid/dissolve-arm-flesh.webp
+magic-items,entry,Absorbing Tattoo (Cold),icons/magic/water/snowflake-ice-blue.webp
+magic-items,effect,Damage Resistance,icons/magic/water/snowflake-ice-blue.webp
+magic-items,activity,Absorb Cold Damage,icons/magic/water/snowflake-ice-blue.webp
+magic-items,entry,Absorbing Tattoo (Fire),icons/magic/fire/projectile-fireball-orange-green.webp
+magic-items,effect,Damage Resistance,icons/magic/fire/projectile-fireball-orange-green.webp
+magic-items,activity,Absorb Fire Damage,icons/magic/fire/projectile-fireball-orange-green.webp
+magic-items,entry,Absorbing Tattoo (Force),icons/magic/lightning/orb-ball-purple.webp
+magic-items,effect,Damage Resistance,icons/magic/lightning/orb-ball-purple.webp
+magic-items,activity,Absorb Force Damage,icons/magic/lightning/orb-ball-purple.webp
+magic-items,entry,Absorbing Tattoo (Lightning),icons/magic/lightning/bolt-strike-blue.webp
+magic-items,effect,Damage Resistance,icons/magic/lightning/bolt-strike-blue.webp
+magic-items,activity,Absorb Lightning Damage,icons/magic/lightning/bolt-strike-blue.webp
+magic-items,entry,Absorbing Tattoo (Necrotic),icons/magic/death/skull-energy-light-purple.webp
+magic-items,effect,Damage Resistance,icons/magic/death/skull-energy-light-purple.webp
+magic-items,activity,Absorb Necrotic Damage,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,entry,Absorbing Tattoo (Poison),icons/skills/toxins/symbol-poison-drop-skull-green.webp
+magic-items,effect,Damage Resistance,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+magic-items,activity,Absorb Poison Damage,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+magic-items,entry,Absorbing Tattoo (Psychic),icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+magic-items,effect,Damage Resistance,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+magic-items,activity,Absorb Psychic Damage,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+magic-items,entry,Absorbing Tattoo (Radiant),icons/magic/holy/angel-winged-humanoid-blue.webp
+magic-items,effect,Damage Resistance,icons/magic/holy/angel-winged-humanoid-blue.webp
+magic-items,activity,Absorb Radiant Damage,icons/magic/holy/angel-winged-humanoid-blue.webp
+magic-items,entry,Absorbing Tattoo (Thunder),icons/magic/sonic/explosion-shock-sound-wave.webp
+magic-items,effect,Damage Resistance,icons/magic/sonic/explosion-shock-sound-wave.webp
+magic-items,activity,Absorb Thunder Damage,icons/magic/sonic/explosion-shock-sound-wave.webp
+magic-items,entry,Alchemical Compendium,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+magic-items,activity,Replace a Prepared Wizard Spell,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+magic-items,activity,Transmute a Nonmagical Object,icons/sundries/books/book-open-purple.webp
+magic-items,entry,All-Purpose Tool (+1),icons/skills/trades/smithing-anvil-silver-red.webp
+magic-items,activity,Transform Artisan Tool,icons/skills/trades/smithing-anvil-silver-red.webp
+magic-items,activity,Learn a Cantrip for 8 Hours,icons/sundries/books/book-open-purple.webp
+magic-items,entry,All-Purpose Tool (+2),icons/skills/trades/smithing-anvil-silver-red.webp
+magic-items,activity,Transform Artisan Tool,icons/skills/trades/smithing-anvil-silver-red.webp
+magic-items,activity,Learn a Cantrip for 8 Hours,icons/sundries/books/book-open-purple.webp
+magic-items,entry,All-Purpose Tool (+3),icons/skills/trades/smithing-anvil-silver-red.webp
+magic-items,activity,Transform Artisan Tool,icons/skills/trades/smithing-anvil-silver-red.webp
+magic-items,activity,Learn a Cantrip for 8 Hours,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Amulet of the Devout (+1),icons/equipment/neck/pendant-faceted-blue.webp
+magic-items,activity,Extra Channel Divinity Use,icons/magic/life/ankh-gold-blue.webp
+magic-items,entry,Amulet of the Devout (+2),icons/equipment/neck/pendant-faceted-blue.webp
+magic-items,activity,Extra Channel Divinity Use,icons/magic/life/ankh-gold-blue.webp
+magic-items,entry,Amulet of the Devout (+3),icons/equipment/neck/pendant-faceted-blue.webp
+magic-items,activity,Extra Channel Divinity Use,icons/magic/life/ankh-gold-blue.webp
+magic-items,entry,Arcane Grimoire (+1),icons/sundries/books/book-open-purple.webp
+magic-items,activity,Arcane Recovery: One Additional Slot Level,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Arcane Grimoire (+2),icons/sundries/books/book-open-purple.webp
+magic-items,activity,Arcane Recovery: One Additional Slot Level,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Arcane Grimoire (+3),icons/sundries/books/book-open-purple.webp
+magic-items,activity,Arcane Recovery: One Additional Slot Level,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Astral Shard,icons/commodities/gems/gem-faceted-round-teal.webp
+magic-items,activity,Metamagic: Teleport 30 Feet,icons/magic/movement/portal-vortex-orange.webp
+magic-items,entry,Astromancy Archive,icons/magic/perception/orb-crystal-ball-scrying.webp
+magic-items,activity,Replace a Prepared Wizard Spell,icons/magic/perception/orb-crystal-ball-scrying.webp
+magic-items,activity,Reaction: Fortune Adjustment,icons/magic/perception/orb-crystal-ball-scrying.webp
+magic-items,entry,Atlas of Endless Horizons,modules/tely-tashas-2014/assets/items/atlas-of-endless-horizons.jpg
+magic-items,activity,Replace a Prepared Wizard Spell,modules/tely-tashas-2014/assets/items/atlas-of-endless-horizons.jpg
+magic-items,activity,Reaction: Teleport 10 Feet,icons/magic/movement/portal-vortex-orange.webp
+magic-items,entry,Baba Yaga's Mortar and Pestle,modules/tely-tashas-2014/assets/items/baba-yaga-mortar-pestle.jpg
+magic-items,activity,Primal Parts: Start Grinding,icons/magic/symbols/star-yellow.webp
+magic-items,activity,Primal Parts: Grinding Damage,icons/magic/nature/leaf-rune-glow-green.webp
+magic-items,activity,Pestle: Spend 1 Charge,modules/tely-tashas-2014/assets/items/baba-yaga-mortar-pestle.jpg
+magic-items,activity,Pestle: Spend 2 Charges,modules/tely-tashas-2014/assets/items/baba-yaga-mortar-pestle.jpg
+magic-items,activity,Pestle: Spend 3 Charges,modules/tely-tashas-2014/assets/items/baba-yaga-mortar-pestle.jpg
+magic-items,activity,Perfect Tools,icons/skills/trades/smithing-anvil-silver-red.webp
+magic-items,activity,Traverse the Night / Bones Know Their Home,icons/magic/symbols/star-yellow.webp
+magic-items,entry,Barrier Tattoo (Uncommon),icons/magic/defensive/shield-barrier-blue.webp
+magic-items,effect,Unarmored Tattoo AC,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Barrier Tattoo (Rare),icons/magic/defensive/shield-barrier-blue.webp
+magic-items,effect,Unarmored Tattoo AC,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Barrier Tattoo (Very Rare),icons/magic/defensive/shield-barrier-blue.webp
+magic-items,effect,Unarmored Tattoo AC,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Bell Branch,icons/tools/instruments/bell-gold.webp
+magic-items,activity,Detect Otherworldly Creatures,icons/tools/instruments/bell-gold.webp
+magic-items,activity,Cast Protection from Evil and Good,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Blood Fury Tattoo,icons/creatures/abilities/fang-tooth-blood-red.webp
+magic-items,activity,Bloodthirsty Strike,icons/creatures/abilities/fang-tooth-blood-red.webp
+magic-items,activity,Bloodthirsty Retaliation,icons/creatures/abilities/fang-tooth-blood-red.webp
+magic-items,entry,Bloodwell Vial (+1),icons/creatures/abilities/fang-tooth-blood-red.webp
+magic-items,activity,Recover 5 Sorcery Points After Spending Hit Dice,icons/magic/water/snowflake-ice-blue.webp
+magic-items,entry,Bloodwell Vial (+2),icons/creatures/abilities/fang-tooth-blood-red.webp
+magic-items,activity,Recover 5 Sorcery Points After Spending Hit Dice,icons/magic/water/snowflake-ice-blue.webp
+magic-items,entry,Bloodwell Vial (+3),icons/creatures/abilities/fang-tooth-blood-red.webp
+magic-items,activity,Recover 5 Sorcery Points After Spending Hit Dice,icons/magic/water/snowflake-ice-blue.webp
+magic-items,entry,Cauldron of Rebirth,modules/tely-tashas-2014/assets/items/cauldron-of-rebirth.jpg
+magic-items,activity,Create Potion of Greater Healing,icons/magic/life/heart-cross-strong-green.webp
+magic-items,activity,Raise Dead at Dawn,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,entry,Coiling Grasp Tattoo,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+magic-items,effect,Grappled by Coiling Grasp,icons/magic/lightning/fist-unarmed-strike-blue-green.webp
+magic-items,activity,Grasping Tendrils,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+magic-items,entry,Crook of Rao,modules/tely-tashas-2014/assets/items/crook-of-rao.jpg
+magic-items,activity,Cast Aura of Life,modules/tely-tashas-2014/assets/items/crook-of-rao.jpg
+magic-items,activity,Cast Aura of Purity,modules/tely-tashas-2014/assets/items/crook-of-rao.jpg
+magic-items,activity,Cast Banishment,modules/tely-tashas-2014/assets/items/crook-of-rao.jpg
+magic-items,activity,Cast Beacon of Hope,modules/tely-tashas-2014/assets/items/crook-of-rao.jpg
+magic-items,activity,Cast Mass Cure Wounds,icons/creatures/abilities/fang-tooth-blood-red.webp
+magic-items,activity,Absolute Banishment,modules/tely-tashas-2014/assets/items/crook-of-rao.jpg
+magic-items,entry,Crystalline Chronicle,modules/tely-tashas-2014/assets/items/crystalline-chronicle.jpg
+magic-items,activity,Replace a Prepared Wizard Spell,modules/tely-tashas-2014/assets/items/crystalline-chronicle.jpg
+magic-items,activity,Psionic Casting,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+magic-items,entry,Demonomicon of Iggwilv,modules/tely-tashas-2014/assets/items/demonomicon-of-iggwilv.jpg
+magic-items,activity,Cast Tasha's Hideous Laughter,modules/tely-tashas-2014/assets/items/demonomicon-of-iggwilv.jpg
+magic-items,activity,Cast Magic Circle,icons/sundries/books/book-open-purple.webp
+magic-items,activity,Cast Magic Jar,icons/sundries/books/book-open-purple.webp
+magic-items,activity,Cast Planar Ally,icons/magic/movement/portal-vortex-orange.webp
+magic-items,activity,Cast Planar Binding,icons/magic/movement/portal-vortex-orange.webp
+magic-items,activity,Cast Plane Shift,modules/tely-tashas-2014/assets/items/demonomicon-of-iggwilv.jpg
+magic-items,activity,Cast Summon Fiend,modules/tely-tashas-2014/assets/items/demonomicon-of-iggwilv.jpg
+magic-items,activity,Contain a Fiend,modules/tely-tashas-2014/assets/items/demonomicon-of-iggwilv.jpg
+magic-items,entry,Devotee's Censer,modules/tely-tashas-2014/assets/items/devotees-censer.jpg
+magic-items,effect,Healing Incense,icons/magic/life/heart-cross-strong-green.webp
+magic-items,activity,Attack,icons/skills/melee/strike-sword-blood-red.webp
+magic-items,activity,Activate Healing Incense,icons/magic/life/heart-cross-strong-green.webp
+magic-items,activity,Incense Healing,icons/magic/life/heart-cross-strong-green.webp
+magic-items,entry,Duplicitous Manuscript,icons/sundries/books/book-open-purple.webp
+magic-items,activity,Replace a Prepared Wizard Spell,icons/sundries/books/book-open-purple.webp
+magic-items,activity,Impose Disadvantage on Illusion Investigation or Save,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Eldritch Claw Tattoo,icons/creatures/claws/claw-scaled-red.webp
+magic-items,effect,Eldritch Maul,icons/creatures/claws/claw-scaled-red.webp
+magic-items,activity,Eldritch Maul,icons/creatures/claws/claw-scaled-red.webp
+magic-items,entry,Elemental Essence Shard (Air),icons/magic/air/wind-vortex-swirl-blue.webp
+magic-items,activity,Metamagic: Fly 60 Feet,icons/skills/movement/feet-winged-boots-blue.webp
+magic-items,entry,Elemental Essence Shard (Earth),icons/magic/earth/strike-fist-stone.webp
+magic-items,activity,Metamagic: Choose Damage Resistance,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Elemental Essence Shard (Fire),icons/magic/fire/projectile-fireball-orange-green.webp
+magic-items,activity,Metamagic: Ignite Spell Target,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Elemental Essence Shard (Water),icons/magic/water/wave-water-blue.webp
+magic-items,effect,Wave: Prone,icons/magic/water/wave-water-blue.webp
+magic-items,activity,Metamagic: Wave Damage,icons/magic/water/wave-water-blue.webp
+magic-items,activity,Metamagic: Wave Push and Prone,icons/magic/water/wave-water-blue.webp
+magic-items,entry,Far Realm Shard,modules/tely-tashas-2014/assets/items/planar-shards.jpg
+magic-items,effect,Far Realm: Frightened,modules/tely-tashas-2014/assets/items/planar-shards.jpg
+magic-items,activity,Metamagic: Far Realm Tentacle,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+magic-items,entry,Feywild Shard,modules/tely-tashas-2014/assets/items/planar-shards.jpg
+magic-items,activity,Metamagic: Wild Magic Surge,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Fulminating Treatise,modules/tely-tashas-2014/assets/items/fulminating-treatise.jpg
+magic-items,activity,Replace a Prepared Wizard Spell,modules/tely-tashas-2014/assets/items/fulminating-treatise.jpg
+magic-items,activity,Evocation Reaction Damage,modules/tely-tashas-2014/assets/items/fulminating-treatise.jpg
+magic-items,entry,Ghost Step Tattoo,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,effect,Ghost Step,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,activity,Ghost Step,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,entry,Guardian Emblem,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,activity,Turn a Critical Hit into a Normal Hit,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Heart Weaver's Primer,icons/magic/life/heart-pink.webp
+magic-items,activity,Replace a Prepared Wizard Spell,icons/magic/life/heart-pink.webp
+magic-items,activity,Enchantment: Disadvantage on First Save,icons/magic/life/heart-pink.webp
+magic-items,entry,Illuminator's Tattoo,icons/tools/scribal/ink-quill-red.webp
+magic-items,activity,Write with Fingertip,icons/tools/scribal/ink-quill-red.webp
+magic-items,activity,Make a Written Page Invisible,icons/tools/scribal/ink-quill-red.webp
+magic-items,entry,Libram of Souls and Flesh,icons/magic/death/skull-energy-light-purple.webp
+magic-items,effect,Semblance of Undeath,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,activity,Replace a Prepared Wizard Spell,icons/magic/death/skull-energy-light-purple.webp
+magic-items,activity,Semblance of Undeath,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,entry,Lifewell Tattoo,icons/magic/life/heart-cross-strong-green.webp
+magic-items,effect,Necrotic Resistance,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,activity,Life Ward: Remain at 1 HP,icons/magic/life/heart-cross-strong-green.webp
+magic-items,entry,Luba's Tarokka of Souls,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,effect,Twist of Fate: Weal,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,effect,Twist of Fate: Woe,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,activity,Cast Comprehend Languages,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,activity,Cast Detect Evil and Good,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,activity,Cast Detect Magic,icons/sundries/books/book-open-purple.webp
+magic-items,activity,Cast Detect Poison and Disease,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+magic-items,activity,Cast Locate Object,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,activity,Cast Scrying,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,activity,Twist of Fate: Weal,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,activity,Twist of Fate: Woe,modules/tely-tashas-2014/assets/items/lubas-tarokka.jpg
+magic-items,entry,Lyre of Building,icons/tools/instruments/harp-yellow-teal.webp
+magic-items,activity,Cast Mending,icons/tools/instruments/harp-yellow-teal.webp
+magic-items,activity,Cast Fabricate,icons/tools/instruments/harp-yellow-teal.webp
+magic-items,activity,Cast Move Earth,icons/tools/instruments/harp-yellow-teal.webp
+magic-items,activity,Cast Passwall,icons/tools/instruments/harp-yellow-teal.webp
+magic-items,activity,Cast Summon Construct,icons/tools/instruments/harp-yellow-teal.webp
+magic-items,activity,Protect a Structure from Damage,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Masquerade Tattoo,icons/equipment/head/mask-plague-leather-brown.webp
+magic-items,activity,Cast Disguise Self,icons/equipment/head/mask-plague-leather-brown.webp
+magic-items,activity,Fluid Ink,icons/equipment/head/mask-plague-leather-brown.webp
+magic-items,entry,Mighty Servant of Leuk-o,modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+magic-items,activity,Operating and Crew Rules,modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+magic-items,entry,Moon Sickle (+1),icons/weapons/sickles/sickle-blue-purple.webp
+magic-items,activity,Attack,icons/skills/melee/strike-sword-blood-red.webp
+magic-items,activity,Additional Healing,icons/magic/life/heart-cross-strong-green.webp
+magic-items,entry,Moon Sickle (+2),icons/weapons/sickles/sickle-blue-purple.webp
+magic-items,activity,Attack,icons/skills/melee/strike-sword-blood-red.webp
+magic-items,activity,Additional Healing,icons/magic/life/heart-cross-strong-green.webp
+magic-items,entry,Moon Sickle (+3),icons/weapons/sickles/sickle-blue-purple.webp
+magic-items,activity,Attack,icons/skills/melee/strike-sword-blood-red.webp
+magic-items,activity,Additional Healing,icons/magic/life/heart-cross-strong-green.webp
+magic-items,entry,Nature's Mantle,modules/tely-tashas-2014/assets/items/natures-mantle.jpg
+magic-items,effect,Advantage on Stealth,modules/tely-tashas-2014/assets/items/natures-mantle.jpg
+magic-items,activity,Hide in Light Obscurement,modules/tely-tashas-2014/assets/items/natures-mantle.jpg
+magic-items,entry,Outer Essence Shard (Lawful),icons/commodities/tech/cog-bronze.webp
+magic-items,activity,Metamagic: End a Condition,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Outer Essence Shard (Chaotic),icons/magic/control/buff-luck-fortune-green-gold.webp
+magic-items,effect,Metamagic: Chaotic Disadvantage,icons/sundries/books/book-open-purple.webp
+magic-items,activity,Metamagic: Chaotic Disadvantage,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Outer Essence Shard (Good),icons/magic/life/ankh-gold-blue.webp
+magic-items,activity,Metamagic: Temporary Hit Points,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Outer Essence Shard (Evil),icons/creatures/unholy/demon-horned-winged-laughing.webp
+magic-items,activity,Metamagic: Extra Necrotic Damage,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,entry,Planecaller's Codex,icons/magic/movement/portal-vortex-orange.webp
+magic-items,effect,Empower a Conjured Creature,icons/magic/movement/portal-vortex-orange.webp
+magic-items,activity,Replace a Prepared Wizard Spell,icons/magic/movement/portal-vortex-orange.webp
+magic-items,activity,Empower a Conjured Creature,icons/magic/movement/portal-vortex-orange.webp
+magic-items,entry,Prosthetic Limb,icons/equipment/hand/gauntlet-armored-steel-grey.webp
+magic-items,activity,Attach or Detach Prosthetic,icons/equipment/hand/gauntlet-armored-steel-grey.webp
+magic-items,entry,Protective Verses,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,activity,Replace a Prepared Wizard Spell,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,activity,Abjuration: Grant Temporary Hit Points,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Reveler's Concertina,icons/skills/trades/music-notes-sound-blue.webp
+magic-items,activity,Cast Otto's Irresistible Dance,icons/skills/trades/music-notes-sound-blue.webp
+magic-items,entry,Rhythm-Maker's Drum (+1),icons/tools/instruments/drum-brown-red.webp
+magic-items,activity,Recover Bardic Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+magic-items,entry,Rhythm-Maker's Drum (+2),icons/tools/instruments/drum-brown-red.webp
+magic-items,activity,Recover Bardic Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+magic-items,entry,Rhythm-Maker's Drum (+3),icons/tools/instruments/drum-brown-red.webp
+magic-items,activity,Recover Bardic Inspiration,icons/skills/trades/music-notes-sound-blue.webp
+magic-items,entry,Shadowfell Brand Tattoo,icons/magic/perception/shadow-stealth-eyes-purple.webp
+magic-items,effect,Shadow Essence,icons/magic/perception/shadow-stealth-eyes-purple.webp
+magic-items,activity,Shadowy Defense: Halve Triggering Damage,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Shadowfell Shard,modules/tely-tashas-2014/assets/items/planar-shards.jpg
+magic-items,activity,Metamagic: Choose Ability for Disadvantage,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Spellwrought Tattoo (Cantrip),icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,activity,Configure Stored Spell,icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,entry,Spellwrought Tattoo (Level 1),icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,activity,Configure Stored Spell,icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,entry,Spellwrought Tattoo (Level 2),icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,activity,Configure Stored Spell,icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,entry,Spellwrought Tattoo (Level 3),icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,activity,Configure Stored Spell,icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,entry,Spellwrought Tattoo (Level 4),icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,activity,Configure Stored Spell,icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,entry,Spellwrought Tattoo (Level 5),icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,activity,Configure Stored Spell,icons/magic/symbols/runes-carved-stone-green.webp
+magic-items,entry,Teeth of Dahlver-Nar,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Draw a Tooth,icons/commodities/bones/tooth-spiked-brown.webp
+magic-items,entry,Implanted Tooth 01: The Staring Cats of Uldun-dar,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Cast Revivify,icons/magic/life/heart-cross-strong-green.webp
+magic-items,entry,Implanted Tooth 02: Duggle’s Surprising Day,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Cast Sanctuary,icons/magic/defensive/shield-barrier-blue.webp
+magic-items,entry,Implanted Tooth 03: The Golden Age of Dhakaan,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Redirect Hit to Adjacent Ally,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 04: The Mill Road Murders,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Damage Against Target That Has Not Taken a Turn,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 05: Dooms of the Malpheggi,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,effect,Reptilian Scales,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Long Rest: Exhaustion Save,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 06: The Stable Hand’s Secret,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Charisma Check Against a Humanoid,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 07: The Donkey’s Dream,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Unicorn Healing,icons/magic/life/heart-cross-strong-green.webp
+magic-items,entry,Implanted Tooth 08: Beyond the Rock of Bral,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,effect,Whispering Minds,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+magic-items,activity,Cast Detect Thoughts,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 09: The Disappearances of Half Hollow,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Long Jump 30 Feet / High Jump 15 Feet,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 10: Legendry of Phantoms and Ghosts,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Cast Black Tentacles,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+magic-items,entry,Implanted Tooth 11: The Thousand Deaths of Jander Sunstar,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Vampire Bite,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 12: Nightmares of Kaggash,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Cast Eyebite,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Long Rest: Aberration Risk,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 13: Three Bridges to the Sky,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,effect,Flying Speed,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Cast Detect Magic,icons/sundries/books/book-open-purple.webp
+magic-items,entry,Implanted Tooth 14: The Claws of Dragotha,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Cast Create Undead,icons/creatures/magical/spirit-undead-ghost-purple.webp
+magic-items,entry,Implanted Tooth 15: Ashes of the Ages and Eternal Fire,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Cast Counterspell,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Unused Since Last Rest: HP Maximum Loss,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 16: Daughters of Bel,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Cast Dominate Monster,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 17: Why the Sky Screams,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,effect,Lightning Immunity / Thunder Vulnerability,icons/magic/lightning/bolt-strike-blue.webp
+magic-items,entry,Implanted Tooth 18: The Last Tarrasque,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,20 Damage in One Turn: Wisdom Save,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,entry,Implanted Tooth 19: Incendax’s Tooth,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,effect,Fire Immunity,icons/magic/fire/projectile-fireball-orange-green.webp
+magic-items,activity,Exhale Fire,icons/magic/fire/projectile-fireball-orange-green.webp
+magic-items,entry,Implanted Tooth 20: Dahlver-Nar’s Tooth,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+magic-items,activity,Divine Intervention,icons/magic/life/ankh-gold-blue.webp
+magic-items,entry,Potent Poison (Poisoner),icons/skills/toxins/symbol-poison-drop-skull-green.webp
+magic-items,effect,Potent Poison: Poisoned,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+magic-items,activity,Potent Poison Hit,icons/skills/toxins/symbol-poison-drop-skull-green.webp
+creatures,entry,Steel Defender,icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,token,Steel Defender,icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,actorItem,Force-Empowered Rend,icons/creatures/claws/claw-scaled-red.webp
+creatures,activity,Force-Empowered Rend,icons/creatures/claws/claw-scaled-red.webp
+creatures,actorItem,Repair,icons/magic/air/wind-vortex-swirl-blue.webp
+creatures,activity,Repair,icons/magic/air/wind-vortex-swirl-blue.webp
+creatures,actorItem,Vigilant,icons/magic/perception/eye-ringed-green.webp
+creatures,actorItem,Deflect Attack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Deflect Attack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,entry,Homunculus Servant,icons/creatures/unholy/demon-fire-imp.webp
+creatures,token,Homunculus Servant,icons/creatures/unholy/demon-fire-imp.webp
+creatures,actorItem,Force Strike,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Force Strike,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Evasion,icons/skills/movement/feet-winged-boots-blue.webp
+creatures,actorItem,Channel Magic,icons/sundries/books/book-open-purple.webp
+creatures,activity,Channel Magic,icons/sundries/books/book-open-purple.webp
+creatures,entry,Dancing Item,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+creatures,token,Dancing Item,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+creatures,actorItem,Force-Empowered Slam,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+creatures,activity,Force-Empowered Slam,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+creatures,actorItem,Immutable Form,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+creatures,actorItem,Irrepressible Dance,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+creatures,activity,Irrepressible Dance,icons/magic/control/debuff-energy-hold-levitate-pink.webp
+creatures,entry,Wildfire Spirit,icons/creatures/magical/spirit-fire-orange.webp
+creatures,token,Wildfire Spirit,icons/creatures/magical/spirit-fire-orange.webp
+creatures,actorItem,Flame Seed,icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,activity,Flame Seed,icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,actorItem,Fiery Teleportation,icons/magic/movement/portal-vortex-orange.webp
+creatures,activity,Fiery Teleportation,icons/magic/movement/portal-vortex-orange.webp
+creatures,entry,Beast of the Land,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,token,Beast of the Land,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,actorItem,Maul,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,activity,Maul,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,actorItem,Charge: Knock Prone,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,effect,Charge: Knock Prone Effect,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,activity,Charge: Knock Prone,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,actorItem,Charge: Extra Damage,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,activity,Charge Damage,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,actorItem,Primal Bond,icons/skills/social/diplomacy-handshake.webp
+creatures,actorItem,Charge,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,entry,Beast of the Sea,icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,token,Beast of the Sea,icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,actorItem,Binding Strike,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Binding Strike,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Primal Bond,icons/skills/social/diplomacy-handshake.webp
+creatures,actorItem,Amphibious,icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,entry,Beast of the Sky,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,token,Beast of the Sky,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,actorItem,Shred,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,activity,Shred,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,actorItem,Primal Bond,icons/skills/social/diplomacy-handshake.webp
+creatures,actorItem,Flyby,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,entry,Aberrant Spirit (Beholderkin),icons/magic/perception/eye-ringed-green.webp
+creatures,token,Aberrant Spirit (Beholderkin),icons/magic/perception/eye-ringed-green.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Eye Ray,icons/magic/perception/eye-ringed-green.webp
+creatures,activity,Eye Ray,icons/magic/perception/eye-ringed-green.webp
+creatures,entry,Aberrant Spirit (Slaad),icons/creatures/amphibians/bullfrog-glass-teal.webp
+creatures,token,Aberrant Spirit (Slaad),icons/creatures/amphibians/bullfrog-glass-teal.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Claws,icons/creatures/claws/claw-scaled-red.webp
+creatures,activity,Claws,icons/creatures/claws/claw-scaled-red.webp
+creatures,actorItem,Regeneration,icons/magic/life/heart-cross-strong-green.webp
+creatures,actorItem,Claws: Prevent Healing,icons/creatures/claws/claw-scaled-red.webp
+creatures,entry,Aberrant Spirit (Star Spawn),icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+creatures,token,Aberrant Spirit (Star Spawn),icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Psychic Slam,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+creatures,activity,Psychic Slam,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+creatures,actorItem,Whispering Aura,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+creatures,activity,Whispering Aura,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+creatures,entry,Bestial Spirit (Air),icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,token,Bestial Spirit (Air),icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Maul,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,activity,Maul,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,actorItem,Flyby,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,entry,Bestial Spirit (Land),icons/creatures/mammals/wolf-shadow-black.webp
+creatures,token,Bestial Spirit (Land),icons/creatures/mammals/wolf-shadow-black.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Maul,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,activity,Maul,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,actorItem,Pack Tactics,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,entry,Bestial Spirit (Water),icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,token,Bestial Spirit (Water),icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Maul,icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,activity,Maul,icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,actorItem,Pack Tactics,icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,actorItem,Water Breathing,icons/magic/water/wave-water-blue.webp
+creatures,entry,Celestial Spirit (Avenger),icons/magic/holy/angel-winged-humanoid-blue.webp
+creatures,token,Celestial Spirit (Avenger),icons/magic/holy/angel-winged-humanoid-blue.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Radiant Bow,icons/weapons/bows/shortbow-leather.webp
+creatures,activity,Radiant Bow,icons/weapons/bows/shortbow-leather.webp
+creatures,actorItem,Healing Touch,icons/magic/life/heart-cross-strong-green.webp
+creatures,activity,Healing Touch,icons/magic/life/heart-cross-strong-green.webp
+creatures,entry,Celestial Spirit (Defender),icons/magic/defensive/shield-barrier-blue.webp
+creatures,token,Celestial Spirit (Defender),icons/magic/defensive/shield-barrier-blue.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Radiant Mace,icons/magic/defensive/shield-barrier-blue.webp
+creatures,activity,Radiant Mace,icons/magic/defensive/shield-barrier-blue.webp
+creatures,actorItem,Healing Touch,icons/magic/life/heart-cross-strong-green.webp
+creatures,activity,Healing Touch,icons/magic/life/heart-cross-strong-green.webp
+creatures,actorItem,Radiant Mace: Temporary Hit Points,icons/magic/defensive/shield-barrier-blue.webp
+creatures,activity,Grant Temporary Hit Points,icons/magic/defensive/shield-barrier-blue.webp
+creatures,entry,Construct Spirit (Clay),icons/creatures/magical/construct-stone-earth-gray.webp
+creatures,token,Construct Spirit (Clay),icons/creatures/magical/construct-stone-earth-gray.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Slam,icons/creatures/magical/construct-stone-earth-gray.webp
+creatures,activity,Slam,icons/creatures/magical/construct-stone-earth-gray.webp
+creatures,actorItem,Berserk Lashing,icons/creatures/magical/construct-stone-earth-gray.webp
+creatures,activity,Berserk Lashing,icons/creatures/magical/construct-stone-earth-gray.webp
+creatures,entry,Construct Spirit (Metal),icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,token,Construct Spirit (Metal),icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Slam,icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,activity,Slam,icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,actorItem,Heated Body,icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,activity,Heated Body,icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,entry,Construct Spirit (Stone),icons/creatures/magical/construct-golem-stone-blue.webp
+creatures,token,Construct Spirit (Stone),icons/creatures/magical/construct-golem-stone-blue.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Slam,icons/creatures/magical/construct-golem-stone-blue.webp
+creatures,activity,Slam,icons/creatures/magical/construct-golem-stone-blue.webp
+creatures,actorItem,Stony Lethargy,icons/creatures/magical/construct-golem-stone-blue.webp
+creatures,activity,Stony Lethargy,icons/creatures/magical/construct-golem-stone-blue.webp
+creatures,entry,Elemental Spirit (Air),icons/magic/air/wind-vortex-swirl-blue.webp
+creatures,token,Elemental Spirit (Air),icons/magic/air/wind-vortex-swirl-blue.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Slam,icons/magic/air/wind-vortex-swirl-blue.webp
+creatures,activity,Slam,icons/magic/air/wind-vortex-swirl-blue.webp
+creatures,actorItem,Amorphous Form,icons/magic/air/wind-vortex-swirl-blue.webp
+creatures,entry,Elemental Spirit (Earth),icons/magic/earth/strike-fist-stone.webp
+creatures,token,Elemental Spirit (Earth),icons/magic/earth/strike-fist-stone.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Slam,icons/magic/earth/strike-fist-stone.webp
+creatures,activity,Slam,icons/magic/earth/strike-fist-stone.webp
+creatures,entry,Elemental Spirit (Fire),icons/creatures/magical/spirit-fire-orange.webp
+creatures,token,Elemental Spirit (Fire),icons/creatures/magical/spirit-fire-orange.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Slam,icons/creatures/magical/spirit-fire-orange.webp
+creatures,activity,Slam,icons/creatures/magical/spirit-fire-orange.webp
+creatures,actorItem,Amorphous Form,icons/creatures/magical/spirit-fire-orange.webp
+creatures,entry,Elemental Spirit (Water),icons/magic/water/wave-water-blue.webp
+creatures,token,Elemental Spirit (Water),icons/magic/water/wave-water-blue.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Slam,icons/magic/water/wave-water-blue.webp
+creatures,activity,Slam,icons/magic/water/wave-water-blue.webp
+creatures,actorItem,Amorphous Form,icons/magic/water/wave-water-blue.webp
+creatures,entry,Fey Spirit (Fuming),icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,token,Fey Spirit (Fuming),icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,activity,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,entry,Fey Spirit (Mirthful),icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,token,Fey Spirit (Mirthful),icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,activity,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,actorItem,Fey Step: Charm,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,effect,Fey Step: Charm Effect,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,activity,Fey Step: Charm,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,entry,Fey Spirit (Tricksy),icons/magic/control/buff-luck-fortune-green-gold.webp
+creatures,token,Fey Spirit (Tricksy),icons/magic/control/buff-luck-fortune-green-gold.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,activity,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,entry,Fiendish Spirit (Demon),icons/creatures/unholy/demon-fire-imp.webp
+creatures,token,Fiendish Spirit (Demon),icons/creatures/unholy/demon-fire-imp.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Bite,icons/creatures/unholy/demon-fire-imp.webp
+creatures,activity,Bite,icons/creatures/unholy/demon-fire-imp.webp
+creatures,actorItem,Magic Resistance,icons/sundries/books/book-open-purple.webp
+creatures,effect,Magic Resistance,icons/sundries/books/book-open-purple.webp
+creatures,actorItem,Death Throes,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,activity,Death Throes,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,entry,Fiendish Spirit (Devil),icons/creatures/unholy/demon-horned-winged-laughing.webp
+creatures,token,Fiendish Spirit (Devil),icons/creatures/unholy/demon-horned-winged-laughing.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Hurl Flame,icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,activity,Hurl Flame,icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,actorItem,Magic Resistance,icons/sundries/books/book-open-purple.webp
+creatures,effect,Magic Resistance,icons/sundries/books/book-open-purple.webp
+creatures,actorItem,Devil's Sight,icons/magic/perception/eye-ringed-green.webp
+creatures,entry,Fiendish Spirit (Yugoloth),icons/magic/death/skull-energy-light-purple.webp
+creatures,token,Fiendish Spirit (Yugoloth),icons/magic/death/skull-energy-light-purple.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Claws,icons/creatures/claws/claw-scaled-red.webp
+creatures,activity,Claws,icons/creatures/claws/claw-scaled-red.webp
+creatures,actorItem,Magic Resistance,icons/sundries/books/book-open-purple.webp
+creatures,effect,Magic Resistance,icons/sundries/books/book-open-purple.webp
+creatures,actorItem,Claws: Teleport,icons/magic/movement/portal-vortex-orange.webp
+creatures,activity,Teleport,icons/magic/movement/portal-vortex-orange.webp
+creatures,entry,Shadow Spirit (Fury),icons/creatures/abilities/fang-tooth-blood-red.webp
+creatures,token,Shadow Spirit (Fury),icons/creatures/abilities/fang-tooth-blood-red.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
+creatures,activity,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
+creatures,actorItem,Dreadful Scream,icons/creatures/abilities/fang-tooth-blood-red.webp
+creatures,effect,Dreadful Scream Effect,icons/creatures/abilities/fang-tooth-blood-red.webp
+creatures,activity,Dreadful Scream,icons/creatures/abilities/fang-tooth-blood-red.webp
+creatures,actorItem,Terror Frenzy,icons/creatures/abilities/fang-tooth-blood-red.webp
+creatures,entry,Shadow Spirit (Despair),icons/magic/perception/shadow-stealth-eyes-purple.webp
+creatures,token,Shadow Spirit (Despair),icons/magic/perception/shadow-stealth-eyes-purple.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
+creatures,activity,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
+creatures,actorItem,Dreadful Scream,icons/magic/perception/shadow-stealth-eyes-purple.webp
+creatures,effect,Dreadful Scream Effect,icons/magic/perception/shadow-stealth-eyes-purple.webp
+creatures,activity,Dreadful Scream,icons/magic/perception/shadow-stealth-eyes-purple.webp
+creatures,actorItem,Weight of Sorrow,icons/magic/perception/shadow-stealth-eyes-purple.webp
+creatures,activity,Weight of Sorrow,icons/magic/perception/shadow-stealth-eyes-purple.webp
+creatures,entry,Shadow Spirit (Fear),icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,token,Shadow Spirit (Fear),icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
+creatures,activity,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
+creatures,actorItem,Dreadful Scream,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,effect,Dreadful Scream Effect,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,activity,Dreadful Scream,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,actorItem,Shadow Stealth,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,activity,Shadow Stealth,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,entry,Undead Spirit (Ghostly),icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,token,Undead Spirit (Ghostly),icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Deathly Touch,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,activity,Deathly Touch,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,actorItem,Deathly Touch: Frighten,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,effect,Deathly Touch: Frighten Effect,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,activity,Deathly Touch: Frighten,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,actorItem,Incorporeal Passage,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,entry,Undead Spirit (Putrid),icons/magic/death/hand-dirt-undead-zombie.webp
+creatures,token,Undead Spirit (Putrid),icons/magic/death/hand-dirt-undead-zombie.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Rotting Claw,icons/creatures/claws/claw-scaled-red.webp
+creatures,activity,Rotting Claw,icons/creatures/claws/claw-scaled-red.webp
+creatures,actorItem,Festering Aura,icons/magic/death/hand-dirt-undead-zombie.webp
+creatures,effect,Festering Aura Effect,icons/magic/death/hand-dirt-undead-zombie.webp
+creatures,activity,Festering Aura,icons/magic/death/hand-dirt-undead-zombie.webp
+creatures,actorItem,Rotting Claw: Paralyze Poisoned Target,icons/creatures/claws/claw-scaled-red.webp
+creatures,effect,Rotting Claw: Paralyze Poisoned Target Effect,icons/creatures/claws/claw-scaled-red.webp
+creatures,activity,Rotting Claw: Paralyze Poisoned Target,icons/creatures/claws/claw-scaled-red.webp
+creatures,entry,Undead Spirit (Skeletal),icons/magic/death/skeleton-skull-soul-blue.webp
+creatures,token,Undead Spirit (Skeletal),icons/magic/death/skeleton-skull-soul-blue.webp
+creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
+creatures,actorItem,Grave Bolt,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,activity,Grave Bolt,icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,entry,Eldritch Cannon (Flamethrower),icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,token,Eldritch Cannon (Flamethrower),icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,actorItem,Flamethrower,icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,activity,Flamethrower,icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,entry,Eldritch Cannon (Force Ballista),icons/weapons/crossbows/crossbow-blue.webp
+creatures,token,Eldritch Cannon (Force Ballista),icons/weapons/crossbows/crossbow-blue.webp
+creatures,actorItem,Force Ballista,icons/weapons/crossbows/crossbow-blue.webp
+creatures,activity,Force Ballista,icons/weapons/crossbows/crossbow-blue.webp
+creatures,entry,Eldritch Cannon (Protector),icons/magic/defensive/shield-barrier-blue.webp
+creatures,token,Eldritch Cannon (Protector),icons/magic/defensive/shield-barrier-blue.webp
+creatures,actorItem,Protector,icons/magic/defensive/shield-barrier-blue.webp
+creatures,activity,Protector,icons/magic/defensive/shield-barrier-blue.webp
+creatures,entry,Mighty Servant of Leuk-o,modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+creatures,effect,Printed Proficiency Bonus,icons/skills/trades/academics-investigation-puzzles.webp
+creatures,token,Mighty Servant of Leuk-o,modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+creatures,actorItem,Destructive Fist (Melee),modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+creatures,activity,Destructive Fist (Melee),modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+creatures,actorItem,Destructive Fist (Ranged),icons/weapons/bows/shortbow-leather.webp
+creatures,activity,Destructive Fist (Ranged),icons/weapons/bows/shortbow-leather.webp
+creatures,actorItem,Crushing Leap,icons/skills/movement/feet-winged-boots-blue.webp
+creatures,effect,Crushing Leap Effect,icons/skills/movement/feet-winged-boots-blue.webp
+creatures,activity,Crushing Leap,icons/skills/movement/feet-winged-boots-blue.webp
+creatures,actorItem,Magic Resistant Construction,icons/sundries/books/book-open-purple.webp
+creatures,effect,Magic Resistant Construction,icons/sundries/books/book-open-purple.webp
+creatures,actorItem,Immutable Existence,modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+creatures,actorItem,Standing Leap,icons/skills/movement/feet-winged-boots-blue.webp
+creatures,actorItem,Unusual Nature,icons/magic/nature/leaf-rune-glow-green.webp
+creatures,actorItem,Regeneration,icons/magic/life/heart-cross-strong-green.webp
+creatures,entry,Juvenile Mimic,icons/containers/chest/chest-reinforced-box-brown.webp
+creatures,token,Juvenile Mimic,icons/containers/chest/chest-reinforced-box-brown.webp
+creatures,actorItem,Bite,icons/containers/chest/chest-reinforced-box-brown.webp
+creatures,activity,Bite,icons/containers/chest/chest-reinforced-box-brown.webp
+creatures,actorItem,False Appearance,icons/containers/chest/chest-reinforced-box-brown.webp
+creatures,actorItem,Spider Climb,icons/containers/chest/chest-reinforced-box-brown.webp
+creatures,actorItem,Shape-Shift,icons/containers/chest/chest-reinforced-box-brown.webp
+creatures,activity,Shape-Shift,icons/containers/chest/chest-reinforced-box-brown.webp
+tables,entry,Experimental Elixir,icons/consumables/potions/bottle-conical-bubbling-blue.webp
+tables,tableResult,"[1, 6]",icons/consumables/potions/bottle-conical-bubbling-blue.webp
+tables,entry,Origin of the Beast,icons/creatures/claws/claw-scaled-red.webp
+tables,tableResult,"[1, 1]",icons/creatures/claws/claw-scaled-red.webp
+tables,tableResult,"[2, 2]",icons/creatures/claws/claw-scaled-red.webp
+tables,tableResult,"[3, 3]",icons/creatures/claws/claw-scaled-red.webp
+tables,tableResult,"[4, 4]",icons/creatures/claws/claw-scaled-red.webp
+tables,entry,Wild Magic,icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[1, 1]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[2, 2]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[3, 3]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[4, 4]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[5, 5]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[6, 6]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[7, 7]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[8, 8]",icons/sundries/books/book-open-purple.webp
+tables,entry,Star Map,icons/magic/symbols/star-yellow.webp
+tables,tableResult,"[1, 6]",icons/magic/symbols/star-yellow.webp
+tables,entry,Merciful Mask,icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[1, 1]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[2, 2]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[3, 3]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[4, 4]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[5, 5]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[6, 6]",icons/sundries/gaming/dice-runed-brown.webp
+tables,entry,Feywild Gifts,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+tables,tableResult,"[1, 1]",icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+tables,tableResult,"[2, 2]",icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+tables,tableResult,"[3, 3]",icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+tables,tableResult,"[4, 4]",icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+tables,tableResult,"[5, 5]",icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+tables,tableResult,"[6, 6]",icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+tables,entry,Swarm Appearance,icons/commodities/gems/gem-amber-insect-orange.webp
+tables,tableResult,"[1, 1]",icons/commodities/gems/gem-amber-insect-orange.webp
+tables,tableResult,"[2, 2]",icons/commodities/gems/gem-amber-insect-orange.webp
+tables,tableResult,"[3, 3]",icons/commodities/gems/gem-amber-insect-orange.webp
+tables,tableResult,"[4, 4]",icons/commodities/gems/gem-amber-insect-orange.webp
+tables,entry,Aberrant Origins,icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+tables,tableResult,"[1, 1]",icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+tables,tableResult,"[2, 2]",icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+tables,tableResult,"[3, 3]",icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+tables,tableResult,"[4, 4]",icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+tables,tableResult,"[5, 5]",icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+tables,tableResult,"[6, 6]",icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp
+tables,entry,Manifestations of Order,icons/commodities/tech/cog-bronze.webp
+tables,tableResult,"[1, 1]",icons/commodities/tech/cog-bronze.webp
+tables,tableResult,"[2, 2]",icons/commodities/tech/cog-bronze.webp
+tables,tableResult,"[3, 3]",icons/commodities/tech/cog-bronze.webp
+tables,tableResult,"[4, 4]",icons/commodities/tech/cog-bronze.webp
+tables,tableResult,"[5, 5]",icons/commodities/tech/cog-bronze.webp
+tables,tableResult,"[6, 6]",icons/commodities/tech/cog-bronze.webp
+tables,entry,Genie Kind,icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[1, 1]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[2, 2]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[3, 3]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[4, 4]",icons/sundries/gaming/dice-runed-brown.webp
+tables,entry,Genie’s Vessel,icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[1, 6]",icons/sundries/gaming/dice-runed-brown.webp
+tables,entry,Academy Type,icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[1, 1]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[2, 2]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[3, 3]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[4, 4]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[5, 5]",icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[6, 6]",icons/sundries/books/book-open-purple.webp
+tables,entry,Academy Contact,icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[1, 6]",icons/sundries/books/book-open-purple.webp
+tables,entry,Academy Quests,icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[1, 6]",icons/sundries/books/book-open-purple.webp
+tables,entry,Ancient Being,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,tableResult,"[1, 6]",icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,entry,Ancient Being Contact,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,tableResult,"[1, 6]",icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,entry,Ancient Being Quests,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,tableResult,"[1, 1]",icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,tableResult,"[2, 2]",icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,tableResult,"[3, 3]",icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,tableResult,"[4, 4]",icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,tableResult,"[5, 5]",icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,tableResult,"[6, 6]",icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+tables,entry,Aristocrat Types,icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[1, 1]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[2, 2]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[3, 3]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[4, 4]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[5, 5]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[6, 6]",icons/magic/control/control-influence-crown-gold.webp
+tables,entry,Aristocrat Contact,icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[1, 6]",icons/magic/control/control-influence-crown-gold.webp
+tables,entry,Aristocrat Quests,icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[1, 6]",icons/magic/control/control-influence-crown-gold.webp
+tables,entry,Syndicate Types,icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[1, 1]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[2, 2]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[3, 3]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[4, 4]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[5, 5]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[6, 6]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,entry,Syndicate Contact,icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[1, 6]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,entry,Criminal Syndicate Quests,icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[1, 1]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[2, 2]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[3, 3]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[4, 4]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[5, 5]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,tableResult,"[6, 6]",icons/magic/perception/shadow-stealth-eyes-purple.webp
+tables,entry,Guild Types,icons/skills/trades/smithing-anvil-silver-red.webp
+tables,tableResult,"[1, 1]",icons/skills/trades/smithing-anvil-silver-red.webp
+tables,tableResult,"[2, 2]",icons/skills/trades/smithing-anvil-silver-red.webp
+tables,tableResult,"[3, 3]",icons/skills/trades/smithing-anvil-silver-red.webp
+tables,tableResult,"[4, 4]",icons/skills/trades/smithing-anvil-silver-red.webp
+tables,tableResult,"[5, 5]",icons/skills/trades/smithing-anvil-silver-red.webp
+tables,tableResult,"[6, 6]",icons/skills/trades/smithing-anvil-silver-red.webp
+tables,entry,Guild Contact,icons/skills/trades/smithing-anvil-silver-red.webp
+tables,tableResult,"[1, 6]",icons/skills/trades/smithing-anvil-silver-red.webp
+tables,entry,Guild Quests,icons/skills/trades/smithing-anvil-silver-red.webp
+tables,tableResult,"[1, 6]",icons/skills/trades/smithing-anvil-silver-red.webp
+tables,entry,Military Force Types,icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[1, 1]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[2, 2]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[3, 3]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[4, 4]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[5, 5]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[6, 6]",icons/weapons/swords/sword-runed-glowing.webp
+tables,entry,Commanding Officer,icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[1, 1]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[2, 2]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[3, 3]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[4, 4]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[5, 5]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[6, 6]",icons/weapons/swords/sword-runed-glowing.webp
+tables,entry,Military Quests,icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[1, 1]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[2, 2]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[3, 3]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[4, 4]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[5, 5]",icons/weapons/swords/sword-runed-glowing.webp
+tables,tableResult,"[6, 6]",icons/weapons/swords/sword-runed-glowing.webp
+tables,entry,Religious Order Types,icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[1, 1]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[2, 2]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[3, 3]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[4, 4]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[5, 5]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[6, 6]",icons/magic/life/ankh-gold-blue.webp
+tables,entry,Religious Order Contact,icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[1, 1]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[2, 2]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[3, 3]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[4, 4]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[5, 5]",icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[6, 6]",icons/magic/life/ankh-gold-blue.webp
+tables,entry,Religious Order Quests,icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[1, 6]",icons/magic/life/ankh-gold-blue.webp
+tables,entry,Sovereign Types,icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[1, 1]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[2, 2]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[3, 3]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[4, 4]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[5, 5]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[6, 6]",icons/magic/control/control-influence-crown-gold.webp
+tables,entry,Sovereign Contact,icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[1, 1]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[2, 2]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[3, 3]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[4, 4]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[5, 5]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[6, 6]",icons/magic/control/control-influence-crown-gold.webp
+tables,entry,Sovereign Quests,icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[1, 1]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[2, 2]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[3, 3]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[4, 4]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[5, 5]",icons/magic/control/control-influence-crown-gold.webp
+tables,tableResult,"[6, 6]",icons/magic/control/control-influence-crown-gold.webp
+tables,entry,Magic Themes,icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[1, 10]",icons/sundries/books/book-open-purple.webp
+tables,entry,Extraplanar Reversal,icons/magic/movement/portal-vortex-orange.webp
+tables,tableResult,"[1, 100]",icons/magic/movement/portal-vortex-orange.webp
+tables,entry,Elemental Essence Shards,icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[1, 1]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[2, 2]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[3, 3]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[4, 4]",icons/sundries/gaming/dice-runed-brown.webp
+tables,entry,Souls of the Tarokka,icons/creatures/magical/spirit-undead-ghost-purple.webp
+tables,tableResult,"[1, 100]",icons/creatures/magical/spirit-undead-ghost-purple.webp
+tables,entry,Outer Essence Shards,icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[1, 1]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[2, 2]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[3, 3]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[4, 4]",icons/sundries/gaming/dice-runed-brown.webp
+tables,entry,Teeth of Dahlver-Nar,modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+tables,tableResult,"[1, 20]",modules/tely-tashas-2014/assets/items/teeth-of-dahlver-nar.jpg
+tables,entry,Party Origin,icons/tools/navigation/compass-brass-blue-red.webp
+tables,tableResult,"[1, 1]",icons/tools/navigation/compass-brass-blue-red.webp
+tables,tableResult,"[2, 2]",icons/tools/navigation/compass-brass-blue-red.webp
+tables,tableResult,"[3, 3]",icons/tools/navigation/compass-brass-blue-red.webp
+tables,tableResult,"[4, 4]",icons/tools/navigation/compass-brass-blue-red.webp
+tables,tableResult,"[5, 5]",icons/tools/navigation/compass-brass-blue-red.webp
+tables,tableResult,"[6, 6]",icons/tools/navigation/compass-brass-blue-red.webp
+tables,entry,Aberrations: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 1]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[2, 2]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[3, 3]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[4, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Beasts: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Celestials: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Constructs: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Dragons: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Elementals: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Fiends: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 1]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[2, 2]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[3, 3]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[4, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Giants: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Humanoids: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Monstrosities: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 1]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[2, 2]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[3, 3]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[4, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Plants: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Undead: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 1]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[2, 2]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[3, 3]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[4, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Blessed Radiance Effects,icons/magic/life/ankh-gold-blue.webp
+tables,tableResult,"[1, 100]",icons/magic/life/ankh-gold-blue.webp
+tables,entry,Far Realm Effects,icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[1, 100]",icons/sundries/gaming/dice-runed-brown.webp
+tables,entry,Haunted Effects,icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[1, 100]",icons/sundries/gaming/dice-runed-brown.webp
+tables,entry,Infested Effects,icons/commodities/gems/gem-amber-insect-orange.webp
+tables,tableResult,"[1, 100]",icons/commodities/gems/gem-amber-insect-orange.webp
+tables,entry,Mirror Zone Effects,icons/sundries/survival/mirror-plain.webp
+tables,tableResult,"[1, 100]",icons/sundries/survival/mirror-plain.webp
+tables,entry,Psychic Resonance Effects,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+tables,tableResult,"[1, 100]",icons/skills/wounds/anatomy-organ-brain-pink-red.webp
+tables,entry,Unraveling Magic Effects,icons/sundries/books/book-open-purple.webp
+tables,tableResult,"[1, 100]",icons/sundries/books/book-open-purple.webp
+tables,entry,Enchanted Spring Effects,icons/magic/water/wave-water-blue.webp
+tables,tableResult,"[1, 12]",icons/magic/water/wave-water-blue.webp
+tables,entry,Magic Mushroom Effects,icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[1, 1]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[2, 2]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[3, 3]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[4, 4]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[5, 5]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[6, 6]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[7, 7]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[8, 8]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[9, 9]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,tableResult,"[10, 10]",icons/consumables/mushrooms/mushroom-spotted-red.webp
+tables,entry,Primal Fruit Effects,icons/magic/nature/leaf-rune-glow-green.webp
+tables,tableResult,"[1, 1]",icons/magic/nature/leaf-rune-glow-green.webp
+tables,tableResult,"[2, 2]",icons/magic/nature/leaf-rune-glow-green.webp
+tables,tableResult,"[3, 3]",icons/magic/nature/leaf-rune-glow-green.webp
+tables,tableResult,"[4, 4]",icons/magic/nature/leaf-rune-glow-green.webp
+tables,tableResult,"[5, 5]",icons/magic/nature/leaf-rune-glow-green.webp
+tables,tableResult,"[6, 6]",icons/magic/nature/leaf-rune-glow-green.webp
+tables,tableResult,"[7, 7]",icons/magic/nature/leaf-rune-glow-green.webp
+tables,tableResult,"[8, 8]",icons/magic/nature/leaf-rune-glow-green.webp
+tables,entry,Unearthly Road Keys,icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[1, 1]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[2, 2]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[3, 3]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[4, 4]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[5, 5]",icons/sundries/gaming/dice-runed-brown.webp
+tables,tableResult,"[6, 6]",icons/sundries/gaming/dice-runed-brown.webp
+tables,entry,Fey: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+tables,entry,Oozes: Desired Offerings,icons/commodities/gems/gem-faceted-round-teal.webp
+tables,tableResult,"[1, 4]",icons/commodities/gems/gem-faceted-round-teal.webp
+reference,entry,Cover,modules/tely-tashas-2014/assets/pages/page-001.webp
+reference,entry,Source Page 1,modules/tely-tashas-2014/assets/pages/page-002.webp
+reference,entry,Source Page 2,modules/tely-tashas-2014/assets/pages/page-003.webp
+reference,entry,Source Page 3,modules/tely-tashas-2014/assets/pages/page-004.webp
+reference,entry,Source Page 4,modules/tely-tashas-2014/assets/pages/page-005.webp
+reference,entry,Source Page 5,modules/tely-tashas-2014/assets/pages/page-006.webp
+reference,entry,Source Page 6,modules/tely-tashas-2014/assets/pages/page-007.webp
+reference,entry,Source Page 7,modules/tely-tashas-2014/assets/pages/page-008.webp
+reference,entry,Source Page 8,modules/tely-tashas-2014/assets/pages/page-009.webp
+reference,entry,Source Page 9,modules/tely-tashas-2014/assets/pages/page-010.webp
+reference,entry,Source Page 10,modules/tely-tashas-2014/assets/pages/page-011.webp
+reference,entry,Source Page 11,modules/tely-tashas-2014/assets/pages/page-012.webp
+reference,entry,Source Page 12,modules/tely-tashas-2014/assets/pages/page-013.webp
+reference,entry,Source Page 13,modules/tely-tashas-2014/assets/pages/page-014.webp
+reference,entry,Source Page 14,modules/tely-tashas-2014/assets/pages/page-015.webp
+reference,entry,Source Page 15,modules/tely-tashas-2014/assets/pages/page-016.webp
+reference,entry,Source Page 16,modules/tely-tashas-2014/assets/pages/page-017.webp
+reference,entry,Source Page 17,modules/tely-tashas-2014/assets/pages/page-018.webp
+reference,entry,Source Page 18,modules/tely-tashas-2014/assets/pages/page-019.webp
+reference,entry,Source Page 19,modules/tely-tashas-2014/assets/pages/page-020.webp
+reference,entry,Source Page 20,modules/tely-tashas-2014/assets/pages/page-021.webp
+reference,entry,Source Page 21,modules/tely-tashas-2014/assets/pages/page-022.webp
+reference,entry,Source Page 22,modules/tely-tashas-2014/assets/pages/page-023.webp
+reference,entry,Source Page 23,modules/tely-tashas-2014/assets/pages/page-024.webp
+reference,entry,Source Page 24,modules/tely-tashas-2014/assets/pages/page-025.webp
+reference,entry,Source Page 25,modules/tely-tashas-2014/assets/pages/page-026.webp
+reference,entry,Source Page 26,modules/tely-tashas-2014/assets/pages/page-027.webp
+reference,entry,Source Page 27,modules/tely-tashas-2014/assets/pages/page-028.webp
+reference,entry,Source Page 28,modules/tely-tashas-2014/assets/pages/page-029.webp
+reference,entry,Source Page 29,modules/tely-tashas-2014/assets/pages/page-030.webp
+reference,entry,Source Page 30,modules/tely-tashas-2014/assets/pages/page-031.webp
+reference,entry,Source Page 31,modules/tely-tashas-2014/assets/pages/page-032.webp
+reference,entry,Source Page 32,modules/tely-tashas-2014/assets/pages/page-033.webp
+reference,entry,Source Page 33,modules/tely-tashas-2014/assets/pages/page-034.webp
+reference,entry,Source Page 34,modules/tely-tashas-2014/assets/pages/page-035.webp
+reference,entry,Source Page 35,modules/tely-tashas-2014/assets/pages/page-036.webp
+reference,entry,Source Page 36,modules/tely-tashas-2014/assets/pages/page-037.webp
+reference,entry,Source Page 37,modules/tely-tashas-2014/assets/pages/page-038.webp
+reference,entry,Source Page 38,modules/tely-tashas-2014/assets/pages/page-039.webp
+reference,entry,Source Page 39,modules/tely-tashas-2014/assets/pages/page-040.webp
+reference,entry,Source Page 40,modules/tely-tashas-2014/assets/pages/page-041.webp
+reference,entry,Source Page 41,modules/tely-tashas-2014/assets/pages/page-042.webp
+reference,entry,Source Page 42,modules/tely-tashas-2014/assets/pages/page-043.webp
+reference,entry,Source Page 43,modules/tely-tashas-2014/assets/pages/page-044.webp
+reference,entry,Source Page 44,modules/tely-tashas-2014/assets/pages/page-045.webp
+reference,entry,Source Page 45,modules/tely-tashas-2014/assets/pages/page-046.webp
+reference,entry,Source Page 46,modules/tely-tashas-2014/assets/pages/page-047.webp
+reference,entry,Source Page 47,modules/tely-tashas-2014/assets/pages/page-048.webp
+reference,entry,Source Page 48,modules/tely-tashas-2014/assets/pages/page-049.webp
+reference,entry,Source Page 49,modules/tely-tashas-2014/assets/pages/page-050.webp
+reference,entry,Source Page 50,modules/tely-tashas-2014/assets/pages/page-051.webp
+reference,entry,Source Page 51,modules/tely-tashas-2014/assets/pages/page-052.webp
+reference,entry,Source Page 52,modules/tely-tashas-2014/assets/pages/page-053.webp
+reference,entry,Source Page 53,modules/tely-tashas-2014/assets/pages/page-054.webp
+reference,entry,Source Page 54,modules/tely-tashas-2014/assets/pages/page-055.webp
+reference,entry,Source Page 55,modules/tely-tashas-2014/assets/pages/page-056.webp
+reference,entry,Source Page 56,modules/tely-tashas-2014/assets/pages/page-057.webp
+reference,entry,Source Page 57,modules/tely-tashas-2014/assets/pages/page-058.webp
+reference,entry,Source Page 58,modules/tely-tashas-2014/assets/pages/page-059.webp
+reference,entry,Source Page 59,modules/tely-tashas-2014/assets/pages/page-060.webp
+reference,entry,Source Page 60,modules/tely-tashas-2014/assets/pages/page-061.webp
+reference,entry,Source Page 61,modules/tely-tashas-2014/assets/pages/page-062.webp
+reference,entry,Source Page 62,modules/tely-tashas-2014/assets/pages/page-063.webp
+reference,entry,Source Page 63,modules/tely-tashas-2014/assets/pages/page-064.webp
+reference,entry,Source Page 64,modules/tely-tashas-2014/assets/pages/page-065.webp
+reference,entry,Source Page 65,modules/tely-tashas-2014/assets/pages/page-066.webp
+reference,entry,Source Page 66,modules/tely-tashas-2014/assets/pages/page-067.webp
+reference,entry,Source Page 67,modules/tely-tashas-2014/assets/pages/page-068.webp
+reference,entry,Source Page 68,modules/tely-tashas-2014/assets/pages/page-069.webp
+reference,entry,Source Page 69,modules/tely-tashas-2014/assets/pages/page-070.webp
+reference,entry,Source Page 70,modules/tely-tashas-2014/assets/pages/page-071.webp
+reference,entry,Source Page 71,modules/tely-tashas-2014/assets/pages/page-072.webp
+reference,entry,Source Page 72,modules/tely-tashas-2014/assets/pages/page-073.webp
+reference,entry,Source Page 73,modules/tely-tashas-2014/assets/pages/page-074.webp
+reference,entry,Source Page 74,modules/tely-tashas-2014/assets/pages/page-075.webp
+reference,entry,Source Page 75,modules/tely-tashas-2014/assets/pages/page-076.webp
+reference,entry,Source Page 76,modules/tely-tashas-2014/assets/pages/page-077.webp
+reference,entry,Source Page 77,modules/tely-tashas-2014/assets/pages/page-078.webp
+reference,entry,Source Page 78,modules/tely-tashas-2014/assets/pages/page-079.webp
+reference,entry,Source Page 79,modules/tely-tashas-2014/assets/pages/page-080.webp
+reference,entry,Source Page 80,modules/tely-tashas-2014/assets/pages/page-081.webp
+reference,entry,Source Page 81,modules/tely-tashas-2014/assets/pages/page-082.webp
+reference,entry,Source Page 82,modules/tely-tashas-2014/assets/pages/page-083.webp
+reference,entry,Source Page 83,modules/tely-tashas-2014/assets/pages/page-084.webp
+reference,entry,Source Page 84,modules/tely-tashas-2014/assets/pages/page-085.webp
+reference,entry,Source Page 85,modules/tely-tashas-2014/assets/pages/page-086.webp
+reference,entry,Source Page 86,modules/tely-tashas-2014/assets/pages/page-087.webp
+reference,entry,Source Page 87,modules/tely-tashas-2014/assets/pages/page-088.webp
+reference,entry,Source Page 88,modules/tely-tashas-2014/assets/pages/page-089.webp
+reference,entry,Source Page 89,modules/tely-tashas-2014/assets/pages/page-090.webp
+reference,entry,Source Page 90,modules/tely-tashas-2014/assets/pages/page-091.webp
+reference,entry,Source Page 91,modules/tely-tashas-2014/assets/pages/page-092.webp
+reference,entry,Source Page 92,modules/tely-tashas-2014/assets/pages/page-093.webp
+reference,entry,Source Page 93,modules/tely-tashas-2014/assets/pages/page-094.webp
+reference,entry,Source Page 94,modules/tely-tashas-2014/assets/pages/page-095.webp
+reference,entry,Source Page 95,modules/tely-tashas-2014/assets/pages/page-096.webp
+reference,entry,Source Page 96,modules/tely-tashas-2014/assets/pages/page-097.webp
+reference,entry,Source Page 97,modules/tely-tashas-2014/assets/pages/page-098.webp
+reference,entry,Source Page 98,modules/tely-tashas-2014/assets/pages/page-099.webp
+reference,entry,Source Page 99,modules/tely-tashas-2014/assets/pages/page-100.webp
+reference,entry,Source Page 100,modules/tely-tashas-2014/assets/pages/page-101.webp
+reference,entry,Source Page 101,modules/tely-tashas-2014/assets/pages/page-102.webp
+reference,entry,Source Page 102,modules/tely-tashas-2014/assets/pages/page-103.webp
+reference,entry,Source Page 103,modules/tely-tashas-2014/assets/pages/page-104.webp
+reference,entry,Source Page 104,modules/tely-tashas-2014/assets/pages/page-105.webp
+reference,entry,Source Page 105,modules/tely-tashas-2014/assets/pages/page-106.webp
+reference,entry,Source Page 106,modules/tely-tashas-2014/assets/pages/page-107.webp
+reference,entry,Source Page 107,modules/tely-tashas-2014/assets/pages/page-108.webp
+reference,entry,Source Page 108,modules/tely-tashas-2014/assets/pages/page-109.webp
+reference,entry,Source Page 109,modules/tely-tashas-2014/assets/pages/page-110.webp
+reference,entry,Source Page 110,modules/tely-tashas-2014/assets/pages/page-111.webp
+reference,entry,Source Page 111,modules/tely-tashas-2014/assets/pages/page-112.webp
+reference,entry,Source Page 112,modules/tely-tashas-2014/assets/pages/page-113.webp
+reference,entry,Source Page 113,modules/tely-tashas-2014/assets/pages/page-114.webp
+reference,entry,Source Page 114,modules/tely-tashas-2014/assets/pages/page-115.webp
+reference,entry,Source Page 115,modules/tely-tashas-2014/assets/pages/page-116.webp
+reference,entry,Source Page 116,modules/tely-tashas-2014/assets/pages/page-117.webp
+reference,entry,Source Page 117,modules/tely-tashas-2014/assets/pages/page-118.webp
+reference,entry,Source Page 118,modules/tely-tashas-2014/assets/pages/page-119.webp
+reference,entry,Source Page 119,modules/tely-tashas-2014/assets/pages/page-120.webp
+reference,entry,Source Page 120,modules/tely-tashas-2014/assets/pages/page-121.webp
+reference,entry,Source Page 121,modules/tely-tashas-2014/assets/pages/page-122.webp
+reference,entry,Source Page 122,modules/tely-tashas-2014/assets/pages/page-123.webp
+reference,entry,Source Page 123,modules/tely-tashas-2014/assets/pages/page-124.webp
+reference,entry,Source Page 124,modules/tely-tashas-2014/assets/pages/page-125.webp
+reference,entry,Source Page 125,modules/tely-tashas-2014/assets/pages/page-126.webp
+reference,entry,Source Page 126,modules/tely-tashas-2014/assets/pages/page-127.webp
+reference,entry,Source Page 127,modules/tely-tashas-2014/assets/pages/page-128.webp
+reference,entry,Source Page 128,modules/tely-tashas-2014/assets/pages/page-129.webp
+reference,entry,Source Page 129,modules/tely-tashas-2014/assets/pages/page-130.webp
+reference,entry,Source Page 130,modules/tely-tashas-2014/assets/pages/page-131.webp
+reference,entry,Source Page 131,modules/tely-tashas-2014/assets/pages/page-132.webp
+reference,entry,Source Page 132,modules/tely-tashas-2014/assets/pages/page-133.webp
+reference,entry,Source Page 133,modules/tely-tashas-2014/assets/pages/page-134.webp
+reference,entry,Source Page 134,modules/tely-tashas-2014/assets/pages/page-135.webp
+reference,entry,Source Page 135,modules/tely-tashas-2014/assets/pages/page-136.webp
+reference,entry,Source Page 136,modules/tely-tashas-2014/assets/pages/page-137.webp
+reference,entry,Source Page 137,modules/tely-tashas-2014/assets/pages/page-138.webp
+reference,entry,Source Page 138,modules/tely-tashas-2014/assets/pages/page-139.webp
+reference,entry,Source Page 139,modules/tely-tashas-2014/assets/pages/page-140.webp
+reference,entry,Source Page 140,modules/tely-tashas-2014/assets/pages/page-141.webp
+reference,entry,Source Page 141,modules/tely-tashas-2014/assets/pages/page-142.webp
+reference,entry,Source Page 142,modules/tely-tashas-2014/assets/pages/page-143.webp
+reference,entry,Source Page 143,modules/tely-tashas-2014/assets/pages/page-144.webp
+reference,entry,Source Page 144,modules/tely-tashas-2014/assets/pages/page-145.webp
+reference,entry,Source Page 145,modules/tely-tashas-2014/assets/pages/page-146.webp
+reference,entry,Source Page 146,modules/tely-tashas-2014/assets/pages/page-147.webp
+reference,entry,Source Page 147,modules/tely-tashas-2014/assets/pages/page-148.webp
+reference,entry,Source Page 148,modules/tely-tashas-2014/assets/pages/page-149.webp
+reference,entry,Source Page 149,modules/tely-tashas-2014/assets/pages/page-150.webp
+reference,entry,Source Page 150,modules/tely-tashas-2014/assets/pages/page-151.webp
+reference,entry,Source Page 151,modules/tely-tashas-2014/assets/pages/page-152.webp
+reference,entry,Source Page 152,modules/tely-tashas-2014/assets/pages/page-153.webp
+reference,entry,Source Page 153,modules/tely-tashas-2014/assets/pages/page-154.webp
+reference,entry,Source Page 154,modules/tely-tashas-2014/assets/pages/page-155.webp
+reference,entry,Source Page 155,modules/tely-tashas-2014/assets/pages/page-156.webp
+reference,entry,Source Page 156,modules/tely-tashas-2014/assets/pages/page-157.webp
+reference,entry,Source Page 157,modules/tely-tashas-2014/assets/pages/page-158.webp
+reference,entry,Source Page 158,modules/tely-tashas-2014/assets/pages/page-159.webp
+reference,entry,Source Page 159,modules/tely-tashas-2014/assets/pages/page-160.webp
+reference,entry,Source Page 160,modules/tely-tashas-2014/assets/pages/page-161.webp
+reference,entry,Source Page 161,modules/tely-tashas-2014/assets/pages/page-162.webp
+reference,entry,Source Page 162,modules/tely-tashas-2014/assets/pages/page-163.webp
+reference,entry,Source Page 163,modules/tely-tashas-2014/assets/pages/page-164.webp
+reference,entry,Source Page 164,modules/tely-tashas-2014/assets/pages/page-165.webp
+reference,entry,Source Page 165,modules/tely-tashas-2014/assets/pages/page-166.webp
+reference,entry,Source Page 166,modules/tely-tashas-2014/assets/pages/page-167.webp
+reference,entry,Source Page 167,modules/tely-tashas-2014/assets/pages/page-168.webp
+reference,entry,Source Page 168,modules/tely-tashas-2014/assets/pages/page-169.webp
+reference,entry,Source Page 169,modules/tely-tashas-2014/assets/pages/page-170.webp
+reference,entry,Source Page 170,modules/tely-tashas-2014/assets/pages/page-171.webp
+reference,entry,Source Page 171,modules/tely-tashas-2014/assets/pages/page-172.webp
+reference,entry,Source Page 172,modules/tely-tashas-2014/assets/pages/page-173.webp
+reference,entry,Source Page 173,modules/tely-tashas-2014/assets/pages/page-174.webp
+reference,entry,Source Page 174,modules/tely-tashas-2014/assets/pages/page-175.webp
+reference,entry,Source Page 175,modules/tely-tashas-2014/assets/pages/page-176.webp
+reference,entry,Source Page 176,modules/tely-tashas-2014/assets/pages/page-177.webp
+reference,entry,Source Page 177,modules/tely-tashas-2014/assets/pages/page-178.webp
+reference,entry,Source Page 178,modules/tely-tashas-2014/assets/pages/page-179.webp
+reference,entry,Source Page 179,modules/tely-tashas-2014/assets/pages/page-180.webp
+reference,entry,Source Page 180,modules/tely-tashas-2014/assets/pages/page-181.webp
+reference,entry,Source Page 181,modules/tely-tashas-2014/assets/pages/page-182.webp
+reference,entry,Source Page 182,modules/tely-tashas-2014/assets/pages/page-183.webp
+reference,entry,Source Page 183,modules/tely-tashas-2014/assets/pages/page-184.webp
+reference,entry,Source Page 184,modules/tely-tashas-2014/assets/pages/page-185.webp
+reference,entry,Source Page 185,modules/tely-tashas-2014/assets/pages/page-186.webp
+reference,entry,Source Page 186,modules/tely-tashas-2014/assets/pages/page-187.webp
+reference,entry,Source Page 187,modules/tely-tashas-2014/assets/pages/page-188.webp
+reference,entry,Source Page 188,modules/tely-tashas-2014/assets/pages/page-189.webp
+reference,entry,Source Page 189,modules/tely-tashas-2014/assets/pages/page-190.webp
+reference,entry,Source Page 190,modules/tely-tashas-2014/assets/pages/page-191.webp
+reference,entry,Source Page 191,modules/tely-tashas-2014/assets/pages/page-192.webp
+reference,entry,Source Page 192,modules/tely-tashas-2014/assets/pages/page-193.webp
+reference,entry,Source Page 193,modules/tely-tashas-2014/assets/pages/page-194.webp
+reference,entry,Character Options,modules/tely-tashas-2014/assets/pages/page-008.webp
+reference,entry,Group Patrons,modules/tely-tashas-2014/assets/pages/page-084.webp
+reference,entry,Magical Miscellany,modules/tely-tashas-2014/assets/pages/page-106.webp
+reference,entry,Dungeon Master’s Tools,modules/tely-tashas-2014/assets/pages/page-140.webp
+handouts,entry,Puzzle Handouts 1,modules/tely-tashas-2014/assets/pages/page-190.webp
+handouts,entry,Puzzle Handouts 2,modules/tely-tashas-2014/assets/pages/page-191.webp
+handouts,entry,Puzzle Handouts 3,modules/tely-tashas-2014/assets/pages/page-192.webp
+handouts,entry,Puzzle Handouts 4,modules/tely-tashas-2014/assets/pages/page-193.webp
+macros,entry,Tasha: Validate Installed Content,icons/skills/trades/academics-investigation-puzzles.webp
+macros,entry,Tasha: Configure a Stored Spell,icons/magic/symbols/runes-carved-stone-green.webp
+macros,entry,Tasha: Sidekick Builder,icons/skills/social/diplomacy-handshake.webp
+macros,entry,Tasha: Resolve External Spells,icons/sundries/scrolls/scroll-yellow-teal.webp
+origins,entry,Custom Lineage (Strength),icons/weapons/hammers/hammer-double-glowing-yellow.webp
+origins,entry,Custom Lineage (Dexterity),icons/skills/movement/feet-winged-boots-blue.webp
+origins,entry,Custom Lineage (Constitution),icons/magic/life/heart-pink.webp
+origins,entry,Custom Lineage (Intelligence),icons/sundries/books/book-open-purple.webp
+origins,entry,Custom Lineage (Wisdom),icons/magic/perception/eye-ringed-green.webp
+origins,entry,Custom Lineage (Charisma),icons/skills/social/diplomacy-handshake.webp

@@ -1,5 +1,5 @@
 {
-  "checks": 7693,
+  "checks": 9904,
   "failures": [],
   "counts": {
     "classes": 16,
@@ -33,5 +33,13 @@
     "Ray of Sickness"
   ],
   "liveFoundryTested": false,
-  "automationCoverage": "See content-audit.csv; source-prompt activities require GM adjudication."
+  "automationCoverage": "See content-audit.csv; source-prompt activities require GM adjudication.",
+  "imageFieldsChecked": {
+    "entry": 805,
+    "actorItem": 128,
+    "activity": 620,
+    "token": 39,
+    "effect": 115,
+    "tableResult": 217
+  }
 }

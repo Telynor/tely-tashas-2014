@@ -1,4 +1,5 @@
 import { ID, summonStats, cantripDice, psionicDie, boundedRestore, itemSpellBonus, eligibleSlotLevels, expiredAtTurn, physical, isEquipped, resourceItem, storedSpellData, compendiumReferences } from "./mechanics.mjs";
+import "./icons.mjs";
 const meta=d=>d?.flags?.[ID] ?? {};
 const h=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const activeGM=()=>game.user?.id===game.users?.activeGM?.id;
