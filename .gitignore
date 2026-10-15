@@ -7,3 +7,4 @@ assets/
 dist/
 .validation-roundtrip/
 *.log
+tmp/

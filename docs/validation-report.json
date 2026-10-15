@@ -1,5 +1,5 @@
 {
-  "checks": 9904,
+  "checks": 10348,
   "failures": [],
   "counts": {
     "classes": 16,
@@ -41,5 +41,10 @@
     "token": 39,
     "effect": 115,
     "tableResult": 217
+  },
+  "creatureArtworkValidation": {
+    "entries": 39,
+    "assets": 29,
+    "hashesAndAlphaChecked": true
   }
 }

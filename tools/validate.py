@@ -1,6 +1,7 @@
 """Coverage, internal link integrity, object shape, source assets and mechanical regressions."""
 from pathlib import Path
-import json,re,csv,collections
+import json,re,csv,collections,hashlib
+from PIL import Image
 ROOT=Path(__file__).resolve().parents[1];ID='tely-tashas-2014'
 packs={p.stem:json.loads(p.read_text()) for p in sorted((ROOT/'content').glob('*.json'))}
 errors=[];checks=0
@@ -64,6 +65,28 @@ for pack,docs in packs.items():
      if c['type']=='activityUses':check(bool(a.get('uses',{}).get('max')),f'{name}: consuming nonexistent activity pool')
    for key,a in system.get('advancement',{}).items():check(key==a['_id'] and len(key)==16,f'{name}: invalid advancement key')
 check(len(list((ROOT/'assets/pages').glob('page-*.webp')))==194,'Source page count differs')
+creature_art=json.loads((ROOT/'source/creature-art.json').read_text())
+creature_mapping={name:row['image'] for row in creature_art['artworks'] for name in row['actors']}
+creature_names=[name for row in creature_art['artworks'] for name in row['actors']]
+check(len(creature_names)==len(set(creature_names)),'Creature artwork has duplicate actor mappings')
+check(set(creature_names)=={d['name'] for d in packs['creatures']},'Creature artwork coverage differs')
+for row in creature_art['artworks']:
+ path=ROOT/row['image'].removeprefix(f'modules/{ID}/')
+ check(row['officialArt'] and bool(row['source']),f'{row["slug"]}: official artwork provenance missing')
+ check(path.is_file(),f'{row["slug"]}: creature artwork missing')
+ if not path.is_file():continue
+ check(hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256'],f'{row["slug"]}: artwork hash differs')
+ with Image.open(path) as image:
+  check(image.format in ['PNG','WEBP'],f'{row["slug"]}: creature artwork format cannot preserve alpha')
+  has_alpha='A' in image.getbands() or 'transparency' in image.info
+  check(has_alpha,f'{row["slug"]}: alpha channel missing')
+  if has_alpha:
+   alpha=image.convert('RGBA').getchannel('A');histogram=alpha.histogram()
+   check(alpha.getextrema()[0]==0 and alpha.getextrema()[1]>=230,f'{row["slug"]}: cutout lacks a clear background or visible subject')
+   check(.05<histogram[0]/(image.width*image.height)<.95,f'{row["slug"]}: unexpected transparent area')
+for d in packs['creatures']:
+ check(d['img']==creature_mapping.get(d['name']),f'{d["name"]}: creature artwork mapping differs')
+ check(d['prototypeToken']['texture']['src']==d['img'],f'{d["name"]}: token artwork differs from portrait')
 for d in packs['tables']:
  cover=[i for r in d['results'] for i in range(r['range'][0],r['range'][1]+1)];check(cover==list(range(1,int(d['formula'][2:])+1)),f'{d["name"]}: table gaps or overlap')
 def named(pack,name):return next(d for d in packs[pack] if d['name']==name)
@@ -89,5 +112,6 @@ with (ROOT/'docs/content-audit.csv').open('w',newline='') as f:
  writer=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');writer.writeheader();writer.writerows(rows)
 result={'checks':checks,'failures':errors,'counts':{k:len(v) for k,v in packs.items()},'originalPages':194,'encodedRollTables':sum(d['flags'][ID].get('automation')=='native-roll-table' for d in packs['tables']),'sourceLookupTables':sum(d['flags'][ID].get('automation')=='source-lookup' for d in packs['tables']),'externalSpellDefinitionsRequired':json.loads((ROOT/'source/external-spells-required.json').read_text()),'liveFoundryTested':False,'automationCoverage':'See content-audit.csv; source-prompt activities require GM adjudication.'}
 result['imageFieldsChecked']=dict(image_fields)
+result['creatureArtworkValidation']={'entries':len(creature_names),'assets':len(creature_art['artworks']),'hashesAndAlphaChecked':True}
 (ROOT/'docs/validation-report.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 raise SystemExit(bool(errors))

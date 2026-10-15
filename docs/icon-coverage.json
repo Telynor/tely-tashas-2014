@@ -1,5 +1,5 @@
 {
-  "moduleVersion": "0.1.1",
+  "moduleVersion": "0.1.2",
   "entries": 805,
   "packEntries": {
     "classes": 16,
@@ -23,10 +23,12 @@
     "actorItem": 128,
     "tableResult": 217
   },
-  "uniqueImages": 301,
+  "uniqueImages": 324,
   "missingOrGeneric": 0,
   "officialMagicItemBaseArt": 15,
   "magicItemEntriesUsingOfficialArt": 35,
+  "creatureEntriesUsingOfficialArt": 39,
+  "transparentCreatureArtAssets": 29,
   "catalogSource": "https://github.com/foundryvtt/dnd5e/tree/release-5.3.3",
   "externalImageDownloadsRequired": false
 }

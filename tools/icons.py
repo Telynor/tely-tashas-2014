@@ -7,6 +7,8 @@ CATALOG=json.loads((ROOT/'source/icon-catalog.json').read_text())
 PATHS=set(CATALOG['paths'])
 ART_SOURCE=json.loads((ROOT/'source/item-art.json').read_text())
 OFFICIAL_ART={name:entry['image'] for entry in ART_SOURCE['artworks'] for name in entry['items']}
+CREATURE_ART_SOURCE=json.loads((ROOT/'source/creature-art.json').read_text())
+CREATURE_ART={name:entry['image'] for entry in CREATURE_ART_SOURCE['artworks'] for name in entry['actors']}
 PLACEHOLDER_PREFIXES=('icons/svg/','icons/blank','icons/default')
 
 def pick(*terms):
@@ -132,6 +134,7 @@ def themed(name,fallback):
 
 def choose_document(doc,pack,scope):
  name=doc['name'];m=doc.get('flags',{}).get(scope,{})
+ if pack=='creatures':return CREATURE_ART[name]
  art_name='Teeth of Dahlver-Nar' if m.get('tooth') else m.get('baseName',name)
  if art_name in OFFICIAL_ART:return OFFICIAL_ART[art_name]
  if pack=='classes':
@@ -143,18 +146,6 @@ def choose_document(doc,pack,scope):
  if m.get('baseName') in ['Elemental Essence Shard','Outer Essence Shard']:
   return P[{'Air':'wind','Earth':'earth','Fire':'fire','Water':'water','Lawful':'cog','Chaotic':'luck','Good':'holy','Evil':'devil'}[name.rsplit('(',1)[-1].rstrip(')')]]
  if m.get('baseName') in EXACT:return P[EXACT[m['baseName']]]
- if pack=='creatures':
-  variants=[('Aberrant Spirit (Beholderkin)','eye'),('Aberrant Spirit (Slaad)','frog'),('Aberrant Spirit (Star Spawn)','alien'),
-   ('Bestial Spirit (Air)','bird'),('Bestial Spirit (Land)','wolf'),('Bestial Spirit (Water)','fish'),
-   ('Celestial Spirit (Avenger)','radiant'),('Celestial Spirit (Defender)','shield'),
-   ('Construct Spirit (Clay)','clay'),('Construct Spirit (Metal)','iron'),('Construct Spirit (Stone)','golem'),
-   ('Elemental Spirit (Air)','wind'),('Elemental Spirit (Earth)','earth'),('Elemental Spirit (Fire)','spiritfire'),('Elemental Spirit (Water)','water'),
-   ('Fey Spirit (Fuming)','fire'),('Fey Spirit (Mirthful)','fey'),('Fey Spirit (Tricksy)','luck'),
-   ('Fiendish Spirit (Demon)','demon'),('Fiendish Spirit (Devil)','devil'),('Fiendish Spirit (Yugoloth)','necrotic'),
-   ('Shadow Spirit (Fury)','blood'),('Shadow Spirit (Despair)','shadow'),('Shadow Spirit (Fear)','ghost'),
-   ('Undead Spirit (Ghostly)','ghost'),('Undead Spirit (Putrid)','zombie'),('Undead Spirit (Skeletal)','skeleton'),
-   ('Eldritch Cannon (Flamethrower)','fire'),('Eldritch Cannon (Force Ballista)','gun'),('Eldritch Cannon (Protector)','shield')]
-  if name in dict(variants):return P[dict(variants)[name]]
  if pack=='macros':return P['knowledge' if 'Validate' in name else 'rune' if 'Stored' in name else 'peace' if 'Sidekick' in name else 'scroll']
  parent=m.get('parent','');fallback=P[SUBCLASSES[parent]] if parent in SUBCLASSES else P[CLASS.get(m.get('classIdentifier',''),'spell')]
  if pack=='tables':
@@ -198,5 +189,5 @@ def build(packs,scope):
  (ROOT/'docs').mkdir(exist_ok=True)
  with (ROOT/'docs/icon-audit.csv').open('w',newline='') as f:
   writer=csv.DictWriter(f,fieldnames=['pack','kind','name','image'],lineterminator='\n');writer.writeheader();writer.writerows(rows)
- report={'moduleVersion':json.loads((ROOT/'module.json').read_text())['version'],'entries':counts['entry'],'packEntries':{p:len(v) for p,v in packs.items()},'imageFields':dict(counts),'uniqueImages':len({r['image'] for r in rows}),'missingOrGeneric':0,'officialMagicItemBaseArt':len(OFFICIAL_ART),'magicItemEntriesUsingOfficialArt':sum(d['img'] in OFFICIAL_ART.values() for d in packs['magic-items']),'catalogSource':CATALOG['source'],'externalImageDownloadsRequired':False}
+ report={'moduleVersion':json.loads((ROOT/'module.json').read_text())['version'],'entries':counts['entry'],'packEntries':{p:len(v) for p,v in packs.items()},'imageFields':dict(counts),'uniqueImages':len({r['image'] for r in rows}),'missingOrGeneric':0,'officialMagicItemBaseArt':len(OFFICIAL_ART),'magicItemEntriesUsingOfficialArt':sum(d['img'] in OFFICIAL_ART.values() for d in packs['magic-items']),'creatureEntriesUsingOfficialArt':sum(d['img']==CREATURE_ART[d['name']] for d in packs['creatures']),'transparentCreatureArtAssets':len(CREATURE_ART_SOURCE['artworks']),'catalogSource':CATALOG['source'],'externalImageDownloadsRequired':False}
  (ROOT/'docs/icon-coverage.json').write_text(json.dumps(report,indent=2)+'\n')

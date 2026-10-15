@@ -1,0 +1,562 @@
+{
+  "version": "0.1.2",
+  "creatureEntries": 39,
+  "uniqueArtworks": 29,
+  "sourcesPrioritized": [
+    "D&D Beyond",
+    "user-supplied official sourcebook",
+    "original illustrator",
+    "verified official-art mirror"
+  ],
+  "copyright": "Original illustrations remain copyright Wizards of the Coast and their respective artists. Background extraction does not transfer artwork ownership.",
+  "selectionNote": "Use creature-specific illustrations when available. Open-ended summons and companions use official artwork of a matching allowed form; variants of one creature may share their illustration. The Giant Shark artwork is a visual form only; all sourcebook statistics and 2014 rules remain unchanged.",
+  "backgroundNote": "Original alpha files are retained unchanged. Twelve source illustrations were edited using the built-in imagegen background-extraction tool; these are edited derivatives of the cited official art, not publisher-supplied transparent files. Soft painted edges and attached lighting are preserved.",
+  "artworks": [
+    {
+      "slug": "steel-defender",
+      "actors": [
+        "Steel Defender"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/steel-defender.png",
+      "officialArt": true,
+      "selection": "creature-specific",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/posts/2109-forge-your-story-with-5-inventive-artificer",
+        "imageUrl": "https://www.dndbeyond.com/attachments/12/605/battle-smith-michael-broussard.jpg",
+        "artist": "Michael Broussard"
+      },
+      "sourceSha256": "7a83f536351d992ca0ffa160b0bb0ac5fba1958c62b9ca0f19372cfc85ece6c7",
+      "sha256": "87a98c4a3b70dfafa1bb23f1461ce1ba96461df905185194c1201e27d20de6f8",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "eldritch-cannon",
+      "actors": [
+        "Eldritch Cannon (Flamethrower)",
+        "Eldritch Cannon (Force Ballista)",
+        "Eldritch Cannon (Protector)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png",
+      "officialArt": true,
+      "selection": "creature-specific",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/posts/2109-forge-your-story-with-5-inventive-artificer",
+        "imageUrl": "https://www.dndbeyond.com/attachments/12/604/artillerist-john-thacker.jpg",
+        "artist": "John Thacker"
+      },
+      "sourceSha256": "c861d86da00bb26510827ae5513b257c2658d1c829211c412af8585df68166bf",
+      "sha256": "c03df16cdc89fd26151b89102da849ee898671f383b1d028fbdda9a653b3b463",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "wildfire-spirit",
+      "actors": [
+        "Wildfire Spirit"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/wildfire-spirit.png",
+      "officialArt": true,
+      "selection": "creature-specific",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/posts/1044-druid-101-circle-of-wildfire-from-tashas-cauldron",
+        "imageUrl": "https://www.dndbeyond.com/attachments/8/770/circle-of-wildfire-druid.jpg"
+      },
+      "sourceSha256": "a9515de56bb6829d7b307e95e487cc3e7d9642452f11541ea4245ee7825126d4",
+      "sha256": "1100d155bd0fff14c7acf2cfeacfc73e6830450906c78ca55b63a6a23c87503d",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "homunculus-servant",
+      "actors": [
+        "Homunculus Servant"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/homunculus-servant.png",
+      "officialArt": true,
+      "selection": "creature-specific",
+      "source": {
+        "provider": "user-supplied-official-sourcebook",
+        "filename": "D&D 5E - Tasha's Cauldron of Everything.pdf",
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "pdfPage": 22,
+        "printedPage": 21,
+        "imageXref": 365
+      },
+      "sourceSha256": "ae853ac3082155ec194c8110ef688cb0b04595875bff6b72e419731259e00be3",
+      "sha256": "bd5d2d9872fc6980440345b3ea64f2e9220217d02351adbfee6c99d5f758efbc",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "celestial-spirit",
+      "actors": [
+        "Celestial Spirit (Avenger)",
+        "Celestial Spirit (Defender)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/celestial-spirit.png",
+      "officialArt": true,
+      "selection": "creature-specific",
+      "source": {
+        "provider": "user-supplied-official-sourcebook",
+        "filename": "D&D 5E - Tasha's Cauldron of Everything.pdf",
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "pdfPage": 111,
+        "printedPage": 110,
+        "imageXref": 2045
+      },
+      "sourceSha256": "fc5f9a7591fa0b995249280a5189bd8c223f406d31e920e1ce6ea41d2e7505d3",
+      "sha256": "3bcbf0f2370a0ef6ae327185729e827f47ac4002f592dde72278378d26af141c",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "shadow-spirit",
+      "actors": [
+        "Shadow Spirit (Fury)",
+        "Shadow Spirit (Despair)",
+        "Shadow Spirit (Fear)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/shadow-spirit.png",
+      "officialArt": true,
+      "selection": "creature-specific",
+      "source": {
+        "provider": "user-supplied-official-sourcebook",
+        "filename": "D&D 5E - Tasha's Cauldron of Everything.pdf",
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "pdfPage": 114,
+        "printedPage": 113,
+        "imageXref": 2100
+      },
+      "sourceSha256": "b3af16000a00bdf69bdb6a3b527f403ca2dc3c4a86ebe03917a2b26dbe260a7e",
+      "sha256": "4817c3772c5aa49c7309273b9bc2aff2c7673088e24219e9db8c0c68925d946c",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "mighty-servant-of-leuk-o",
+      "actors": [
+        "Mighty Servant of Leuk-o"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/mighty-servant-of-leuk-o.png",
+      "officialArt": true,
+      "selection": "creature-specific",
+      "source": {
+        "provider": "user-supplied-official-sourcebook",
+        "filename": "D&D 5E - Tasha's Cauldron of Everything.pdf",
+        "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+        "pdfPage": 133,
+        "printedPage": 132,
+        "imageXref": 2424
+      },
+      "sourceSha256": "dbb542e68e61730391d98fb5c1dc891b37bc4b38955ae6ce00d2e82b06d52085",
+      "sha256": "2875efcd159c1065e7de0118cb72441d7003f2ed223b3f0535b02f123794c09c",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "dancing-item",
+      "actors": [
+        "Dancing Item"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/dancing-item.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16786-animated-armor",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/31312/506/1000/1000/638084408333616236.png",
+        "artSubject": "Animated Armor"
+      },
+      "sourceSha256": "76605e819ba932551b6ee956a258475ac0a5241d010ef4b79b79a6389bfff745",
+      "sha256": "76605e819ba932551b6ee956a258475ac0a5241d010ef4b79b79a6389bfff745",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "land-beast",
+      "actors": [
+        "Beast of the Land",
+        "Bestial Spirit (Land)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/land-beast.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/4775850-wolf",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/43939/948/1000/1000/638607435568755201.png",
+        "artSubject": "Wolf"
+      },
+      "sourceSha256": "ca57ee696ad7f5ef9720cb4d91a5d4502308a0c30bfb1aca0a42e20f70fea9d9",
+      "sha256": "7e761bb442ba8ba0de1c9e617cf0a5794f7533952e64da7afd6d0ba17bc8168a",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "water-beast",
+      "actors": [
+        "Beast of the Sea",
+        "Bestial Spirit (Water)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/water-beast.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/5195027-giant-shark",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/58417/130/1000/1000/639226715031150192.jpeg",
+        "artSubject": "Giant Shark"
+      },
+      "sourceSha256": "68cdd48c38728940725eefe4bbdf704d163a77308f4beee5496bdd862acaa558",
+      "sha256": "f9fdcd022e6c313e9a754655dc91aca1fb882f67634bdf2f9e5ef91a0f4caa1c",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "air-beast",
+      "actors": [
+        "Beast of the Sky",
+        "Bestial Spirit (Air)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/air-beast.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16852-eagle",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30849/292/1000/1000/638064498871776868.png",
+        "artSubject": "Eagle"
+      },
+      "sourceSha256": "3431386429f8230c0085814e2267ae2d06f28f36282a7983eba574a9399f0151",
+      "sha256": "3431386429f8230c0085814e2267ae2d06f28f36282a7983eba574a9399f0151",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "beholderkin",
+      "actors": [
+        "Aberrant Spirit (Beholderkin)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/beholderkin.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/17094-spectator",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30761/998/1000/1000/638061102728373114.png",
+        "artSubject": "Spectator"
+      },
+      "sourceSha256": "5adf935a56e028e3592cad1588a05d208486969f7f2f28e87359c59399b22689",
+      "sha256": "5adf935a56e028e3592cad1588a05d208486969f7f2f28e87359c59399b22689",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "slaad",
+      "actors": [
+        "Aberrant Spirit (Slaad)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/slaad.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "official-art-mirror",
+        "publisher": "Wizards of the Coast",
+        "publication": "Monster Manual (2014), Red Slaad illustration",
+        "page": "https://5e.tools/bestiary/red-slaad-mm.html",
+        "imageUrl": "https://5e.tools/img/bestiary/MM/Red%20Slaad.webp",
+        "preferredDdbPage": "https://www.dndbeyond.com/monsters/17116-red-slaad",
+        "ddbAvailability": "The public page redirected to the marketplace during artwork retrieval."
+      },
+      "sourceSha256": "7fc3729a1d8c08f8be39e0b4b72507773a9f3dc024361b4c65761b49d5e3606b",
+      "sha256": "c3d1e10695d4c3dcb2b6ccf9ba7a47cecc3caa197aeba060ca8056d36e8005c2",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "star-spawn",
+      "actors": [
+        "Aberrant Spirit (Star Spawn)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/star-spawn.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "original-illustrator",
+        "artist": "Christopher Burdett",
+        "publisher": "Wizards of the Coast",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+        "page": "https://christopherburdett.blogspot.com/2022/01/dungeons-dragons-mordenkainen-presents_24.html",
+        "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgq7CgObw_Dv7ZDDh4mU2-vnJTZC5Qz6PSKdZ8y9gMtSKRfksBx55fEWpwjr4uAXj9LZhDhTiZaU3tUkjkmJgY0_wi31z9x5zq0eOIPkpJbG0qhMLAQ8FC7ATpbqfkhCdeZY7hmzAnjz1FwdcWpZG-M9Z0CO3TznXMZVM8oRgTfDER_Qumr0HD5Eho3Jw=s1008",
+        "preferredDdbPage": "https://www.dndbeyond.com/monsters/2560925-star-spawn-mangler",
+        "ddbAvailability": "The public page redirected to the marketplace during artwork retrieval."
+      },
+      "sourceSha256": "03700c5b37dd0e3528f8fe257052ae5d92d86f4c86328e5506df1937fe3ed3f7",
+      "sha256": "16946dfea5536e8fa24676035ed64603cd9dc276a62f8b474d1b449c0f7e5638",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "construct-clay",
+      "actors": [
+        "Construct Spirit (Clay)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/construct-clay.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16825-clay-golem",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30783/964/1000/1000/638062024732910911.png",
+        "artSubject": "Clay Golem"
+      },
+      "sourceSha256": "3ffc890982f90291efd69a288e964ebbdc21a9721126e7728ccfd8069eafac9c",
+      "sha256": "3ffc890982f90291efd69a288e964ebbdc21a9721126e7728ccfd8069eafac9c",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "construct-metal",
+      "actors": [
+        "Construct Spirit (Metal)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/construct-metal.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16935-iron-golem",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30784/170/1000/1000/638062031423594632.png",
+        "artSubject": "Iron Golem"
+      },
+      "sourceSha256": "58f10ca6f2786370759d319423544bd8397f18fc9ed9a7049d38342e61a65210",
+      "sha256": "58f10ca6f2786370759d319423544bd8397f18fc9ed9a7049d38342e61a65210",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "construct-stone",
+      "actors": [
+        "Construct Spirit (Stone)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/construct-stone.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/17025-stone-golem",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30783/984/1000/1000/638062025138800879.png",
+        "artSubject": "Stone Golem"
+      },
+      "sourceSha256": "aa9c406b016057e9b42dfe72cae4007bfc2b34010a45a4ce5827f3ed47c8c253",
+      "sha256": "aa9c406b016057e9b42dfe72cae4007bfc2b34010a45a4ce5827f3ed47c8c253",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "elemental-air",
+      "actors": [
+        "Elemental Spirit (Air)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/elemental-air.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16774-air-elemental",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30783/689/1000/1000/638062015555039371.png",
+        "artSubject": "Air Elemental"
+      },
+      "sourceSha256": "5915755607cc0e4c121e3e3b6fbc1b2940552b02dca91d91da48ead80231cb3c",
+      "sha256": "5915755607cc0e4c121e3e3b6fbc1b2940552b02dca91d91da48ead80231cb3c",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "elemental-earth",
+      "actors": [
+        "Elemental Spirit (Earth)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/elemental-earth.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16853-earth-elemental",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30783/692/1000/1000/638062015664899420.png",
+        "artSubject": "Earth Elemental"
+      },
+      "sourceSha256": "042835a2f43ecfdc370578d1fd9e9b8c2412bc8b6afe8ef576152267f3554598",
+      "sha256": "042835a2f43ecfdc370578d1fd9e9b8c2412bc8b6afe8ef576152267f3554598",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "elemental-fire",
+      "actors": [
+        "Elemental Spirit (Fire)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/elemental-fire.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16861-fire-elemental",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30783/695/1000/1000/638062015772259390.png",
+        "artSubject": "Fire Elemental"
+      },
+      "sourceSha256": "6fe23d834a786cfc206d2ce624d2d5e063196f2388799a749fe53b7efa2dc59c",
+      "sha256": "6fe23d834a786cfc206d2ce624d2d5e063196f2388799a749fe53b7efa2dc59c",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "elemental-water",
+      "actors": [
+        "Elemental Spirit (Water)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/elemental-water.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/17051-water-elemental",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30783/698/1000/1000/638062015886859442.png",
+        "artSubject": "Water Elemental"
+      },
+      "sourceSha256": "81343000b4b57aeced77f7217bd74589d249967504f58b6095b5e3854ed30b0a",
+      "sha256": "81343000b4b57aeced77f7217bd74589d249967504f58b6095b5e3854ed30b0a",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "fey-spirit",
+      "actors": [
+        "Fey Spirit (Fuming)",
+        "Fey Spirit (Mirthful)",
+        "Fey Spirit (Tricksy)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/fey-spirit.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/17005-satyr",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30835/809/1000/1000/638063921966875975.png",
+        "artSubject": "Satyr"
+      },
+      "sourceSha256": "51221e9f4be9b2533f91410d70c2ef0c53f1db3d50bedc2abff16835b383170c",
+      "sha256": "c39e3f5751b43c121843ec320b13210f016389ff36da5b724acd25903e0e5242",
+      "processing": "imagegen-background-extraction"
+    },
+    {
+      "slug": "fiend-demon",
+      "actors": [
+        "Fiendish Spirit (Demon)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/fiend-demon.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16922-hezrou",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30781/620/1000/1000/638061931586077246.png",
+        "artSubject": "Hezrou"
+      },
+      "sourceSha256": "f99945c49f836d0a83e1d19839a56623541dca1a0d1d44d81c9ad5532c27f61e",
+      "sha256": "f99945c49f836d0a83e1d19839a56623541dca1a0d1d44d81c9ad5532c27f61e",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "fiend-devil",
+      "actors": [
+        "Fiendish Spirit (Devil)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/fiend-devil.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16927-horned-devil",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30782/14/1000/1000/638061948209066036.png",
+        "artSubject": "Horned Devil"
+      },
+      "sourceSha256": "96d7bde4e1ef7a5fd9cfa35373d20f26b56465369c2cbd3a67c4f5e2db423f41",
+      "sha256": "96d7bde4e1ef7a5fd9cfa35373d20f26b56465369c2cbd3a67c4f5e2db423f41",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "fiend-yugoloth",
+      "actors": [
+        "Fiendish Spirit (Yugoloth)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/fiend-yugoloth.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/posts/601-how-to-play-a-yugoloth-like-the-ultimate-mercenary",
+        "imageUrl": "https://www.dndbeyond.com/attachments/6/581/636460883294666009.png",
+        "artSubject": "Mezzoloth"
+      },
+      "sourceSha256": "63f1442a7662910c397eae2f28ab54da93473dfc28618d9a4c23fe94f772c1d2",
+      "sha256": "63f1442a7662910c397eae2f28ab54da93473dfc28618d9a4c23fe94f772c1d2",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "undead-ghostly",
+      "actors": [
+        "Undead Spirit (Ghostly)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/undead-ghostly.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16871-ghost",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30783/917/1000/1000/638062023593120762.png",
+        "artSubject": "Ghost"
+      },
+      "sourceSha256": "39a97496a6fd8797ce5a03f86d8de766256db71413239f1f44d3e4a6b8e6f8ad",
+      "sha256": "39a97496a6fd8797ce5a03f86d8de766256db71413239f1f44d3e4a6b8e6f8ad",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "undead-putrid",
+      "actors": [
+        "Undead Spirit (Putrid)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/undead-putrid.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/17077-zombie",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30836/823/1000/1000/638063945376881949.png",
+        "artSubject": "Zombie"
+      },
+      "sourceSha256": "fb03df6157a4cca9d6663fbd3930177e0d9089fbb768e9cb9d8eb792ec2ed2c8",
+      "sha256": "fb03df6157a4cca9d6663fbd3930177e0d9089fbb768e9cb9d8eb792ec2ed2c8",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "undead-skeletal",
+      "actors": [
+        "Undead Spirit (Skeletal)"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/undead-skeletal.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/17015-skeleton",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30835/849/1000/1000/638063922565505819.png",
+        "artSubject": "Skeleton"
+      },
+      "sourceSha256": "176dc02bcee8397226a7583500ce21aa94d491ddcaa36be813dafbc80471b2e7",
+      "sha256": "176dc02bcee8397226a7583500ce21aa94d491ddcaa36be813dafbc80471b2e7",
+      "processing": "original-alpha-preserved"
+    },
+    {
+      "slug": "juvenile-mimic",
+      "actors": [
+        "Juvenile Mimic"
+      ],
+      "image": "modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png",
+      "officialArt": true,
+      "selection": "representative-form",
+      "source": {
+        "provider": "D&D Beyond",
+        "page": "https://www.dndbeyond.com/monsters/16957-mimic",
+        "imageUrl": "https://www.dndbeyond.com/avatars/thumbnails/30833/408/1000/1000/638063863232165584.png",
+        "artSubject": "Mimic"
+      },
+      "sourceSha256": "3601e14c380fd46c8de9d047bf665ca2b5150cbe0b2a1e50429d5cd67f3629c3",
+      "sha256": "3601e14c380fd46c8de9d047bf665ca2b5150cbe0b2a1e50429d5cd67f3629c3",
+      "processing": "original-alpha-preserved"
+    }
+  ]
+}

@@ -1110,8 +1110,8 @@ magic-items,activity,Divine Intervention,icons/magic/life/ankh-gold-blue.webp
 magic-items,entry,Potent Poison (Poisoner),icons/skills/toxins/symbol-poison-drop-skull-green.webp
 magic-items,effect,Potent Poison: Poisoned,icons/skills/toxins/symbol-poison-drop-skull-green.webp
 magic-items,activity,Potent Poison Hit,icons/skills/toxins/symbol-poison-drop-skull-green.webp
-creatures,entry,Steel Defender,icons/creatures/magical/construct-iron-stomping-yellow.webp
-creatures,token,Steel Defender,icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,entry,Steel Defender,modules/tely-tashas-2014/assets/creatures/steel-defender.png
+creatures,token,Steel Defender,modules/tely-tashas-2014/assets/creatures/steel-defender.png
 creatures,actorItem,Force-Empowered Rend,icons/creatures/claws/claw-scaled-red.webp
 creatures,activity,Force-Empowered Rend,icons/creatures/claws/claw-scaled-red.webp
 creatures,actorItem,Repair,icons/magic/air/wind-vortex-swirl-blue.webp
@@ -1119,172 +1119,172 @@ creatures,activity,Repair,icons/magic/air/wind-vortex-swirl-blue.webp
 creatures,actorItem,Vigilant,icons/magic/perception/eye-ringed-green.webp
 creatures,actorItem,Deflect Attack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Deflect Attack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,entry,Homunculus Servant,icons/creatures/unholy/demon-fire-imp.webp
-creatures,token,Homunculus Servant,icons/creatures/unholy/demon-fire-imp.webp
+creatures,entry,Homunculus Servant,modules/tely-tashas-2014/assets/creatures/homunculus-servant.png
+creatures,token,Homunculus Servant,modules/tely-tashas-2014/assets/creatures/homunculus-servant.png
 creatures,actorItem,Force Strike,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Force Strike,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Evasion,icons/skills/movement/feet-winged-boots-blue.webp
 creatures,actorItem,Channel Magic,icons/sundries/books/book-open-purple.webp
 creatures,activity,Channel Magic,icons/sundries/books/book-open-purple.webp
-creatures,entry,Dancing Item,icons/magic/control/debuff-energy-hold-levitate-pink.webp
-creatures,token,Dancing Item,icons/magic/control/debuff-energy-hold-levitate-pink.webp
-creatures,actorItem,Force-Empowered Slam,icons/magic/control/debuff-energy-hold-levitate-pink.webp
-creatures,activity,Force-Empowered Slam,icons/magic/control/debuff-energy-hold-levitate-pink.webp
-creatures,actorItem,Immutable Form,icons/magic/control/debuff-energy-hold-levitate-pink.webp
-creatures,actorItem,Irrepressible Dance,icons/magic/control/debuff-energy-hold-levitate-pink.webp
-creatures,activity,Irrepressible Dance,icons/magic/control/debuff-energy-hold-levitate-pink.webp
-creatures,entry,Wildfire Spirit,icons/creatures/magical/spirit-fire-orange.webp
-creatures,token,Wildfire Spirit,icons/creatures/magical/spirit-fire-orange.webp
+creatures,entry,Dancing Item,modules/tely-tashas-2014/assets/creatures/dancing-item.png
+creatures,token,Dancing Item,modules/tely-tashas-2014/assets/creatures/dancing-item.png
+creatures,actorItem,Force-Empowered Slam,modules/tely-tashas-2014/assets/creatures/dancing-item.png
+creatures,activity,Force-Empowered Slam,modules/tely-tashas-2014/assets/creatures/dancing-item.png
+creatures,actorItem,Immutable Form,modules/tely-tashas-2014/assets/creatures/dancing-item.png
+creatures,actorItem,Irrepressible Dance,modules/tely-tashas-2014/assets/creatures/dancing-item.png
+creatures,activity,Irrepressible Dance,modules/tely-tashas-2014/assets/creatures/dancing-item.png
+creatures,entry,Wildfire Spirit,modules/tely-tashas-2014/assets/creatures/wildfire-spirit.png
+creatures,token,Wildfire Spirit,modules/tely-tashas-2014/assets/creatures/wildfire-spirit.png
 creatures,actorItem,Flame Seed,icons/magic/fire/projectile-fireball-orange-green.webp
 creatures,activity,Flame Seed,icons/magic/fire/projectile-fireball-orange-green.webp
 creatures,actorItem,Fiery Teleportation,icons/magic/movement/portal-vortex-orange.webp
 creatures,activity,Fiery Teleportation,icons/magic/movement/portal-vortex-orange.webp
-creatures,entry,Beast of the Land,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,token,Beast of the Land,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,actorItem,Maul,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,activity,Maul,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,actorItem,Charge: Knock Prone,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,effect,Charge: Knock Prone Effect,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,activity,Charge: Knock Prone,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,actorItem,Charge: Extra Damage,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,activity,Charge Damage,icons/creatures/mammals/wolf-shadow-black.webp
+creatures,entry,Beast of the Land,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,token,Beast of the Land,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,actorItem,Maul,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,activity,Maul,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,actorItem,Charge: Knock Prone,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,effect,Charge: Knock Prone Effect,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,activity,Charge: Knock Prone,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,actorItem,Charge: Extra Damage,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,activity,Charge Damage,modules/tely-tashas-2014/assets/creatures/land-beast.png
 creatures,actorItem,Primal Bond,icons/skills/social/diplomacy-handshake.webp
-creatures,actorItem,Charge,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,entry,Beast of the Sea,icons/creatures/fish/fish-bluefin-yellow-blue.webp
-creatures,token,Beast of the Sea,icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,actorItem,Charge,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,entry,Beast of the Sea,modules/tely-tashas-2014/assets/creatures/water-beast.png
+creatures,token,Beast of the Sea,modules/tely-tashas-2014/assets/creatures/water-beast.png
 creatures,actorItem,Binding Strike,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Binding Strike,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Primal Bond,icons/skills/social/diplomacy-handshake.webp
-creatures,actorItem,Amphibious,icons/creatures/fish/fish-bluefin-yellow-blue.webp
-creatures,entry,Beast of the Sky,icons/creatures/birds/raptor-owl-flying-moon.webp
-creatures,token,Beast of the Sky,icons/creatures/birds/raptor-owl-flying-moon.webp
-creatures,actorItem,Shred,icons/creatures/birds/raptor-owl-flying-moon.webp
-creatures,activity,Shred,icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,actorItem,Amphibious,modules/tely-tashas-2014/assets/creatures/water-beast.png
+creatures,entry,Beast of the Sky,modules/tely-tashas-2014/assets/creatures/air-beast.png
+creatures,token,Beast of the Sky,modules/tely-tashas-2014/assets/creatures/air-beast.png
+creatures,actorItem,Shred,modules/tely-tashas-2014/assets/creatures/air-beast.png
+creatures,activity,Shred,modules/tely-tashas-2014/assets/creatures/air-beast.png
 creatures,actorItem,Primal Bond,icons/skills/social/diplomacy-handshake.webp
-creatures,actorItem,Flyby,icons/creatures/birds/raptor-owl-flying-moon.webp
-creatures,entry,Aberrant Spirit (Beholderkin),icons/magic/perception/eye-ringed-green.webp
-creatures,token,Aberrant Spirit (Beholderkin),icons/magic/perception/eye-ringed-green.webp
+creatures,actorItem,Flyby,modules/tely-tashas-2014/assets/creatures/air-beast.png
+creatures,entry,Aberrant Spirit (Beholderkin),modules/tely-tashas-2014/assets/creatures/beholderkin.png
+creatures,token,Aberrant Spirit (Beholderkin),modules/tely-tashas-2014/assets/creatures/beholderkin.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Eye Ray,icons/magic/perception/eye-ringed-green.webp
-creatures,activity,Eye Ray,icons/magic/perception/eye-ringed-green.webp
-creatures,entry,Aberrant Spirit (Slaad),icons/creatures/amphibians/bullfrog-glass-teal.webp
-creatures,token,Aberrant Spirit (Slaad),icons/creatures/amphibians/bullfrog-glass-teal.webp
+creatures,actorItem,Eye Ray,modules/tely-tashas-2014/assets/creatures/beholderkin.png
+creatures,activity,Eye Ray,modules/tely-tashas-2014/assets/creatures/beholderkin.png
+creatures,entry,Aberrant Spirit (Slaad),modules/tely-tashas-2014/assets/creatures/slaad.png
+creatures,token,Aberrant Spirit (Slaad),modules/tely-tashas-2014/assets/creatures/slaad.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Claws,icons/creatures/claws/claw-scaled-red.webp
 creatures,activity,Claws,icons/creatures/claws/claw-scaled-red.webp
 creatures,actorItem,Regeneration,icons/magic/life/heart-cross-strong-green.webp
 creatures,actorItem,Claws: Prevent Healing,icons/creatures/claws/claw-scaled-red.webp
-creatures,entry,Aberrant Spirit (Star Spawn),icons/creatures/magical/humanoid-silhouette-aliens-green.webp
-creatures,token,Aberrant Spirit (Star Spawn),icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+creatures,entry,Aberrant Spirit (Star Spawn),modules/tely-tashas-2014/assets/creatures/star-spawn.png
+creatures,token,Aberrant Spirit (Star Spawn),modules/tely-tashas-2014/assets/creatures/star-spawn.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Psychic Slam,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
 creatures,activity,Psychic Slam,icons/skills/wounds/anatomy-organ-brain-pink-red.webp
-creatures,actorItem,Whispering Aura,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
-creatures,activity,Whispering Aura,icons/creatures/magical/humanoid-silhouette-aliens-green.webp
-creatures,entry,Bestial Spirit (Air),icons/creatures/birds/raptor-owl-flying-moon.webp
-creatures,token,Bestial Spirit (Air),icons/creatures/birds/raptor-owl-flying-moon.webp
+creatures,actorItem,Whispering Aura,modules/tely-tashas-2014/assets/creatures/star-spawn.png
+creatures,activity,Whispering Aura,modules/tely-tashas-2014/assets/creatures/star-spawn.png
+creatures,entry,Bestial Spirit (Air),modules/tely-tashas-2014/assets/creatures/air-beast.png
+creatures,token,Bestial Spirit (Air),modules/tely-tashas-2014/assets/creatures/air-beast.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Maul,icons/creatures/birds/raptor-owl-flying-moon.webp
-creatures,activity,Maul,icons/creatures/birds/raptor-owl-flying-moon.webp
-creatures,actorItem,Flyby,icons/creatures/birds/raptor-owl-flying-moon.webp
-creatures,entry,Bestial Spirit (Land),icons/creatures/mammals/wolf-shadow-black.webp
-creatures,token,Bestial Spirit (Land),icons/creatures/mammals/wolf-shadow-black.webp
+creatures,actorItem,Maul,modules/tely-tashas-2014/assets/creatures/air-beast.png
+creatures,activity,Maul,modules/tely-tashas-2014/assets/creatures/air-beast.png
+creatures,actorItem,Flyby,modules/tely-tashas-2014/assets/creatures/air-beast.png
+creatures,entry,Bestial Spirit (Land),modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,token,Bestial Spirit (Land),modules/tely-tashas-2014/assets/creatures/land-beast.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Maul,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,activity,Maul,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,actorItem,Pack Tactics,icons/creatures/mammals/wolf-shadow-black.webp
-creatures,entry,Bestial Spirit (Water),icons/creatures/fish/fish-bluefin-yellow-blue.webp
-creatures,token,Bestial Spirit (Water),icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,actorItem,Maul,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,activity,Maul,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,actorItem,Pack Tactics,modules/tely-tashas-2014/assets/creatures/land-beast.png
+creatures,entry,Bestial Spirit (Water),modules/tely-tashas-2014/assets/creatures/water-beast.png
+creatures,token,Bestial Spirit (Water),modules/tely-tashas-2014/assets/creatures/water-beast.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Maul,icons/creatures/fish/fish-bluefin-yellow-blue.webp
-creatures,activity,Maul,icons/creatures/fish/fish-bluefin-yellow-blue.webp
-creatures,actorItem,Pack Tactics,icons/creatures/fish/fish-bluefin-yellow-blue.webp
+creatures,actorItem,Maul,modules/tely-tashas-2014/assets/creatures/water-beast.png
+creatures,activity,Maul,modules/tely-tashas-2014/assets/creatures/water-beast.png
+creatures,actorItem,Pack Tactics,modules/tely-tashas-2014/assets/creatures/water-beast.png
 creatures,actorItem,Water Breathing,icons/magic/water/wave-water-blue.webp
-creatures,entry,Celestial Spirit (Avenger),icons/magic/holy/angel-winged-humanoid-blue.webp
-creatures,token,Celestial Spirit (Avenger),icons/magic/holy/angel-winged-humanoid-blue.webp
+creatures,entry,Celestial Spirit (Avenger),modules/tely-tashas-2014/assets/creatures/celestial-spirit.png
+creatures,token,Celestial Spirit (Avenger),modules/tely-tashas-2014/assets/creatures/celestial-spirit.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Radiant Bow,icons/weapons/bows/shortbow-leather.webp
 creatures,activity,Radiant Bow,icons/weapons/bows/shortbow-leather.webp
 creatures,actorItem,Healing Touch,icons/magic/life/heart-cross-strong-green.webp
 creatures,activity,Healing Touch,icons/magic/life/heart-cross-strong-green.webp
-creatures,entry,Celestial Spirit (Defender),icons/magic/defensive/shield-barrier-blue.webp
-creatures,token,Celestial Spirit (Defender),icons/magic/defensive/shield-barrier-blue.webp
+creatures,entry,Celestial Spirit (Defender),modules/tely-tashas-2014/assets/creatures/celestial-spirit.png
+creatures,token,Celestial Spirit (Defender),modules/tely-tashas-2014/assets/creatures/celestial-spirit.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Radiant Mace,icons/magic/defensive/shield-barrier-blue.webp
-creatures,activity,Radiant Mace,icons/magic/defensive/shield-barrier-blue.webp
+creatures,actorItem,Radiant Mace,modules/tely-tashas-2014/assets/creatures/celestial-spirit.png
+creatures,activity,Radiant Mace,modules/tely-tashas-2014/assets/creatures/celestial-spirit.png
 creatures,actorItem,Healing Touch,icons/magic/life/heart-cross-strong-green.webp
 creatures,activity,Healing Touch,icons/magic/life/heart-cross-strong-green.webp
-creatures,actorItem,Radiant Mace: Temporary Hit Points,icons/magic/defensive/shield-barrier-blue.webp
-creatures,activity,Grant Temporary Hit Points,icons/magic/defensive/shield-barrier-blue.webp
-creatures,entry,Construct Spirit (Clay),icons/creatures/magical/construct-stone-earth-gray.webp
-creatures,token,Construct Spirit (Clay),icons/creatures/magical/construct-stone-earth-gray.webp
+creatures,actorItem,Radiant Mace: Temporary Hit Points,modules/tely-tashas-2014/assets/creatures/celestial-spirit.png
+creatures,activity,Grant Temporary Hit Points,modules/tely-tashas-2014/assets/creatures/celestial-spirit.png
+creatures,entry,Construct Spirit (Clay),modules/tely-tashas-2014/assets/creatures/construct-clay.png
+creatures,token,Construct Spirit (Clay),modules/tely-tashas-2014/assets/creatures/construct-clay.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Slam,icons/creatures/magical/construct-stone-earth-gray.webp
-creatures,activity,Slam,icons/creatures/magical/construct-stone-earth-gray.webp
-creatures,actorItem,Berserk Lashing,icons/creatures/magical/construct-stone-earth-gray.webp
-creatures,activity,Berserk Lashing,icons/creatures/magical/construct-stone-earth-gray.webp
-creatures,entry,Construct Spirit (Metal),icons/creatures/magical/construct-iron-stomping-yellow.webp
-creatures,token,Construct Spirit (Metal),icons/creatures/magical/construct-iron-stomping-yellow.webp
+creatures,actorItem,Slam,modules/tely-tashas-2014/assets/creatures/construct-clay.png
+creatures,activity,Slam,modules/tely-tashas-2014/assets/creatures/construct-clay.png
+creatures,actorItem,Berserk Lashing,modules/tely-tashas-2014/assets/creatures/construct-clay.png
+creatures,activity,Berserk Lashing,modules/tely-tashas-2014/assets/creatures/construct-clay.png
+creatures,entry,Construct Spirit (Metal),modules/tely-tashas-2014/assets/creatures/construct-metal.png
+creatures,token,Construct Spirit (Metal),modules/tely-tashas-2014/assets/creatures/construct-metal.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Slam,icons/creatures/magical/construct-iron-stomping-yellow.webp
-creatures,activity,Slam,icons/creatures/magical/construct-iron-stomping-yellow.webp
-creatures,actorItem,Heated Body,icons/creatures/magical/construct-iron-stomping-yellow.webp
-creatures,activity,Heated Body,icons/creatures/magical/construct-iron-stomping-yellow.webp
-creatures,entry,Construct Spirit (Stone),icons/creatures/magical/construct-golem-stone-blue.webp
-creatures,token,Construct Spirit (Stone),icons/creatures/magical/construct-golem-stone-blue.webp
+creatures,actorItem,Slam,modules/tely-tashas-2014/assets/creatures/construct-metal.png
+creatures,activity,Slam,modules/tely-tashas-2014/assets/creatures/construct-metal.png
+creatures,actorItem,Heated Body,modules/tely-tashas-2014/assets/creatures/construct-metal.png
+creatures,activity,Heated Body,modules/tely-tashas-2014/assets/creatures/construct-metal.png
+creatures,entry,Construct Spirit (Stone),modules/tely-tashas-2014/assets/creatures/construct-stone.png
+creatures,token,Construct Spirit (Stone),modules/tely-tashas-2014/assets/creatures/construct-stone.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Slam,icons/creatures/magical/construct-golem-stone-blue.webp
-creatures,activity,Slam,icons/creatures/magical/construct-golem-stone-blue.webp
-creatures,actorItem,Stony Lethargy,icons/creatures/magical/construct-golem-stone-blue.webp
-creatures,activity,Stony Lethargy,icons/creatures/magical/construct-golem-stone-blue.webp
-creatures,entry,Elemental Spirit (Air),icons/magic/air/wind-vortex-swirl-blue.webp
-creatures,token,Elemental Spirit (Air),icons/magic/air/wind-vortex-swirl-blue.webp
+creatures,actorItem,Slam,modules/tely-tashas-2014/assets/creatures/construct-stone.png
+creatures,activity,Slam,modules/tely-tashas-2014/assets/creatures/construct-stone.png
+creatures,actorItem,Stony Lethargy,modules/tely-tashas-2014/assets/creatures/construct-stone.png
+creatures,activity,Stony Lethargy,modules/tely-tashas-2014/assets/creatures/construct-stone.png
+creatures,entry,Elemental Spirit (Air),modules/tely-tashas-2014/assets/creatures/elemental-air.png
+creatures,token,Elemental Spirit (Air),modules/tely-tashas-2014/assets/creatures/elemental-air.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Slam,icons/magic/air/wind-vortex-swirl-blue.webp
-creatures,activity,Slam,icons/magic/air/wind-vortex-swirl-blue.webp
-creatures,actorItem,Amorphous Form,icons/magic/air/wind-vortex-swirl-blue.webp
-creatures,entry,Elemental Spirit (Earth),icons/magic/earth/strike-fist-stone.webp
-creatures,token,Elemental Spirit (Earth),icons/magic/earth/strike-fist-stone.webp
+creatures,actorItem,Slam,modules/tely-tashas-2014/assets/creatures/elemental-air.png
+creatures,activity,Slam,modules/tely-tashas-2014/assets/creatures/elemental-air.png
+creatures,actorItem,Amorphous Form,modules/tely-tashas-2014/assets/creatures/elemental-air.png
+creatures,entry,Elemental Spirit (Earth),modules/tely-tashas-2014/assets/creatures/elemental-earth.png
+creatures,token,Elemental Spirit (Earth),modules/tely-tashas-2014/assets/creatures/elemental-earth.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Slam,icons/magic/earth/strike-fist-stone.webp
-creatures,activity,Slam,icons/magic/earth/strike-fist-stone.webp
-creatures,entry,Elemental Spirit (Fire),icons/creatures/magical/spirit-fire-orange.webp
-creatures,token,Elemental Spirit (Fire),icons/creatures/magical/spirit-fire-orange.webp
+creatures,actorItem,Slam,modules/tely-tashas-2014/assets/creatures/elemental-earth.png
+creatures,activity,Slam,modules/tely-tashas-2014/assets/creatures/elemental-earth.png
+creatures,entry,Elemental Spirit (Fire),modules/tely-tashas-2014/assets/creatures/elemental-fire.png
+creatures,token,Elemental Spirit (Fire),modules/tely-tashas-2014/assets/creatures/elemental-fire.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Slam,icons/creatures/magical/spirit-fire-orange.webp
-creatures,activity,Slam,icons/creatures/magical/spirit-fire-orange.webp
-creatures,actorItem,Amorphous Form,icons/creatures/magical/spirit-fire-orange.webp
-creatures,entry,Elemental Spirit (Water),icons/magic/water/wave-water-blue.webp
-creatures,token,Elemental Spirit (Water),icons/magic/water/wave-water-blue.webp
+creatures,actorItem,Slam,modules/tely-tashas-2014/assets/creatures/elemental-fire.png
+creatures,activity,Slam,modules/tely-tashas-2014/assets/creatures/elemental-fire.png
+creatures,actorItem,Amorphous Form,modules/tely-tashas-2014/assets/creatures/elemental-fire.png
+creatures,entry,Elemental Spirit (Water),modules/tely-tashas-2014/assets/creatures/elemental-water.png
+creatures,token,Elemental Spirit (Water),modules/tely-tashas-2014/assets/creatures/elemental-water.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Slam,icons/magic/water/wave-water-blue.webp
-creatures,activity,Slam,icons/magic/water/wave-water-blue.webp
-creatures,actorItem,Amorphous Form,icons/magic/water/wave-water-blue.webp
-creatures,entry,Fey Spirit (Fuming),icons/magic/fire/projectile-fireball-orange-green.webp
-creatures,token,Fey Spirit (Fuming),icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,actorItem,Slam,modules/tely-tashas-2014/assets/creatures/elemental-water.png
+creatures,activity,Slam,modules/tely-tashas-2014/assets/creatures/elemental-water.png
+creatures,actorItem,Amorphous Form,modules/tely-tashas-2014/assets/creatures/elemental-water.png
+creatures,entry,Fey Spirit (Fuming),modules/tely-tashas-2014/assets/creatures/fey-spirit.png
+creatures,token,Fey Spirit (Fuming),modules/tely-tashas-2014/assets/creatures/fey-spirit.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
 creatures,activity,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
-creatures,entry,Fey Spirit (Mirthful),icons/creatures/magical/fae-fairy-winged-glowing-green.webp
-creatures,token,Fey Spirit (Mirthful),icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+creatures,entry,Fey Spirit (Mirthful),modules/tely-tashas-2014/assets/creatures/fey-spirit.png
+creatures,token,Fey Spirit (Mirthful),modules/tely-tashas-2014/assets/creatures/fey-spirit.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
@@ -1294,26 +1294,26 @@ creatures,activity,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-gre
 creatures,actorItem,Fey Step: Charm,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
 creatures,effect,Fey Step: Charm Effect,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
 creatures,activity,Fey Step: Charm,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
-creatures,entry,Fey Spirit (Tricksy),icons/magic/control/buff-luck-fortune-green-gold.webp
-creatures,token,Fey Spirit (Tricksy),icons/magic/control/buff-luck-fortune-green-gold.webp
+creatures,entry,Fey Spirit (Tricksy),modules/tely-tashas-2014/assets/creatures/fey-spirit.png
+creatures,token,Fey Spirit (Tricksy),modules/tely-tashas-2014/assets/creatures/fey-spirit.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Shortsword,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
 creatures,activity,Fey Step,icons/creatures/magical/fae-fairy-winged-glowing-green.webp
-creatures,entry,Fiendish Spirit (Demon),icons/creatures/unholy/demon-fire-imp.webp
-creatures,token,Fiendish Spirit (Demon),icons/creatures/unholy/demon-fire-imp.webp
+creatures,entry,Fiendish Spirit (Demon),modules/tely-tashas-2014/assets/creatures/fiend-demon.png
+creatures,token,Fiendish Spirit (Demon),modules/tely-tashas-2014/assets/creatures/fiend-demon.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
-creatures,actorItem,Bite,icons/creatures/unholy/demon-fire-imp.webp
-creatures,activity,Bite,icons/creatures/unholy/demon-fire-imp.webp
+creatures,actorItem,Bite,modules/tely-tashas-2014/assets/creatures/fiend-demon.png
+creatures,activity,Bite,modules/tely-tashas-2014/assets/creatures/fiend-demon.png
 creatures,actorItem,Magic Resistance,icons/sundries/books/book-open-purple.webp
 creatures,effect,Magic Resistance,icons/sundries/books/book-open-purple.webp
 creatures,actorItem,Death Throes,icons/creatures/magical/spirit-undead-ghost-purple.webp
 creatures,activity,Death Throes,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,entry,Fiendish Spirit (Devil),icons/creatures/unholy/demon-horned-winged-laughing.webp
-creatures,token,Fiendish Spirit (Devil),icons/creatures/unholy/demon-horned-winged-laughing.webp
+creatures,entry,Fiendish Spirit (Devil),modules/tely-tashas-2014/assets/creatures/fiend-devil.png
+creatures,token,Fiendish Spirit (Devil),modules/tely-tashas-2014/assets/creatures/fiend-devil.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Hurl Flame,icons/magic/fire/projectile-fireball-orange-green.webp
@@ -1321,8 +1321,8 @@ creatures,activity,Hurl Flame,icons/magic/fire/projectile-fireball-orange-green.
 creatures,actorItem,Magic Resistance,icons/sundries/books/book-open-purple.webp
 creatures,effect,Magic Resistance,icons/sundries/books/book-open-purple.webp
 creatures,actorItem,Devil's Sight,icons/magic/perception/eye-ringed-green.webp
-creatures,entry,Fiendish Spirit (Yugoloth),icons/magic/death/skull-energy-light-purple.webp
-creatures,token,Fiendish Spirit (Yugoloth),icons/magic/death/skull-energy-light-purple.webp
+creatures,entry,Fiendish Spirit (Yugoloth),modules/tely-tashas-2014/assets/creatures/fiend-yugoloth.png
+creatures,token,Fiendish Spirit (Yugoloth),modules/tely-tashas-2014/assets/creatures/fiend-yugoloth.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Claws,icons/creatures/claws/claw-scaled-red.webp
@@ -1331,40 +1331,40 @@ creatures,actorItem,Magic Resistance,icons/sundries/books/book-open-purple.webp
 creatures,effect,Magic Resistance,icons/sundries/books/book-open-purple.webp
 creatures,actorItem,Claws: Teleport,icons/magic/movement/portal-vortex-orange.webp
 creatures,activity,Teleport,icons/magic/movement/portal-vortex-orange.webp
-creatures,entry,Shadow Spirit (Fury),icons/creatures/abilities/fang-tooth-blood-red.webp
-creatures,token,Shadow Spirit (Fury),icons/creatures/abilities/fang-tooth-blood-red.webp
+creatures,entry,Shadow Spirit (Fury),modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,token,Shadow Spirit (Fury),modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
 creatures,activity,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
-creatures,actorItem,Dreadful Scream,icons/creatures/abilities/fang-tooth-blood-red.webp
-creatures,effect,Dreadful Scream Effect,icons/creatures/abilities/fang-tooth-blood-red.webp
-creatures,activity,Dreadful Scream,icons/creatures/abilities/fang-tooth-blood-red.webp
-creatures,actorItem,Terror Frenzy,icons/creatures/abilities/fang-tooth-blood-red.webp
-creatures,entry,Shadow Spirit (Despair),icons/magic/perception/shadow-stealth-eyes-purple.webp
-creatures,token,Shadow Spirit (Despair),icons/magic/perception/shadow-stealth-eyes-purple.webp
+creatures,actorItem,Dreadful Scream,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,effect,Dreadful Scream Effect,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,activity,Dreadful Scream,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,actorItem,Terror Frenzy,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,entry,Shadow Spirit (Despair),modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,token,Shadow Spirit (Despair),modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
 creatures,activity,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
-creatures,actorItem,Dreadful Scream,icons/magic/perception/shadow-stealth-eyes-purple.webp
-creatures,effect,Dreadful Scream Effect,icons/magic/perception/shadow-stealth-eyes-purple.webp
-creatures,activity,Dreadful Scream,icons/magic/perception/shadow-stealth-eyes-purple.webp
-creatures,actorItem,Weight of Sorrow,icons/magic/perception/shadow-stealth-eyes-purple.webp
-creatures,activity,Weight of Sorrow,icons/magic/perception/shadow-stealth-eyes-purple.webp
-creatures,entry,Shadow Spirit (Fear),icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,token,Shadow Spirit (Fear),icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,actorItem,Dreadful Scream,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,effect,Dreadful Scream Effect,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,activity,Dreadful Scream,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,actorItem,Weight of Sorrow,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,activity,Weight of Sorrow,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,entry,Shadow Spirit (Fear),modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,token,Shadow Spirit (Fear),modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
 creatures,activity,Chilling Rend,icons/creatures/claws/claw-scaled-red.webp
-creatures,actorItem,Dreadful Scream,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,effect,Dreadful Scream Effect,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,activity,Dreadful Scream,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,actorItem,Shadow Stealth,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,activity,Shadow Stealth,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,entry,Undead Spirit (Ghostly),icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,token,Undead Spirit (Ghostly),icons/creatures/magical/spirit-undead-ghost-purple.webp
+creatures,actorItem,Dreadful Scream,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,effect,Dreadful Scream Effect,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,activity,Dreadful Scream,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,actorItem,Shadow Stealth,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,activity,Shadow Stealth,modules/tely-tashas-2014/assets/creatures/shadow-spirit.png
+creatures,entry,Undead Spirit (Ghostly),modules/tely-tashas-2014/assets/creatures/undead-ghostly.png
+creatures,token,Undead Spirit (Ghostly),modules/tely-tashas-2014/assets/creatures/undead-ghostly.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Deathly Touch,icons/creatures/magical/spirit-undead-ghost-purple.webp
@@ -1372,42 +1372,42 @@ creatures,activity,Deathly Touch,icons/creatures/magical/spirit-undead-ghost-pur
 creatures,actorItem,Deathly Touch: Frighten,icons/creatures/magical/spirit-undead-ghost-purple.webp
 creatures,effect,Deathly Touch: Frighten Effect,icons/creatures/magical/spirit-undead-ghost-purple.webp
 creatures,activity,Deathly Touch: Frighten,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,actorItem,Incorporeal Passage,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,entry,Undead Spirit (Putrid),icons/magic/death/hand-dirt-undead-zombie.webp
-creatures,token,Undead Spirit (Putrid),icons/magic/death/hand-dirt-undead-zombie.webp
+creatures,actorItem,Incorporeal Passage,modules/tely-tashas-2014/assets/creatures/undead-ghostly.png
+creatures,entry,Undead Spirit (Putrid),modules/tely-tashas-2014/assets/creatures/undead-putrid.png
+creatures,token,Undead Spirit (Putrid),modules/tely-tashas-2014/assets/creatures/undead-putrid.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Rotting Claw,icons/creatures/claws/claw-scaled-red.webp
 creatures,activity,Rotting Claw,icons/creatures/claws/claw-scaled-red.webp
-creatures,actorItem,Festering Aura,icons/magic/death/hand-dirt-undead-zombie.webp
-creatures,effect,Festering Aura Effect,icons/magic/death/hand-dirt-undead-zombie.webp
-creatures,activity,Festering Aura,icons/magic/death/hand-dirt-undead-zombie.webp
+creatures,actorItem,Festering Aura,modules/tely-tashas-2014/assets/creatures/undead-putrid.png
+creatures,effect,Festering Aura Effect,modules/tely-tashas-2014/assets/creatures/undead-putrid.png
+creatures,activity,Festering Aura,modules/tely-tashas-2014/assets/creatures/undead-putrid.png
 creatures,actorItem,Rotting Claw: Paralyze Poisoned Target,icons/creatures/claws/claw-scaled-red.webp
 creatures,effect,Rotting Claw: Paralyze Poisoned Target Effect,icons/creatures/claws/claw-scaled-red.webp
 creatures,activity,Rotting Claw: Paralyze Poisoned Target,icons/creatures/claws/claw-scaled-red.webp
-creatures,entry,Undead Spirit (Skeletal),icons/magic/death/skeleton-skull-soul-blue.webp
-creatures,token,Undead Spirit (Skeletal),icons/magic/death/skeleton-skull-soul-blue.webp
+creatures,entry,Undead Spirit (Skeletal),modules/tely-tashas-2014/assets/creatures/undead-skeletal.png
+creatures,token,Undead Spirit (Skeletal),modules/tely-tashas-2014/assets/creatures/undead-skeletal.png
 creatures,actorItem,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,activity,Multiattack,icons/skills/melee/strike-sword-blood-red.webp
 creatures,actorItem,Grave Bolt,icons/creatures/magical/spirit-undead-ghost-purple.webp
 creatures,activity,Grave Bolt,icons/creatures/magical/spirit-undead-ghost-purple.webp
-creatures,entry,Eldritch Cannon (Flamethrower),icons/magic/fire/projectile-fireball-orange-green.webp
-creatures,token,Eldritch Cannon (Flamethrower),icons/magic/fire/projectile-fireball-orange-green.webp
+creatures,entry,Eldritch Cannon (Flamethrower),modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png
+creatures,token,Eldritch Cannon (Flamethrower),modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png
 creatures,actorItem,Flamethrower,icons/magic/fire/projectile-fireball-orange-green.webp
 creatures,activity,Flamethrower,icons/magic/fire/projectile-fireball-orange-green.webp
-creatures,entry,Eldritch Cannon (Force Ballista),icons/weapons/crossbows/crossbow-blue.webp
-creatures,token,Eldritch Cannon (Force Ballista),icons/weapons/crossbows/crossbow-blue.webp
-creatures,actorItem,Force Ballista,icons/weapons/crossbows/crossbow-blue.webp
-creatures,activity,Force Ballista,icons/weapons/crossbows/crossbow-blue.webp
-creatures,entry,Eldritch Cannon (Protector),icons/magic/defensive/shield-barrier-blue.webp
-creatures,token,Eldritch Cannon (Protector),icons/magic/defensive/shield-barrier-blue.webp
+creatures,entry,Eldritch Cannon (Force Ballista),modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png
+creatures,token,Eldritch Cannon (Force Ballista),modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png
+creatures,actorItem,Force Ballista,modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png
+creatures,activity,Force Ballista,modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png
+creatures,entry,Eldritch Cannon (Protector),modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png
+creatures,token,Eldritch Cannon (Protector),modules/tely-tashas-2014/assets/creatures/eldritch-cannon.png
 creatures,actorItem,Protector,icons/magic/defensive/shield-barrier-blue.webp
 creatures,activity,Protector,icons/magic/defensive/shield-barrier-blue.webp
-creatures,entry,Mighty Servant of Leuk-o,modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+creatures,entry,Mighty Servant of Leuk-o,modules/tely-tashas-2014/assets/creatures/mighty-servant-of-leuk-o.png
 creatures,effect,Printed Proficiency Bonus,icons/skills/trades/academics-investigation-puzzles.webp
-creatures,token,Mighty Servant of Leuk-o,modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
-creatures,actorItem,Destructive Fist (Melee),modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
-creatures,activity,Destructive Fist (Melee),modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+creatures,token,Mighty Servant of Leuk-o,modules/tely-tashas-2014/assets/creatures/mighty-servant-of-leuk-o.png
+creatures,actorItem,Destructive Fist (Melee),modules/tely-tashas-2014/assets/creatures/mighty-servant-of-leuk-o.png
+creatures,activity,Destructive Fist (Melee),modules/tely-tashas-2014/assets/creatures/mighty-servant-of-leuk-o.png
 creatures,actorItem,Destructive Fist (Ranged),icons/weapons/bows/shortbow-leather.webp
 creatures,activity,Destructive Fist (Ranged),icons/weapons/bows/shortbow-leather.webp
 creatures,actorItem,Crushing Leap,icons/skills/movement/feet-winged-boots-blue.webp
@@ -1415,18 +1415,18 @@ creatures,effect,Crushing Leap Effect,icons/skills/movement/feet-winged-boots-bl
 creatures,activity,Crushing Leap,icons/skills/movement/feet-winged-boots-blue.webp
 creatures,actorItem,Magic Resistant Construction,icons/sundries/books/book-open-purple.webp
 creatures,effect,Magic Resistant Construction,icons/sundries/books/book-open-purple.webp
-creatures,actorItem,Immutable Existence,modules/tely-tashas-2014/assets/items/mighty-servant-of-leuk-o.jpg
+creatures,actorItem,Immutable Existence,modules/tely-tashas-2014/assets/creatures/mighty-servant-of-leuk-o.png
 creatures,actorItem,Standing Leap,icons/skills/movement/feet-winged-boots-blue.webp
 creatures,actorItem,Unusual Nature,icons/magic/nature/leaf-rune-glow-green.webp
 creatures,actorItem,Regeneration,icons/magic/life/heart-cross-strong-green.webp
-creatures,entry,Juvenile Mimic,icons/containers/chest/chest-reinforced-box-brown.webp
-creatures,token,Juvenile Mimic,icons/containers/chest/chest-reinforced-box-brown.webp
-creatures,actorItem,Bite,icons/containers/chest/chest-reinforced-box-brown.webp
-creatures,activity,Bite,icons/containers/chest/chest-reinforced-box-brown.webp
-creatures,actorItem,False Appearance,icons/containers/chest/chest-reinforced-box-brown.webp
-creatures,actorItem,Spider Climb,icons/containers/chest/chest-reinforced-box-brown.webp
-creatures,actorItem,Shape-Shift,icons/containers/chest/chest-reinforced-box-brown.webp
-creatures,activity,Shape-Shift,icons/containers/chest/chest-reinforced-box-brown.webp
+creatures,entry,Juvenile Mimic,modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png
+creatures,token,Juvenile Mimic,modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png
+creatures,actorItem,Bite,modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png
+creatures,activity,Bite,modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png
+creatures,actorItem,False Appearance,modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png
+creatures,actorItem,Spider Climb,modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png
+creatures,actorItem,Shape-Shift,modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png
+creatures,activity,Shape-Shift,modules/tely-tashas-2014/assets/creatures/juvenile-mimic.png
 tables,entry,Experimental Elixir,icons/consumables/potions/bottle-conical-bubbling-blue.webp
 tables,tableResult,"[1, 6]",icons/consumables/potions/bottle-conical-bubbling-blue.webp
 tables,entry,Origin of the Beast,icons/creatures/claws/claw-scaled-red.webp

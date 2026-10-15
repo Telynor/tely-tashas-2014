@@ -1,3 +1,7 @@
+# 0.1.2
+
+Replace every creature portrait and prototype token image with official D&D artwork on a transparent background: 39 entries, 29 illustrations. Prioritize D&D Beyond, preserve its original alpha files, and extract creature cutouts from scene illustrations using the built-in imagegen tool. Document sources, artist credits, output hashes and representative form choices. Check complete actor mapping, token parity, asset integrity and actual alpha channels during validation. All document IDs and rules data remain unchanged.
+
 # 0.1.1
 
 Assign themed images to all 805 compendium entries. Prefer the official printed illustrations for magic items and their variants: 13 illustrations cover 15 base items, with the collection artwork also used on implanted teeth. Include icons on creature items, activities, active effects, token textures, and roll-table results. Use original page artwork for reference and handout thumbnails, with a v14-compatible journal-index render helper. Verify every selected icon against the official D&D5e 5.3.3 source catalog, generate a full image audit, and reject missing or placeholder images during validation. Document IDs and rules data remain unchanged.

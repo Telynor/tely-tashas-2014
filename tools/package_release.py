@@ -18,7 +18,7 @@ source=out/(manifest['id']+'-source.zip')
 with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for p in sorted(ROOT.rglob('*')):
   relative=p.relative_to(ROOT)
-  if not p.is_file() or any(part in ['.git','node_modules','__pycache__','dist','assets','packs','packs-src','.validation-roundtrip'] for part in relative.parts):continue
+  if not p.is_file() or any(part in ['.git','node_modules','__pycache__','dist','assets','packs','packs-src','.validation-roundtrip','tmp'] for part in relative.parts):continue
   z.write(p,relative)
 with zipfile.ZipFile(source) as z:
  assert z.testzip() is None
