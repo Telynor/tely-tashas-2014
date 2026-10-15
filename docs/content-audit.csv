@@ -1,4 +1,20 @@
 pack,name,source_page,activities,effects,advancements,handlers,gm_adjudication,live_tested
+classes,Barbarian (2014 + Tasha Options),,0,0,27,,see source restrictions,no
+classes,Bard (2014 + Tasha Options),,0,0,31,,see source restrictions,no
+classes,Cleric (2014 + Tasha Options),,0,0,22,,see source restrictions,no
+classes,Druid (2014 + Tasha Options),,0,0,23,,see source restrictions,no
+classes,Fighter (2014 + Tasha Options),,0,0,23,,see source restrictions,no
+classes,Monk (2014 + Tasha Options),,0,0,31,,see source restrictions,no
+classes,Paladin (2014 + Tasha Options),,0,0,26,,see source restrictions,no
+classes,Ranger (2014 + Tasha Options),,0,0,30,,see source restrictions,no
+classes,Rogue (2014 + Tasha Options),,0,0,30,,see source restrictions,no
+classes,Sorcerer (2014 + Tasha Options),,0,0,21,,see source restrictions,no
+classes,Warlock (2014 + Tasha Options),,0,0,26,,see source restrictions,no
+classes,Wizard (2014 + Tasha Options),,0,0,18,,see source restrictions,no
+classes,Artificer,9,0,0,27,,see source restrictions,no
+classes,Expert (Sidekick),142,0,0,16,,see source restrictions,no
+classes,Warrior (Sidekick),146,0,0,15,,see source restrictions,no
+classes,Spellcaster (Sidekick),144,0,0,13,,see source restrictions,no
 creatures,Force-Empowered Rend,19,1,0,0,,see source restrictions,no
 creatures,Repair,19,1,0,0,,see source restrictions,no
 creatures,Vigilant,19,0,0,0,,see source restrictions,no
@@ -445,33 +461,6 @@ features,Hill Rune,44,1,2,0,,see source restrictions,no
 features,Storm Rune,44,2,1,0,source-prompt,yes,no
 features,Custom Lineage: Darkvision,8,0,1,0,,see source restrictions,no
 features,Custom Lineage: Skill,8,0,0,1,,see source restrictions,no
-origins,Custom Lineage (Strength),8,0,0,5,,see source restrictions,no
-origins,Custom Lineage (Dexterity),8,0,0,5,,see source restrictions,no
-origins,Custom Lineage (Constitution),8,0,0,5,,see source restrictions,no
-origins,Custom Lineage (Intelligence),8,0,0,5,,see source restrictions,no
-origins,Custom Lineage (Wisdom),8,0,0,5,,see source restrictions,no
-origins,Custom Lineage (Charisma),8,0,0,5,,see source restrictions,no
-spells,Blade of Disaster,106,2,0,0,source-prompt,yes,no
-spells,Booming Blade,106,2,0,0,blade-cantrip; source-prompt,yes,no
-spells,Dream of the Blue Veil,106,1,0,0,source-prompt,yes,no
-spells,Green-Flame Blade,107,2,0,0,blade-cantrip; source-prompt,yes,no
-spells,Intellect Fortress,107,1,1,0,,see source restrictions,no
-spells,Lightning Lure,107,2,0,0,source-prompt,yes,no
-spells,Mind Sliver,108,1,1,0,,see source restrictions,no
-spells,Spirit Shroud,108,4,3,0,spirit-shroud,see source restrictions,no
-spells,Summon Aberration,109,1,0,0,summon,see source restrictions,no
-spells,Summon Beast,109,1,0,0,summon,see source restrictions,no
-spells,Summon Celestial,110,1,0,0,summon,see source restrictions,no
-spells,Summon Construct,111,1,0,0,summon,see source restrictions,no
-spells,Summon Elemental,111,1,0,0,summon,see source restrictions,no
-spells,Summon Fey,112,1,0,0,summon,see source restrictions,no
-spells,Summon Fiend,112,1,0,0,summon,see source restrictions,no
-spells,Summon Shadowspawn,113,1,0,0,summon,see source restrictions,no
-spells,Summon Undead,114,1,0,0,summon,see source restrictions,no
-spells,Sword Burst,115,1,0,0,,see source restrictions,no
-spells,Tasha's Caustic Brew,115,3,1,0,caustic-brew; remove-caustic,see source restrictions,no
-spells,Tasha's Mind Whip,115,1,1,0,,see source restrictions,no
-spells,Tasha's Otherworldly Guise,116,2,2,0,,see source restrictions,no
 magic-items,Absorbing Tattoo (Acid),119,1,1,0,absorb-damage,see source restrictions,no
 magic-items,Absorbing Tattoo (Cold),119,1,1,0,absorb-damage,see source restrictions,no
 magic-items,Absorbing Tattoo (Fire),119,1,1,0,absorb-damage,see source restrictions,no
@@ -574,6 +563,33 @@ magic-items,Implanted Tooth 18: The Last Tarrasque,137,1,0,0,,yes,no
 magic-items,Implanted Tooth 19: Incendax’s Tooth,137,1,1,0,source-prompt,yes,no
 magic-items,Implanted Tooth 20: Dahlver-Nar’s Tooth,137,1,0,0,source-prompt,yes,no
 magic-items,Potent Poison (Poisoner),80,1,1,0,,see source restrictions,no
+origins,Custom Lineage (Strength),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Dexterity),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Constitution),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Intelligence),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Wisdom),8,0,0,5,,see source restrictions,no
+origins,Custom Lineage (Charisma),8,0,0,5,,see source restrictions,no
+spells,Blade of Disaster,106,2,0,0,source-prompt,yes,no
+spells,Booming Blade,106,2,0,0,blade-cantrip; source-prompt,yes,no
+spells,Dream of the Blue Veil,106,1,0,0,source-prompt,yes,no
+spells,Green-Flame Blade,107,2,0,0,blade-cantrip; source-prompt,yes,no
+spells,Intellect Fortress,107,1,1,0,,see source restrictions,no
+spells,Lightning Lure,107,2,0,0,source-prompt,yes,no
+spells,Mind Sliver,108,1,1,0,,see source restrictions,no
+spells,Spirit Shroud,108,4,3,0,spirit-shroud,see source restrictions,no
+spells,Summon Aberration,109,1,0,0,summon,see source restrictions,no
+spells,Summon Beast,109,1,0,0,summon,see source restrictions,no
+spells,Summon Celestial,110,1,0,0,summon,see source restrictions,no
+spells,Summon Construct,111,1,0,0,summon,see source restrictions,no
+spells,Summon Elemental,111,1,0,0,summon,see source restrictions,no
+spells,Summon Fey,112,1,0,0,summon,see source restrictions,no
+spells,Summon Fiend,112,1,0,0,summon,see source restrictions,no
+spells,Summon Shadowspawn,113,1,0,0,summon,see source restrictions,no
+spells,Summon Undead,114,1,0,0,summon,see source restrictions,no
+spells,Sword Burst,115,1,0,0,,see source restrictions,no
+spells,Tasha's Caustic Brew,115,3,1,0,caustic-brew; remove-caustic,see source restrictions,no
+spells,Tasha's Mind Whip,115,1,1,0,,see source restrictions,no
+spells,Tasha's Otherworldly Guise,116,2,2,0,,see source restrictions,no
 subclasses,Alchemist,14,0,0,11,,see source restrictions,no
 subclasses,Armorer,15,0,0,12,,see source restrictions,no
 subclasses,Artillerist,17,0,0,11,,see source restrictions,no
@@ -604,19 +620,3 @@ subclasses,The Fathomless,72,0,0,7,,see source restrictions,no
 subclasses,The Genie,73,0,0,5,,see source restrictions,no
 subclasses,Bladesinging,76,0,0,5,,see source restrictions,no
 subclasses,Order of Scribes,77,0,0,5,,see source restrictions,no
-classes,Barbarian (2014 + Tasha Options),,0,0,27,,see source restrictions,no
-classes,Bard (2014 + Tasha Options),,0,0,31,,see source restrictions,no
-classes,Cleric (2014 + Tasha Options),,0,0,22,,see source restrictions,no
-classes,Druid (2014 + Tasha Options),,0,0,23,,see source restrictions,no
-classes,Fighter (2014 + Tasha Options),,0,0,23,,see source restrictions,no
-classes,Monk (2014 + Tasha Options),,0,0,31,,see source restrictions,no
-classes,Paladin (2014 + Tasha Options),,0,0,26,,see source restrictions,no
-classes,Ranger (2014 + Tasha Options),,0,0,30,,see source restrictions,no
-classes,Rogue (2014 + Tasha Options),,0,0,30,,see source restrictions,no
-classes,Sorcerer (2014 + Tasha Options),,0,0,21,,see source restrictions,no
-classes,Warlock (2014 + Tasha Options),,0,0,26,,see source restrictions,no
-classes,Wizard (2014 + Tasha Options),,0,0,18,,see source restrictions,no
-classes,Artificer,9,0,0,27,,see source restrictions,no
-classes,Expert (Sidekick),142,0,0,16,,see source restrictions,no
-classes,Warrior (Sidekick),146,0,0,15,,see source restrictions,no
-classes,Spellcaster (Sidekick),144,0,0,13,,see source restrictions,no

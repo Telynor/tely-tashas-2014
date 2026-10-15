@@ -5,7 +5,7 @@ const hooks=new Map(),warnings=[];
 globalThis.Hooks={on:(name,fn)=>{const list=hooks.get(name)??[];list.push(fn);hooks.set(name,list);},once:(name,fn)=>{const list=hooks.get(name)??[];list.push(fn);hooks.set(name,list);}};
 globalThis.ui={notifications:{warn:m=>warnings.push(m)}};
 globalThis.foundry={utils:{deepClone:structuredClone}};
-const {applySummonScaling}=await import("../scripts/main.mjs");
+const {applySummonScaling,validate}=await import("../scripts/main.mjs");
 const preUse=hooks.get("dnd5e.preUseActivity")[0];
 const content=pack=>JSON.parse(fs.readFileSync(new URL(`../content/${pack}.json`,import.meta.url)));
 const ID="tely-tashas-2014";
@@ -45,4 +45,29 @@ test("Cast component fields remove exactly the components waived by each source 
  for(const d of content("magic-items"))for(const a of Object.values(d.system.activities))if(a.type==="cast"){
   assert.equal(a.range.override,false,`${d.name}: inherit range`);assert.equal(a.target.override,false,`${d.name}: inherit targets`);
  }
+});
+test("Steady Aim benefits one attack while retaining every movement restriction",async()=>{
+ const data=feature("Rogue","Steady Aim").effects[0];
+ assert.deepEqual(data.changes.map(c=>c.key).sort(),["burrow","climb","fly","swim","walk"].map(s=>`system.attributes.movement.${s}`).sort());
+ const effect={disabled:false,flags:structuredClone(data.flags),async setFlag(scope,key,value){this.flags[scope][key]=value;}};
+ const activity={item:{type:"feat"},actor:{isOwner:true,effects:[effect]}};
+ const before=hooks.get("dnd5e.preRollAttackV2")[0],after=hooks.get("dnd5e.rollAttackV2")[0];
+ const first={subject:activity,rolls:[{parts:[],options:{}}]};before(first);assert.equal(first.rolls[0].options.advantage,true);
+ await after([],{subject:activity});assert.equal(effect.flags[ID].nextAttackAdvantage,true,"cancelling a roll must preserve advantage");
+ await after([{}],{subject:activity});assert.equal(effect.flags[ID].nextAttackAdvantage,false);assert.equal(activity.actor.effects.length,1);
+ const second={subject:activity,rolls:[{parts:[],options:{}}]};before(second);assert.equal(second.rolls[0].options.advantage,undefined);
+});
+test("installed validation reports missing packs, embedded errors and unresolved choice/cast references",async()=>{
+ const priorGame=globalThis.game,priorFromUuid=globalThis.fromUuid,priorApplications=foundry.applications;
+ try{
+  const names=["classes","subclasses","features","feats","spells","magic-items","creatures","tables","reference","handouts","macros","origins"];
+  const packs=new Map(names.filter(n=>n!=="handouts").map(n=>[`${ID}.${n}`,{async getDocuments(){return [];}}]));
+  packs.set(`${ID}.creatures`,{async getDocuments(){return [{name:"Spirit",items:[{name:"Attack",invalid:true,validationFailures:{system:"bad data"}}],_source:{items:[{system:{advancement:{choice:{configuration:{pool:[{uuid:"Compendium.example.features.MissingChoice"}]}}},activities:{cast:{spell:{uuid:"Compendium.example.spells.MissingSpell"}}}}}]}}];}});
+  globalThis.game={user:{isGM:true},packs,version:"14",system:{version:"5.3.3"},modules:new Map()};
+  const seen=[];globalThis.fromUuid=async uuid=>{seen.push(uuid);return null;};
+  foundry.applications={api:{DialogV2:{wait:async()=>null}}};
+  const result=await validate();
+  assert.equal(result.failures.length,4);assert.ok(result.failures.some(x=>x.includes("Missing compendium")&&x.includes("handouts")));
+  assert.ok(result.failures.some(x=>x.includes("Spirit / Attack")));assert.equal(seen.length,2);
+ }finally{globalThis.game=priorGame;globalThis.fromUuid=priorFromUuid;foundry.applications=priorApplications;}
 });

@@ -212,7 +212,7 @@ def build(b,creatures,spells):
  pool('Swarmkeeper','Writhing Tide','@prof');applied('Swarmkeeper','Writhing Tide',[('system.attributes.movement.fly',10,4),('system.attributes.movement.hover',True,5)],60,activation='bonus',consume=b.consumeUses())
  pool('Swarmkeeper','Swarming Dispersal','@prof');act('Swarmkeeper','Swarming Dispersal',activation='reaction',consume=b.consumeUses(),flags={b.ID:{'handler':'source-prompt','note':'Gain resistance to the triggering damage, then teleport up to 30 feet.'}})
  # Rogue features.
- applied('Rogue','Steady Aim',[('system.attributes.movement.walk',0,5)],6,activation='bonus',flags={b.ID:{'expires':'end-source-turn','nextAttackAdvantage':True}})
+ applied('Rogue','Steady Aim',[(f'system.attributes.movement.{speed}',0,5) for speed in ['walk','fly','swim','climb','burrow']],6,activation='bonus',flags={b.ID:{'expires':'end-source-turn','nextAttackAdvantage':True}})
  traits('Phantom','Whispers of the Dead',pool=['skills:*','tool:*'])
  pool('Phantom','Wails From the Grave','@prof');act('Phantom','Wails From the Grave',typ='damage',activation='special',range=30,formula='ceil(ceil(@classes.rogue.levels / 2) / 2)d6',damageType='necrotic',consume=b.consumeUses())
  pool('Phantom','Ghost Walk',1);applied('Phantom','Ghost Walk',[('system.attributes.movement.fly',10,4),('system.attributes.movement.hover',True,5),('flags.midi-qol.grants.disadvantage.attack.all',True,5)],600,consume=b.consumeUses())

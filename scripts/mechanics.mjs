@@ -1,6 +1,17 @@
 /** Pure, independently testable rules. No Foundry globals or document writes. */
 export const ID = "tely-tashas-2014";
 export const physical = new Set(["bludgeoning", "piercing", "slashing"]);
+export function compendiumReferences(value, references=new Set()) {
+  if (typeof value === "string") {
+    if (/^Compendium\.[\w.-]+$/.test(value)) references.add(value);
+    for (const match of value.matchAll(/@UUID\[(Compendium\.[^\]#]+)(?:#[^\]]*)?\]/g)) references.add(match[1]);
+  } else if (Array.isArray(value)) {
+    for (const child of value) compendiumReferences(child,references);
+  } else if (value && typeof value === "object") {
+    for (const child of Object.values(value)) compendiumReferences(child,references);
+  }
+  return references;
+}
 export function summonStats(scale, { level=1, classLevel=1, abilityMod=0, proficiency=2, cannonImproved=false }={}) {
   let hp, ac;
   if (scale.spell) {
@@ -73,7 +84,7 @@ export function expiredAtTurn(rule, created, previous, current, sourceId, target
   if(rule==="start-source-next-turn") return next && current.actorId===sourceId;
   if(rule==="end-source-next-turn") return previous?.actorId===sourceId && (previous.round>created.round || previous.round===created.round && previous.turn>created.turn);
   if(rule==="end-source-turn") return previous?.actorId===sourceId;
-  if(rule==="end-target-next-turn") return previous?.actorId===targetId && (previous.round>created.round || previous.round===created.round && previous.turn>=created.turn);
+  if(rule==="end-target-next-turn") return previous?.actorId===targetId && (previous.round>created.round || previous.round===created.round && previous.turn>created.turn);
   return false;
 }
 export function classThresholds(level) {

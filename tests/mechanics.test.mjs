@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import {ID,summonStats,cantripDice,psionicDie,classThresholds,boundedRestore,itemSpellBonus,eligibleSlotLevels,expiredAtTurn,resourceItem,storedSpellData} from "../scripts/mechanics.mjs";
+import {ID,summonStats,cantripDice,psionicDie,classThresholds,boundedRestore,itemSpellBonus,eligibleSlotLevels,expiredAtTurn,resourceItem,storedSpellData,compendiumReferences} from "../scripts/mechanics.mjs";
 const actors=JSON.parse(fs.readFileSync(new URL("../content/creatures.json",import.meta.url)));
 const scale=name=>actors.find(d=>d.name===name).flags[ID].summonScale;
 test("printed summon HP and AC at base and higher slots",()=>{
@@ -44,6 +44,13 @@ test("next-turn effects survive the present turn and expire at the named boundar
  assert.equal(expiredAtTurn("start-source-next-turn",made,same,next,"S","T"),true);
  assert.equal(expiredAtTurn("end-source-next-turn",made,same,following,"S","T"),false);
  assert.equal(expiredAtTurn("end-source-next-turn",made,next,following,"S","T"),true);
+ const onTarget={round:1,turn:2,actorId:"T"};
+ assert.equal(expiredAtTurn("end-target-next-turn",onTarget,onTarget,{round:1,turn:3,actorId:"S"},"S","T"),false);
+ assert.equal(expiredAtTurn("end-target-next-turn",onTarget,{round:2,turn:2,actorId:"T"},{round:2,turn:3,actorId:"S"},"S","T"),true);
+});
+test("compendium references include choices, cast spells and journal links",()=>{
+ const refs=compendiumReferences({pool:[{uuid:"Compendium.dnd5e.classfeatures.Style"}],cast:{uuid:"Compendium.dnd5e.spells.Spell"},description:"@UUID[Compendium.tely-tashas-2014.reference.JournalEntry.Page#heading]{Source}",unrelated:".Item.local.Activity.local"});
+ assert.deepEqual([...refs].sort(),["Compendium.dnd5e.classfeatures.Style","Compendium.dnd5e.spells.Spell","Compendium.tely-tashas-2014.reference.JournalEntry.Page"]);
 });
 test("stored spells use tattoo modifier without changing the actor or original spell",()=>{
  const original={system:{activities:{heal:{healing:{bonus:"@mod",custom:{enabled:false,formula:""}}},damage:{damage:{parts:[{bonus:"2 + @mod",custom:{enabled:false,formula:""}},{custom:{enabled:true,formula:"1d8 + @mod"}}]}}}}};

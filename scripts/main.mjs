@@ -1,4 +1,4 @@
-import { ID, summonStats, cantripDice, psionicDie, boundedRestore, itemSpellBonus, eligibleSlotLevels, expiredAtTurn, physical, isEquipped, resourceItem, storedSpellData } from "./mechanics.mjs";
+import { ID, summonStats, cantripDice, psionicDie, boundedRestore, itemSpellBonus, eligibleSlotLevels, expiredAtTurn, physical, isEquipped, resourceItem, storedSpellData, compendiumReferences } from "./mechanics.mjs";
 const meta=d=>d?.flags?.[ID] ?? {};
 const h=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const activeGM=()=>game.user?.id===game.users?.activeGM?.id;
@@ -312,16 +312,30 @@ async function resolveExternalSpells({quiet=false}={}) {
  if(!quiet)await foundry.applications.api.DialogV2.wait({window:{title:"External Spell References"},content:`<p>Resolved: ${h(result.resolved.join(", ")||"none needed")}</p><p>Additional 2014 spell entries required: ${h(result.missing.join(", ")||"none")}</p>`,buttons:[{action:"close",label:"Close"}],rejectClose:false});
  return result;
 }
-async function validate() {
+export async function validate() {
  if(!game.user.isGM)return ui.notifications.warn("Run installed-content validation as the GM.");
- const failures=[],counts={};
- for(const pack of game.packs.filter(p=>p.metadata.packageName===ID)) {
-  const docs=await pack.getDocuments();counts[pack.metadata.name]=docs.length;
+ const failures=[],counts={},references=new Map();
+ const packNames=["classes","subclasses","features","feats","spells","magic-items","creatures","tables","reference","handouts","macros","origins"];
+ const checkDocument=(doc,label)=>{
+  if(doc.invalid)failures.push(`${label}: ${JSON.stringify(doc.validationFailures)}`);
+  for(const field of ["items","effects","pages","results"])for(const child of doc[field]??[])checkDocument(child,`${label} / ${child.name??child.id??field}`);
+ };
+ for(const name of packNames) {
+  const pack=game.packs.get(`${ID}.${name}`);
+  if(!pack){failures.push(`Missing compendium: ${ID}.${name}`);continue;}
+  let docs;
+  try{docs=await pack.getDocuments();}catch(error){failures.push(`${name}: cannot load compendium (${error.message})`);continue;}
+  counts[name]=docs.length;
   for(const doc of docs) {
-   if(doc.invalid)failures.push(`${doc.name}: ${JSON.stringify(doc.validationFailures)}`);
-   if(doc.documentName==="Item")for(const a of Object.values(doc._source.system.advancement??{}))for(const g of a.configuration?.items??[])if(!await fromUuid(g.uuid))failures.push(`${doc.name}: missing ${g.uuid}`);
-   if(doc.documentName==="Item")for(const a of doc.system.activities??[])if(a.type==="summon")for(const p of a.profiles)if(!await fromUuid(p.uuid))failures.push(`${doc.name}: missing summon ${p.name}`);
+   checkDocument(doc,doc.name);
+   for(const uuid of compendiumReferences(doc._source??{})){
+    const names=references.get(uuid)??new Set();names.add(doc.name);references.set(uuid,names);
+   }
   }
+ }
+ for(const [uuid,names] of references){
+  try{if(await fromUuid(uuid))continue;}catch{}
+  failures.push(`${[...names].join(", ")}: missing ${uuid}`);
  }
  const result={counts,failures,runtime:game.version,system:game.system.version,midi:game.modules.get("midi-qol")?.version??null};
  console.info(`${ID}: installed-content validation`,result);
@@ -398,6 +412,12 @@ Hooks.on("dnd5e.preRollAttackV2",config=> {
   roll.options??={};if(a.actor.effects.some(e=>!e.disabled&&meta(e).nextAttackAdvantage))roll.options.advantage=true;
  }
 });
+Hooks.on("dnd5e.rollAttackV2",async(rolls,{subject})=> {
+ if(!rolls?.length||!eligibleActor(subject?.actor))return;
+ // Steady Aim grants advantage on the next attack only. Its movement
+ // restriction still lasts until this turn ends, so retain the effect.
+ for(const effect of subject.actor.effects.filter(e=>!e.disabled&&meta(e).nextAttackAdvantage))await effect.setFlag(ID,"nextAttackAdvantage",false);
+});
 Hooks.on("dnd5e.postUseActivity",(activity,usage,results)=> {
  if(meta(activity).recoveryDays)actualItem(activity).setFlag(ID,"recoverAt."+activity.id,game.time.worldTime+meta(activity).recoveryDays*86400).catch(console.error);
  if(!meta(activity).handler || !eligibleActor(activity.actor))return;
@@ -418,6 +438,7 @@ Hooks.on("createActiveEffect",async(effect,options,userId)=> {
 });
 Hooks.on("createItem",(item,_options,userId)=>{if(userId===game.user.id&&item.actor){syncConditionalEffects(item.actor).catch(console.error);checkReplacement(item).catch(console.error);}});
 Hooks.on("updateItem",item=>{if(item.actor)syncConditionalEffects(item.actor).catch(console.error);});
+Hooks.on("deleteItem",item=>{if(item.actor)syncConditionalEffects(item.actor).catch(console.error);});
 Hooks.on("updateActor",actor=>syncConditionalEffects(actor).catch(console.error));
 Hooks.on("deleteActiveEffect",effect=>{if(effect.parent?.documentName==="Actor")syncConditionalEffects(effect.parent).catch(console.error);});
 Hooks.on("updateActiveEffect",effect=>{if(effect.parent?.documentName==="Actor")syncConditionalEffects(effect.parent).catch(console.error);});

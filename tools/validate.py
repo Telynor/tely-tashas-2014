@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,re,csv,collections
 ROOT=Path(__file__).resolve().parents[1];ID='tely-tashas-2014'
-packs={p.stem:json.loads(p.read_text()) for p in (ROOT/'content').glob('*.json')}
+packs={p.stem:json.loads(p.read_text()) for p in sorted((ROOT/'content').glob('*.json'))}
 errors=[];checks=0
 def check(ok,message):
  global checks
@@ -71,7 +71,7 @@ for pack,d in allitems:
  flags=d.get('flags',{}).get(ID,{})
  rows.append({'pack':pack,'name':d['name'],'source_page':flags.get('sourcePage',d['system'].get('source',{}).get('page','')),'activities':len(d['system'].get('activities',{})),'effects':len(d.get('effects',[])),'advancements':len(d['system'].get('advancement',{})),'handlers':'; '.join(handlers),'gm_adjudication':'yes' if 'source-prompt' in handlers or flags.get('adjudication') else 'see source restrictions','live_tested':'no'})
 with (ROOT/'docs/content-audit.csv').open('w',newline='') as f:
- writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+ writer=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');writer.writeheader();writer.writerows(rows)
 result={'checks':checks,'failures':errors,'counts':{k:len(v) for k,v in packs.items()},'originalPages':194,'encodedRollTables':sum(d['flags'][ID].get('automation')=='native-roll-table' for d in packs['tables']),'sourceLookupTables':sum(d['flags'][ID].get('automation')=='source-lookup' for d in packs['tables']),'externalSpellDefinitionsRequired':json.loads((ROOT/'source/external-spells-required.json').read_text()),'liveFoundryTested':False,'automationCoverage':'See content-audit.csv; source-prompt activities require GM adjudication.'}
 (ROOT/'docs/validation-report.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 raise SystemExit(bool(errors))

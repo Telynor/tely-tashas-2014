@@ -56,6 +56,8 @@ Twelve referenced spells are defined outside this uploaded sourcebook and the bu
 
 See [the per-entry audit](docs/content-audit.csv), [offline validation](docs/validation-report.json), [pack round-trip report](docs/pack-validation.json), and [runtime acceptance checklist](docs/RUNTIME-TESTS.md).
 
+The recovery pass passed 14 automated regression tests, 7,693 offline data checks, and round-trip compilation of all 805 documents across the 12 packs. Steady Aim now grants advantage only on the next attack while retaining its restriction on every movement speed through the end of the turn. Effects that last through a target's next turn no longer expire during the turn in which they were applied. Installed-content validation checks missing packs, embedded documents, spell casts, advancement choices, and source links.
+
 ## Rebuilding
 
 Download **tely-tashas-2014-source.zip** from Releases and extract it into your checkout. It contains the extracted source data and reviewable generated JSON. Install Node.js 22+ and Python 3.12+, then:

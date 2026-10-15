@@ -20,5 +20,9 @@ with zipfile.ZipFile(source,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
   relative=p.relative_to(ROOT)
   if not p.is_file() or any(part in ['.git','node_modules','__pycache__','dist','assets','packs','packs-src','.validation-roundtrip'] for part in relative.parts):continue
   z.write(p,relative)
+with zipfile.ZipFile(source) as z:
+ assert z.testzip() is None
+ assert 'source/inventory.json' in z.namelist()
+ assert 'content/creatures.json' in z.namelist()
 (out/'SHA256SUMS.txt').write_text('\n'.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.name for p in [target,source,out/'module.json'])+'\n')
-print(json.dumps({'archive':str(target),'bytes':target.stat().st_size,'files':len(files),'sha256':hashlib.sha256(target.read_bytes()).hexdigest()}))
+print(json.dumps({'archive':str(target),'bytes':target.stat().st_size,'files':len(files),'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'sourceArchive':str(source),'sourceBytes':source.stat().st_size}))
